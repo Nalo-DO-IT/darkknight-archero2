@@ -2,7 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import { mkdtemp, writeFile, readFile, readdir, rm } from 'node:fs/promises';
 import { tmpdir } from 'node:os';
-import { join, dirname, basename, resolve } from 'node:path';
+import { join, dirname, basename, resolve, relative, isAbsolute } from 'node:path';
 import { spawn } from 'node:child_process';
 import { buildSite } from '../scripts/build.mjs';
 import { article, library } from './fixtures.mjs';
@@ -26,10 +26,10 @@ test('build publishes reviewed records, excludes drafts and raw source fields', 
   const output = await readFile(join(paths.outputPath, 'data/library.json'), 'utf8');
   assert.equal(output.includes('NEVER_PUBLISH'), false);
   assert.equal(output.includes('SECRET_DRAFT'), false);
-  assert.deepEqual((await readdir(paths.outputPath)).sort(), ['.nojekyll', 'app.mjs', 'assets', 'catalog.mjs', 'crest.svg', 'data', 'guide-page.mjs', 'guide.mjs', 'guides', 'index.html', 'media.mjs', 'styles.css', 'theme.css', 'translation.mjs', 'treasure.mjs']);
+  assert.deepEqual((await readdir(paths.outputPath)).sort(), ['.nojekyll', 'app.mjs', 'assets', 'catalog.mjs', 'crest.svg', 'data', 'event-client.mjs', 'event-copy.mjs', 'event-models.mjs', 'guide-page.mjs', 'guide.mjs', 'guides', 'index.html', 'media.mjs', 'styles.css', 'theme.css', 'tools.html', 'topics', 'translation.mjs', 'treasure.mjs', 'wiki-client.mjs', 'wiki-i18n.mjs', 'wiki.css']);
   const page = await readFile(join(paths.outputPath, 'guides/test-guide.html'), 'utf8');
   assert.match(page, /Test content for an expedition build/);
-  assert.match(page, /Translation language/);
+  assert.match(page, /Español/);
   assert.equal(page.includes('SECRET_DRAFT'), false);
   assert.equal((await readdir(join(paths.outputPath, 'guides'))).includes('draft.html'), false);
 });
@@ -69,6 +69,7 @@ test('real HTTP preview serves page, modules and data under GitHub project subpa
     assert.match(html, /DarkKnight/);
     assert.match(html, /lang="en"/);
     for (const [, relative] of html.matchAll(/(?:src|href)="(\.\/[^"#]+)"/g)) {
+      if (relative.startsWith('./es/')) continue; // Single-language synthetic fixture.
       if (relative.startsWith('./guides/') && relative !== './guides/index.html') continue;
       const asset = await fetch(new URL(relative, base));
       assert.equal(asset.status, 200, relative);
@@ -107,16 +108,45 @@ test('page loaders, theme styles and nested modules share a content-based cache 
   const paths = await fixture(t, library(article()));
   await buildSite(paths);
   const html = await readFile(join(paths.outputPath, 'index.html'), 'utf8');
-  const version = html.match(/app\.mjs\?v=([a-f0-9]{12})/)?.[1];
+  const version = html.match(/wiki-client\.mjs\?v=([a-f0-9]{12})/)?.[1];
   assert.ok(version, 'homepage loader must be versioned');
   const guide = await readFile(join(paths.outputPath, 'guides/test-guide.html'), 'utf8');
-  assert.ok(guide.includes(`guide-page.mjs?v=${version}`));
-  assert.ok(html.includes(`theme.css?v=${version}`));
-  assert.ok(guide.includes(`theme.css?v=${version}`));
-  const loader = await readFile(join(paths.outputPath, 'guide-page.mjs'), 'utf8');
+  assert.ok(guide.includes(`wiki-client.mjs?v=${version}`));
+  assert.ok(html.includes(`wiki.css?v=${version}`));
+  assert.ok(guide.includes(`wiki.css?v=${version}`));
+  const loader = await readFile(join(paths.outputPath, 'wiki-client.mjs'), 'utf8');
   assert.ok(loader.includes(`translation.mjs?v=${version}`));
-  const app = await readFile(join(paths.outputPath, 'app.mjs'), 'utf8');
-  assert.ok(app.includes(`guide.mjs?v=${version}`));
+  assert.ok(loader.includes(`event-client.mjs?v=${version}`));
   await buildSite(paths);
   assert.equal(await readFile(join(paths.outputPath, 'index.html'), 'utf8'), html, 'unchanged sources retain cache version');
+});
+
+test('production bilingual build has no broken internal pages, assets or section anchors', async (t) => {
+  const paths = await fixture(t, library(article()));
+  const result = await buildSite({ outputPath:paths.outputPath });
+  assert.deepEqual(result.languages,['en','es']);
+  const files = await readdir(paths.outputPath,{recursive:true});
+  const htmlFiles = files.filter((file)=>file.endsWith('.html'));
+  const cache = new Map(await Promise.all(htmlFiles.map(async (file)=>[resolve(paths.outputPath,file),await readFile(resolve(paths.outputPath,file),'utf8')])));
+  assert.equal(htmlFiles.length,2*(result.articles+9));
+  for(const [path,html] of cache){
+    const ids=[...html.matchAll(/\bid="([^"]+)"/g)].map((match)=>match[1]);
+    assert.equal(new Set(ids).size,ids.length,`Duplicate id: ${path}`);
+    for(const [,href] of html.matchAll(/(?:src|href)="([^"\s]+)"/g)){
+      if (/^https?:/.test(href)) continue;
+      const [filePart,fragment] = href.split('#');
+      const target = filePart ? resolve(dirname(path),filePart.split('?')[0]) : path;
+      const within = relative(paths.outputPath,target);
+      assert.ok(!within.startsWith('..')&&!isAbsolute(within),`Path outside site: ${href}`);
+      if(fragment){
+        assert.ok(cache.get(target)?.includes(`id="${fragment}"`),`Missing anchor: ${path} -> ${href}`);
+      } else await readFile(target);
+    }
+    if(path.includes(`${process.platform==='win32'?'\\':'/'}es${process.platform==='win32'?'\\':'/'}`)){
+      assert.match(html,/<html lang="es">/);
+      assert.match(html,/wiki-client\.mjs\?v=[a-f0-9]{12}/);
+    }
+  }
+  assert.equal(files.some((file)=>file.includes('.private')),false);
+  assert.equal(files.some((file)=>file.includes('arena-meteors')),false);
 });

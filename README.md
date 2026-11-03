@@ -1,18 +1,32 @@
-# DarkKnight · Archero 2 guild library
+# DarkKnight · Archero 2 guild wiki
 
-English static knowledge hub for GitHub Pages. Featured field guides, searchable library, full reading pages, event tools, screenshots, original diagrams and language selection. No runtime dependencies, site accounts, trackers or external fonts.
+Public site: https://nalo-do-it.github.io/darkknight-archero2/ — Spanish: https://nalo-do-it.github.io/darkknight-archero2/es/
 
-Visual theme: local Archero 2 scenery, logo, Alex artwork, equipment and rune icons. Purple inventory panels, gold controls and illustrated guide covers extend the original layout through `site/theme.css`. All 67 guides retain their content and references. The build versions CSS and JavaScript together so visual updates reach returning visitors. Ten game-art assets total less than 2.5 MB; they are served locally without remote image dependencies.
+Professional static wiki with **46 practical guides in English and Spanish**, six topic hubs, persistent navigation, breadcrumbs, article contents, full-text search and related reading. Five progression guides cover gems, upgrade order, builds by mode, daily/weekly actions and event spending. Bug reports, speculative interaction notes and duplicate fragments were removed from the published library.
 
-Current content: **67 guides and summaries**, reviewed on **3 November 2026**. Public prose uses original summaries and neutral reference labels without personal bylines or server attribution. Game claims retain community/needs-recheck labels; editorial review is not live-game testing. Dedicated playbooks cover Treasure Island multipliers and fishing routes.
+The homepage gives clear starting paths. Event tools include a playable Treasure Island board, configurable starting progress, multiplier strategies, 300-run score estimates with percentiles and target success, plus a fishing pool planner with practice catches, remaining-pool odds and refundable-break tracking. Tools are independently implemented from linked community model facts; they do not predict current game outcomes.
+
+Actual Archero 2 scenery, hero art and equipment remain locally packaged. Native Spanish covers article bodies, navigation, captions, tool messages and original vector diagrams. Original screenshots keep their in-image language. No runtime dependencies, accounts, trackers or remote fonts.
+
+Public prose uses original summaries and neutral reference labels without personal bylines. Most source material was reviewed on 3 November 2026; the five consolidated practical guides were reviewed on 4 November. Review labels describe evidence, not guaranteed current-game testing.
 
 The collection saved **5,313 message records across 81 channels/threads** and indexed **334 forum topics**. This is not an exhaustive history export: large discussions were sampled around guides, pinned posts and visible replies. Most media and linked spreadsheets remain unreviewed. Two farming tables and three fishing screenshots were visually checked. Local coverage and unresolved gaps are recorded in ignored `.private/discord/coverage.json`; raw messages remain outside the public build.
 
-## Languages and reading pages
+## Languages, routes and event models
 
-Every published guide is generated as `guides/<id>.html`, with its full text present before JavaScript. The homepage language control opens the static guide index through Google Translate; each guide can be translated separately. Twenty language shortcuts plus **More languages** expose the translation service's supported languages. Translations are automatic, external, and may misinterpret game terminology; English remains the original. Localhost cannot be fetched by Google Translate, so local preview links to browser-translation instructions. Availability depends on the translation service and region. No unofficial translation API, API key or embedded third-party script is used.
+- English: root, `guides/<id>.html`, `topics/<category>.html`, `tools.html`.
+- Spanish: the same paths beneath `es/`; every retained guide ID stays stable.
+- Language links preserve the current guide, section anchor and search filters. A remembered Spanish preference applies to the root landing page; explicit deep links retain their language.
+- All content is generated as static HTML. Reading and ordinary links work without JavaScript. Search falls back to rendered titles/summaries if full-text JSON cannot load.
+- Other languages remain available through an optional Google Translate link in the footer.
 
-Treasure recommendations implement the linked September 2025 companion model, including departure tiles and held-dice caps. They are not verified current game rules. Fishing routes distinguish normal lakes, partial pools, special events and rod-specific screenshots. The source links and dates document those limits.
+`site/wiki.mjs` owns page rendering; `wiki.css` owns the current layout. `wiki-client.mjs` handles navigation and search. Legacy site templates remain in source for compatibility; the build generates the current homepage. All browser modules and CSS use content-based cache versions.
+
+`content/library.json` and `content/library.es.json` must contain matching published IDs, status, dates and source URLs. The build rejects incomplete or stale translation metadata before changing output. Update both libraries when editing a guide.
+
+Treasure model: pinned community source from **20 September 2025**. Two independent d6, landing rewards, weighted wheels, held-dice caps and newly crossed score/task refunds. Earlier thresholds are treated as already claimed. No pass-start bonus, jail, external income or non-score loot valuation. Runs are limited to 5,000 starting dice and bounded simulation work; a safety stop reports failure rather than a false complete result. Three hundred runs provide sample estimates, not guaranteed rewards. Source: [pinned model](https://github.com/ksun4176/archero2-dice-companion/blob/62798d88e03e5fb9eab88d8d929fb95ea548426c/app/_utils/simulate.ts).
+
+Fishing model: normal pools 30 rare / 9 epic / 1 legendary; Polar 60 / 18 / 2. Batch odds use uniform sampling without replacement. Catch simulation removes fish; line breaks leave the pool unchanged. Cross-refill batches are blocked, and the historical 120-break allowance remains explicit. No unsupported ticket or gem-return calculation is presented. Source: [pinned tracker](https://github.com/JGDevAlpha/archero-fish-companion/blob/962612dfbb6ac51a97fe2f5369714be1bc199c5d/index.html). Formulas and implementation are original; no source code or artwork from these repositories is copied.
 
 ## Run locally
 
@@ -71,7 +85,7 @@ Source references: [Discord message API](https://docs.discord.com/developers/res
 }
 ```
 
-Categories: `guides`, `builds`, `equipment`, `expedition`, `tips`, `bugs`. Statuses: `community`, `verified`, `outdated`. Dates use `YYYY-MM-DD`. Set `reviewedOn` and `published: true` only after review. The build validates every record, rejects duplicate IDs and unsafe URL schemes, strips unknown fields, excludes unpublished entries and removes previously generated pages when unpublished. Bodies support `##` headings, `-` bullets and numbered steps. Imported text is escaped; raw HTML and Markdown links never execute. Curated media lives in `site/media.mjs` and its explicit asset allowlist. These checks cannot replace editorial judgment.
+Categories: `guides`, `builds`, `equipment`, `expedition`, `tips`, `resources`. Statuses: `community`, `verified`, `outdated`. Dates use `YYYY-MM-DD`. Set `reviewedOn` and `published: true` only after review. The build validates every record, rejects duplicate IDs and unsafe URL schemes, strips unknown fields, excludes unpublished entries and removes previously generated pages when unpublished. Bodies support `##` headings, `-` bullets and numbered steps. Imported text is escaped; raw HTML and Markdown links never execute. Curated media lives in `site/media.mjs` and its explicit asset allowlist. These checks cannot replace editorial judgment.
 
 Unpublished entries in tracked files remain visible in a public GitHub repository even though excluded from the site. Keep private drafts exclusively in `.private/`.
 
@@ -91,13 +105,8 @@ References: [GitHub Pages overview](https://docs.github.com/en/pages/getting-sta
 
 ## Validation
 
-```powershell
-npm run test:unit
-npm run test:integration
-```
+`npm test` runs schema/security checks, bilingual completeness, safe HTML rendering, deterministic Treasure/fishing math, build validation, stale-page removal, HTTP project-subpath serving, module cache versions and a complete internal-link/anchor audit across both languages. No private research enters the build.
 
-Unit tests cover schema rejection, publication review, draft exclusion, source URL validation, category/status/search combinations, ordering and plain-text content. Integration tests build into an isolated temporary folder, verify exclusion of private fields/drafts, preserve previous output on validation errors, and serve the result through a real HTTP server at a GitHub-style subpath.
+`tests/wiki-flow.js` is the current browser acceptance flow: 60 checks covering native translation, search/filter state, article contents, mobile navigation, keyboard dismissal, Treasure play/estimation/cancellation, fishing pool boundaries and responsive pages at 360–1440 px. Execute its exported Playwright function through the connected browser against the local preview. Older browser-flow/guide-flow/theme-flow files describe the retired landing-page UI and are retained as historical checks; use wiki-flow for the current interface.
 
-Browser usage checks in `tests/browser-flow.js`: empty library, category selection, filter reset, article search/detail/source links with synthetic data, error/retry, keyboard dismissal and mobile overflow. `tests/guide-flow.js` checks the production library, multiplier inputs, dedicated guide navigation, translation fallback, fishing images and responsive layout. Synthetic fixtures never enter production content.
-
-`tests/theme-flow.js` checks artwork loading, category navigation, usable controls, responsive covers/readers at 360–1440 px, and reduced-motion behavior. `tests/theme.test.mjs` validates packaged game images and category/cover asset mappings.
+`tests/events.test.mjs` verifies two-dice movement, no pass-start reward, caps, exact wheel weight sums, milestone refunds, prior-claim handling, simulation limits, percentiles and no-replacement fishing odds. `tests/wiki.test.mjs` verifies complete native translations and practical-only content.

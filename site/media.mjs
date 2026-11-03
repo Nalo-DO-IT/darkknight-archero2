@@ -20,7 +20,7 @@ export const CATEGORY_ART = Object.freeze({
   equipment: 'assets/gear-oracle-armor.png',
   expedition: 'assets/gear-griffin-amulet.png',
   tips: 'assets/gold.png',
-  bugs: 'assets/rune-elemental.png'
+  resources: 'assets/gold.png'
 });
 
 export const FEATURED_ART = Object.freeze({

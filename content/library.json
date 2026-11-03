@@ -2,238 +2,304 @@
   "schemaVersion": 1,
   "articles": [
     {
-      "id": "arena-meteors-missing-damage-report-november-2026",
-      "title": "Arena meteors: missing damage after potion pickups",
-      "summary": "Check potion-triggered meteors and damage breakdowns when an Arena result changes unexpectedly. No confirmed workaround is available.",
-      "body": "## Recognize the symptom\nA November 3, 2026 report describes little or no meteor damage after potion pickups with Star of Fury and Star of Time equipped. A possible targeting error was also suspected, but remains unconfirmed.\n\n## Check your next battle\n- Record the equipped meteor runes, enchants and potion effects.\n- Compare the meteor damage breakdown with a similar previous match.\n- Keep a replay showing potion pickup and the expected trigger.\n\n## Current limit\nThe report remains under review. No reproduced cause or confirmed fix is available. Attached visuals were not checked; this does not establish that all meteor builds are affected.",
-      "category": "bugs",
+      "id": "gems-spending-plan",
+      "title": "Gems: a spending plan that protects your next upgrade",
+      "summary": "Target one progression milestone, use the right shop currency and stop buying when the reward is secured. A practical budget for gear, heroes and events.",
+      "body": "## Choose what your next gems must achieve\nWrite down one reachable target: a hero star breakpoint, another etched slot, a missing gear piece or a specific event reward. Compare purchases against that target before buying. A discounted item that does not advance it can still delay your upgrade.\n\n## Use the appropriate resource first\n1. Gear direction: use Mythstone keys for your chosen starter set. The November 2026 beginner guidance explicitly preserves gems for other progression opportunities.\n2. Hero progression: compare the guild-shop route toward your chosen rare hero's six-star milestone before spreading resources across several heroes.\n3. Etched slots: compare blessing-rune purchases in the relevant shops. After the third slot, reassess instead of buying runes automatically.\n4. Event reward: count earned resources and remaining free tasks before buying extra dice, lures or other event items.\n\n## Decide: buy, wait or skip\n- Buy: the exact item completes a useful milestone, the full cost is known and it fits your limit.\n- Wait: free tasks can still reduce the shortfall, guild bargaining is unfinished, or overlapping event tasks have not been announced.\n- Skip: the purchase only raises displayed power, belongs to a build you cannot yet assemble, or requires chasing an unknown random outcome beyond your limit.\n\n## Set a stopping rule before an event\nChoose a gem ceiling you can afford without delaying your priority upgrade. Subtract resources already held and expected free resources from the event target; do not copy someone else's total gem bill. Buy in small batches, update your actual reward balance and stop as soon as the target is reached. Fishing tasks changed in the historical discussion, so old budgets are not current prices.\n\n## Compare offers correctly\nDivide price by bundle size only for equivalent items paid in the same currency. Keep silver-ticket and golden-ticket offers separate. At the guild merchant, contribute to bargaining first, then judge the final price. The reported 2,000-to-500-gem example was a 75% reduction; it does not promise that discount on every item.\n\n## Protect free opportunities\nBefore saving tickets for an event, check whether the mode adds tickets every day or merely refills a low balance. Include ad attempts you may lose while stockpiling. A retained balance does not automatically mean extra free attempts.\n\n## Basis of this plan\nShop and starter priorities reflect November 2026 guidance. Discount, fishing and refill examples are dated; check live listings and reset rules. No fixed daily gem income or guaranteed event return is established by these references.",
+      "category": "resources",
       "status": "community",
-      "gameVersion": "Not specified in source",
-      "updatedOn": "2026-11-03",
-      "reviewedOn": "2026-11-03",
+      "gameVersion": "Synthesis of reviewed guides; check current game rules",
+      "updatedOn": "2026-11-04",
+      "reviewedOn": "2026-11-04",
       "published": true,
       "tags": [
-        "Arena",
-        "meteors",
-        "Star of Fury",
-        "Star of Time",
-        "unresolved"
+        "gems",
+        "budget",
+        "shops",
+        "beginner",
+        "resource planning"
       ],
       "sources": [
         {
-          "label": "November 3 Arena meteor symptom report",
-          "url": "https://discord.com/channels/1268830572743102505/1567059176608506016/1567059176608506016"
+          "label": "Beginner crash course — edited November 3, 2026",
+          "url": "https://discord.com/channels/1268830572743102505/1544939755106607144/1544939755106607144"
         },
         {
-          "label": "Suspected targeting issue; visuals unreviewed",
-          "url": "https://discord.com/channels/1268830572743102505/1567059176608506016/1567060476460925010"
+          "label": "November 3 FAQ: shops and progression priorities",
+          "url": "https://discord.com/channels/1268830572743102505/1544939755106607144/1567145405190373487"
+        },
+        {
+          "label": "Reported discount example",
+          "url": "https://discord.com/channels/1353899985103749221/1487226276103065713/1487228159362469979"
+        },
+        {
+          "label": "Approximate lure budget and caveats",
+          "url": "https://discord.com/channels/1361208622566211694/1361209094039666728/1362534563359883334"
+        },
+        {
+          "label": "Task requirements changed",
+          "url": "https://discord.com/channels/1361208622566211694/1361209094039666728/1365720149306380388"
+        },
+        {
+          "label": "Fishing regular exchange — visible August 17 edit",
+          "url": "https://discord.com/channels/1268830572743102505/1516738436600430653/1517049419336384573"
+        },
+        {
+          "label": "Saving can forfeit daily ad opportunities",
+          "url": "https://discord.com/channels/1268830572743102505/1360658919512604693/1402531016056242297"
         }
       ]
     },
     {
-      "id": "all-star-stage-progress-may-need-refresh",
-      "title": "All-Star: refresh progress before replaying a stage",
-      "summary": "Exit All-Star and reopen it if the displayed stage seems wrong; stale progress may look like a wasted challenge.",
-      "body": "## First check\nIf All-Star appears to send you back to a completed stage, leave the mode and open it again before spending another ticket. A November 3, 2026 reply says this refreshed progress and revealed that the latest stage had already been cleared.\n\n## If the mismatch remains\nRecord the selected stage, remaining tickets and result before another attempt. Distinguish a display mismatch from an actual repeated challenge.\n\n## Current limit\nRefreshing is a reported workaround for stale progress, not a confirmed fix for every replay symptom. Ticket loss and the underlying cause remain unresolved; screenshots were not independently checked.",
-      "category": "bugs",
+      "id": "upgrade-priority-roadmap",
+      "title": "What to upgrade next: a progression roadmap",
+      "summary": "Follow reachable milestones for your main mode: starter gear, hero stars, etched slots, useful enchants and supporting collections. Reassess after each unlock.",
+      "body": "## 1. Choose one main mode and a gear direction\nPick the activity you want to improve first. The November 2026 starting guidance favors Dragoon as an all-round direction and Oracle for PvE. Target that direction with Mythstone keys rather than changing plans after every drop. These are early recommendations, not permanent full-set requirements.\n\n## 2. Work toward a reachable hero breakpoint\n- Early PvP: Helix is the suggested rare option.\n- PvE damage: Hou Yi is the suggested rare option.\n- Movement: Nyanja is suggested when speed serves your goal.\nUse the guild shop to work toward six stars on the chosen rare hero. Two six-star rares for different modes are a possible later plan; avoid judging an unfinished hero by bonuses it has not unlocked.\n\n## 3. Build toward etched slots\nOnce the early hero milestone is addressed, compare blessing runes in the guild, Arena and GvG shops. Extra etched slots are the progression goal, not an arbitrary number of pulls. Count your existing runes and actual fusion progress.\nAfter the third slot, pause automatic blessing-rune purchases. Compare epic hero shards, a second rare hero or Sacred Hall progression against your next need.\n\n## 4. Buy damage your build can use\n- Main-weapon single target: compare main-weapon crit enchants.\n- Multiple targets: Sharp Arrow bounce serves a different job.\n- Early PvE milestones: legendary Arrow of Echoes and rare Echo Scythe are separate targets.\n- Support route: legendary Sprite's Awe with two right-side sprite runes is one option; it does not require every slot to be a sprite.\nChoose one coherent package before spending on a new damage family. A high percentage on the wrong effect does not solve your bottleneck.\n\n## 5. Compare supporting milestones\nArtifacts: compare the next Heavenly Music set milestone, keeping Flute and Conch balanced, with survival your mode actually needs. October advice favors Demon King Eye over Blood for damage reduction; it does not establish a universal star target.\nMystlings: compare the next collection milestone and heart gain with another level on a single pet. Collection bonuses and active-skill effects can serve a different purpose from raw pet damage.\n\n## 6. Rebuild only when the pieces are ready\nList the exact items, rarities, enchants and support needed for the next set. Count what you own before committing keys or swapping orbs. Keep your working setup while preparing missing pieces; old 30–120-day transition schedules are examples, not deadlines.\n\n## When to change priority\nIf you die before dealing damage, compare survivability before more theoretical damage. If you survive but miss the target, review the actual damage source and relevant enchants. If a milestone requires an unreachable skin or star level, choose a benefit you can unlock sooner. Revisit this sequence after meaningful unlocks; it is a conditional plan, not an instruction to buy every item at once.",
+      "category": "equipment",
       "status": "community",
-      "gameVersion": "Not specified in source",
-      "updatedOn": "2026-11-03",
-      "reviewedOn": "2026-11-03",
+      "gameVersion": "Synthesis of reviewed guides; check current game rules",
+      "updatedOn": "2026-11-04",
+      "reviewedOn": "2026-11-04",
       "published": true,
       "tags": [
-        "All-Star",
-        "stage selection",
-        "progress",
-        "interface",
-        "workaround"
+        "upgrades",
+        "progression",
+        "gear",
+        "heroes",
+        "etched slots",
+        "artifacts"
       ],
       "sources": [
         {
-          "label": "Initial apparent previous-stage report",
-          "url": "https://discord.com/channels/1268830572743102505/1566964653232496640/1566964653232496640"
+          "label": "Beginner crash course — edited November 3, 2026",
+          "url": "https://discord.com/channels/1268830572743102505/1544939755106607144/1544939755106607144"
         },
         {
-          "label": "Steps: selecting a stage and tapping Challenge",
-          "url": "https://discord.com/channels/1268830572743102505/1566964653232496640/1567069981198258288"
+          "label": "Two rare heroes can serve different modes",
+          "url": "https://discord.com/channels/1268830572743102505/1544939755106607144/1546995993697067108"
         },
         {
-          "label": "Later reply: exit and reopen to refresh displayed progress",
-          "url": "https://discord.com/channels/1268830572743102505/1566964653232496640/1567135402605945034"
+          "label": "Dracoola and Seraph PvE recommendations with conditions",
+          "url": "https://discord.com/channels/1268830572743102505/1544939755106607144/1564953325890175048"
+        },
+        {
+          "label": "November 3 FAQ: shops and progression priorities",
+          "url": "https://discord.com/channels/1268830572743102505/1544939755106607144/1567145405190373487"
+        },
+        {
+          "label": "November 3 FAQ: etched runes and enchant priorities",
+          "url": "https://discord.com/channels/1268830572743102505/1544939755106607144/1567145405190373487"
+        },
+        {
+          "label": "Equal upgrades for set bonus, 23 Oct 2026",
+          "url": "https://discord.com/channels/1408190992510615633/1465884305103261767/1563003189689843743"
+        },
+        {
+          "label": "Corrected Eye over Blood priority",
+          "url": "https://discord.com/channels/1408190992510615633/1465884305103261767/1563003481483247752"
+        },
+        {
+          "label": "Hearts and collection leveling",
+          "url": "https://discord.com/channels/1353899985103749221/1487226276103065713/1508925687988228178"
+        },
+        {
+          "label": "Claimed broad-versus-single-pet benefits",
+          "url": "https://discord.com/channels/1353899985103749221/1487226276103065713/1508926241330167970"
+        },
+        {
+          "label": "Progression assumptions and orb sources",
+          "url": "https://discord.com/channels/1268830572743102505/1405327770254577776/1405327770254577776"
         }
       ]
     },
     {
-      "id": "airship-lookup-and-map-mismatch-reports",
-      "title": "Airship trade: missing ships, camps and boarding banners",
-      "summary": "Check whether a lookup problem affects one ship or the entire trade map, especially after changing guilds.",
-      "body": "## Recognize the symptoms\nOctober 31-November 2, 2026 reports describe ships missing from the map, absent guild camps and a Boarding closes banner that stays on screen.\n\n## Narrow down the problem\n- Check whether other ships can still be found.\n- Note any recent guild change.\n- Record the selected ship and the map shown after lookup.\n\nOne reported case was linked to an old guild trade map, with advice to wait until Monday. That explanation is case-specific, not a universal solution or a confirmed fix for the banner.\n\n## Current limit\nFeedback was acknowledged on November 3, but no completed fix is documented. Attached media was not checked.",
-      "category": "bugs",
+      "id": "build-planner-by-mode",
+      "title": "Build planner: bosses, waves and PvP",
+      "summary": "Choose a damage source, match enchants to the mode and save a complete preset. Includes a mixed-set route and checks before changing support.",
+      "body": "## Start with the job, not the power score\nCreate separate saved presets for activities with different targets. A higher displayed power total can include effects that do nothing in the mode you are entering.\n- Bosses: single-target damage plus enough survival to finish. Judge changes against the same boss over a comparable duration.\n- Waves: coverage, multiple-target damage and crowd control. Bounce and elemental or circle effects serve a different purpose from boss-only damage.\n- PvP/GvG: review enemy-player effects and survivability. Remove boss/minion-only enchants where they do not apply, even if power falls.\n\n## Identify your main damage source\nUse your results to decide whether damage mainly comes from the weapon, explosions, circles or another effect. Match enchants to that family. Sharp Arrow main-weapon crit does not automatically improve every damage component in a mixed Dragoon/Oracle build. Change one relevant enchant at a time when comparing.\n\n## Gear direction and a mixed-set option\nFor an early account, November 2026 guidance suggests Dragoon as an all-round direction or Oracle for PvE. Work toward useful pieces rather than forcing a permanent full set.\nAn October mixed-set example uses Oracle chest, Griffin amulet and Dragoon in the other slots. Its purpose is combining explosion damage with sustain. Treat it as a candidate to test with your inventory, not a requirement to dismantle a stronger existing setup.\n\n## Choose support you can actually assemble\n- Sprite route: legendary Sprite's Awe with two right-side sprite runes supports another main damage source. You do not need to fill every slot with sprites.\n- Plant route: verify rune rarity, enchants, etched support and any assumed Demeter setup before switching.\n- Transition rule: retain working support until the replacement's required pieces are ready. Compare survival as well as damage.\n\n## Plant enchant choices by role\nSeptember 2026 recommendations distinguish Vine Bind unique for PvE from plant damage for PvP. Rootguard unique is suggested for GvG, plant damage otherwise. Equinox Bloom and Plant Summon use unique enchants in the discussed setups, with damage alternatives in some hybrids. These are role-based choices; do not apply one enchant list to every mode.\n\n## Save a complete preset\nRecord equipment, rune page, etched runes, enchants, hero, both resonances, Mystling and Close/Mid/Far behavior. Reopen the saved preset to verify it matches what you intended. A gear screenshot alone leaves important parts of the build unspecified.\n\n## Keep or change?\nKeep the new setup if it improves the goal you chose without unacceptable survival loss. If damage improves only in a shorter or easier fight, repeat under comparable conditions. Do not add several damage-taken reductions directly: the mixed-set discussion did not establish how those effects stack. The examples are recommendations from September–November 2026, not a complete tested preset for every rarity.",
+      "category": "builds",
       "status": "community",
-      "gameVersion": "Not specified in source",
-      "updatedOn": "2026-11-03",
-      "reviewedOn": "2026-11-03",
+      "gameVersion": "Synthesis of reviewed guides; check current game rules",
+      "updatedOn": "2026-11-04",
+      "reviewedOn": "2026-11-04",
       "published": true,
       "tags": [
-        "Airship",
-        "trade",
-        "guild map",
-        "interface",
-        "lookup",
-        "unresolved"
+        "builds",
+        "presets",
+        "PvE",
+        "PvP",
+        "bosses",
+        "Dragoon",
+        "enchants"
       ],
       "sources": [
         {
-          "label": "Airship search fails for selected ships",
-          "url": "https://discord.com/channels/1268830572743102505/1566609141353676930/1566609141353676930"
+          "label": "Example of mode-specific rune changes",
+          "url": "https://discord.com/channels/1353899985103749221/1492251130233753722/1536860422123167855"
         },
         {
-          "label": "Missing guild camp during ship lookup",
-          "url": "https://discord.com/channels/1268830572743102505/1566791101065597078/1566791101065597078"
+          "label": "Repeated GvG enchantment warning",
+          "url": "https://discord.com/channels/1357499983703572490/1400142797297680385/1501767340348543087"
         },
         {
-          "label": "Travel-map error and persistent boarding banner",
-          "url": "https://discord.com/channels/1268830572743102505/1566025956785782814/1566025956785782814"
+          "label": "Reply limits the enchant to main-weapon damage - October 24, 2026",
+          "url": "https://discord.com/channels/1268830572743102505/1392597464581804152/1563655659659206780"
         },
         {
-          "label": "Case-specific old-guild-map explanation",
-          "url": "https://discord.com/channels/1268830572743102505/1566025956785782814/1566043127326711929"
+          "label": "Beginner crash course — edited November 3, 2026",
+          "url": "https://discord.com/channels/1268830572743102505/1544939755106607144/1544939755106607144"
+        },
+        {
+          "label": "Proposed mixed gear, 24 Oct 2026",
+          "url": "https://discord.com/channels/1408190992510615633/1465867412594233375/1563404055995351241"
+        },
+        {
+          "label": "Plant/sprite alternatives, 24 Oct 2026",
+          "url": "https://discord.com/channels/1408190992510615633/1465867412594233375/1563406995804000437"
+        },
+        {
+          "label": "Plant enchant recommendations — visible September 15 edit",
+          "url": "https://discord.com/channels/1268830572743102505/1485068964210938046/1526927882365046875"
+        },
+        {
+          "label": "Rarity, enchants and Demeter conditions",
+          "url": "https://discord.com/channels/1268830572743102505/1485068964210938046/1527395060696617051"
+        },
+        {
+          "label": "Keep existing support until transition prerequisites are met",
+          "url": "https://discord.com/channels/1268830572743102505/1485068964210938046/1527495291450953729"
+        },
+        {
+          "label": "Legendary Sprite's Awe and two right-side sprite runes",
+          "url": "https://discord.com/channels/1268830572743102505/1544939755106607144/1555300857384534027"
+        },
+        {
+          "label": "Loadout submission format",
+          "url": "https://discord.com/channels/1357499983703572490/1400142797297680385/1465796071803584648"
         }
       ]
     },
     {
-      "id": "hou-yi-sunpiercer-stack-display-after-death",
-      "title": "Hou Yi: missing Sunpiercer indicator after death",
-      "summary": "A missing stack icon does not yet prove lost damage. Compare the indicator and actual damage separately.",
-      "body": "## Affected setup\nA November 1, 2026 report concerns Hou Yi in Rumble Dome Season 4, game version 1.1.9.7. The Sunpiercer stack indicator disappears after death following a boss kill.\n\n## What needs checking\nCompare damage before and after death under the same conditions. The unresolved question is whether the stack itself resets or only its display disappears.\n\n## Current limit\nFeedback was acknowledged on November 3. That is not a fix confirmation. No controlled damage comparison or supported workaround is available; the attached images and video were not independently checked.",
-      "category": "bugs",
+      "id": "daily-weekly-progression-checklist",
+      "title": "Daily and weekly progression checklist",
+      "summary": "Protect free attempts, use energy for a purpose and keep guild participation organized. A repeatable routine without inventing fixed reward totals.",
+      "body": "## Start each session: check what expires\n1. Open the current tasks and active event screens. Note the actual reset or closing time.\n2. Check ticket balances and refill rules before saving attempts. A mode may refill only when below its cap; carrying tickets can cost future free attempts.\n3. Count available ad opportunities separately if you use them. Check privilege-card conditions instead of assuming every account has the same allowance.\n\n## Spend energy according to today's goal\n- Need runes and have time: compare your Hard Mode farming results.\n- Need gear or gold and have time: compare a chapter you can clear reliably.\n- Have little time: use Quick Hunt where available instead of planning manual runs you will not finish.\nThe October 2025 comparison favored Hard Mode 5 for runes, Chapter 47 for gear/gold and Quick Hunt for convenience. Use those as routes to compare, not guaranteed current drop rates. Its maxed drop talents and energy assumptions may differ from your account.\n\n## Complete the guild actions that need coordination\nContribute to merchant bargaining before evaluating purchases. Check raid deadlines and use the participation attempt required by the current reward rules. Keep your expedition preset complete: gear, runes, hero, resonances, Mystling and distance behavior.\nFor raid leaders, announce the closing time and allow absent members to participate after an early boss clear where the current event permits it. Do not press a results button without checking whether it ends participation.\n\n## Before ending the session\nCheck whether your next planned upgrade is now reachable. Claim the resources you earned, update the balance used by any event calculator and stop purchases once your target is secured. Save any changed preset; do not assume a test setup is your intended battle setup.\n\n## Once a week: review the plan\n1. Recount the exact pieces, hero shards and runes missing from your next milestone.\n2. Review shop priorities: chosen rare hero, then etched-slot progression; reassess after the third slot.\n3. Review comparable battle replays. Identify whether damage, positioning or early deaths are limiting progress.\n4. Change one priority for the next week rather than spreading resources across every build idea.\n\n## Before each event closes\nRead retention or conversion text for each exact currency. Do not assume only dice can carry over, and do not assume every currency does. Spend or save according to the live rule, remaining stock and your target. This routine combines reviewed community advice; daily allowances, shops and event schedules still come from your current game screen.",
+      "category": "guides",
       "status": "community",
-      "gameVersion": "1.1.9.7 (reported)",
-      "updatedOn": "2026-11-03",
-      "reviewedOn": "2026-11-03",
+      "gameVersion": "Synthesis of reviewed guides; check current game rules",
+      "updatedOn": "2026-11-04",
+      "reviewedOn": "2026-11-04",
       "published": true,
       "tags": [
-        "Hou Yi",
-        "Sunpiercer",
-        "Rumble Dome",
-        "stacks",
-        "unresolved"
+        "daily routine",
+        "weekly routine",
+        "progression",
+        "energy",
+        "guild",
+        "checklist"
       ],
       "sources": [
         {
-          "label": "Original report distinguishes visual loss from stack reset",
-          "url": "https://discord.com/channels/1268830572743102505/1566423647927926854/1566423647927926854"
+          "label": "Archived refill thresholds and stated uncertainty",
+          "url": "https://discord.com/channels/1268830572743102505/1360658919512604693/1360658919512604693"
         },
         {
-          "label": "Reported game version and season",
-          "url": "https://discord.com/channels/1268830572743102505/1566423647927926854/1566424566769917993"
+          "label": "Saving can forfeit daily ad opportunities",
+          "url": "https://discord.com/channels/1268830572743102505/1360658919512604693/1402531016056242297"
         },
         {
-          "label": "November 3 acknowledgment; no fix stated",
-          "url": "https://discord.com/channels/1268830572743102505/1566423647927926854/1567120393355919381"
+          "label": "Farming results summary",
+          "url": "https://discord.com/channels/1357499983703572490/1424321762065121294/1426192332948111371"
+        },
+        {
+          "label": "Merchant bargaining reminder",
+          "url": "https://discord.com/channels/1353899985103749221/1487226276103065713/1487226881341395014"
+        },
+        {
+          "label": "Guild Raid Information — visible June 22, 2026 edit",
+          "url": "https://discord.com/channels/1268830572743102505/1517736424265220136/1517736424265220136"
+        },
+        {
+          "label": "Loadout submission format",
+          "url": "https://discord.com/channels/1357499983703572490/1400142797297680385/1465796071803584648"
+        },
+        {
+          "label": "November 3 FAQ: shops and progression priorities",
+          "url": "https://discord.com/channels/1268830572743102505/1544939755106607144/1567145405190373487"
+        },
+        {
+          "label": "Ancient Core exception, 26 Aug 2025",
+          "url": "https://discord.com/channels/1408190992510615633/1408205629146927376/1409804323214594138"
+        },
+        {
+          "label": "Replay-review reminder",
+          "url": "https://discord.com/channels/1357499983703572490/1384910181355487345/1507243285847081103"
         }
       ]
     },
     {
-      "id": "cleo-fiery-reckoning-hero-arena-balance-report",
-      "title": "Cleo Fiery Reckoning: Hero Arena balance concern",
-      "summary": "Separate strong skin performance from a confirmed malfunction when reviewing Hero Arena results.",
-      "body": "## What the report concerns\nNovember 2026 feedback describes Fiery Reckoning spreading repeated fire damage through several opposing heroes. A November 3 clarification frames this as a balance concern, rather than a single broken battle.\n\n## Compare like for like\nKeep skin stars, hero configuration and opposing lineup visible when comparing results. A striking battle total alone cannot establish a universal damage ratio or prove an ability violates its description.\n\n## Current limit\nThe report remains under review. Battle details were requested, but no confirmed defect, balance change or workaround is documented. Screenshots were not independently checked.",
-      "category": "bugs",
+      "id": "event-spending-decision-guide",
+      "title": "Event spending: choose a target and know when to stop",
+      "summary": "A decision guide for fishing, Treasure Island and event shops. Separate reward targets from gem costs, count free resources and avoid chasing sunk costs.",
+      "body": "## Before the first purchase\nChoose one exact reward from the current exchange. Note its currency, quantity, stock limit and closing time. Set a gem ceiling before random outcomes start influencing the decision. Count current resources and remaining free tasks; wait for relevant overlapping-event information when it could change the purchase.\n\n## Match the route to the reward\n- Fishing reward costs silver tickets: compare the silver-focused route, which aims to reach Polar with more lures for higher-value catches.\n- Fishing reward costs golden tickets: compare the golden-focused route, which seeks additional legendaries in earlier lakes. It trades some silver-ticket progress for a lower historical gem budget; it is not a fixed-price guarantee.\n- Treasure Island milestone: enter current tile, points, held dice and the in-game roll-task count into Dice Companion. Recalculate after meaningful changes instead of treating the initial estimate as a promise.\n\n## Keep points and purchases separate\n100,000 or 150,000 Treasure Island points are score targets, not gem budgets. The October 2026 comparison included extra shop-ticket purchases: eight earned tickets plus two purchases at 100,000 points, and a stated total of 20 at 150,000 when those purchases were included. Check the live track and prices before using those totals. An unlocked purchase is not a reward already owned.\n\n## Use a buy-or-stop checkpoint\n1. Read the next reward's actual requirement.\n2. Subtract your current balance and free resources still realistically available.\n3. Check the cost of the next small purchase against your remaining gem ceiling.\n4. Buy only if the target is still worth that cost; update the calculation after the outcome.\n5. Stop when the reward is secured, the ceiling is reached or the remaining target no longer justifies the cost.\nPrevious spending does not make the next purchase more valuable. Random catches and dice results can leave a target unfinished within your budget.\n\n## Compare exchange offers fairly\nFor matching rewards paid in the same currency, divide price by bundle quantity and check stock. An archived fishing example lists five keys for 8,000 silver tickets, or 1,600 each; a separate premium listing uses four golden tickets for five keys. Do not compare those currency totals directly without a supported conversion model. Read today's listings.\n\n## Closing-time decision\nCheck the retention or conversion rule for the exact currency, including future reruns. An Ancient Core carryover notice is a historical exception to an older dice-only claim; neither establishes every current currency's rule. Save only when the live text supports it. Otherwise assess useful remaining exchanges before the event closes.\n\n## Use the detailed playbooks\nThe fishing playbook explains pools, line breaks and both routes. The Treasure Island playbook explains departure tiles, multiplier caps and calculator inputs. Their models guide decisions; they do not replace current event rules or guarantee a target.",
+      "category": "tips",
       "status": "community",
-      "gameVersion": "Not specified in source",
-      "updatedOn": "2026-11-03",
-      "reviewedOn": "2026-11-03",
+      "gameVersion": "Synthesis of reviewed guides; check current game rules",
+      "updatedOn": "2026-11-04",
+      "reviewedOn": "2026-11-04",
       "published": true,
       "tags": [
-        "Cleo",
-        "Fiery Reckoning",
-        "Hero Arena",
-        "balance",
-        "under review"
+        "events",
+        "gems",
+        "fishing",
+        "Treasure Island",
+        "rewards",
+        "budget"
       ],
       "sources": [
         {
-          "label": "Initial Hero Arena damage concern",
-          "url": "https://discord.com/channels/1268830572743102505/1566399460009844806/1566399460009844806"
+          "label": "Fishing Companion: catch tracking and route planner",
+          "url": "https://jgdevalpha.github.io/archero-fish-companion/"
         },
         {
-          "label": "Comparison of skin-star configurations",
-          "url": "https://discord.com/channels/1268830572743102505/1566399460009844806/1566399949984370720"
+          "label": "Normal pool model and route goals — March 2026",
+          "url": "https://discord.com/channels/1268830572743102505/1481345072766124285/1481345072766124285"
         },
         {
-          "label": "Clarification: balance complaint rather than a single bugged battle",
-          "url": "https://discord.com/channels/1268830572743102505/1566399460009844806/1567178913803804854"
-        }
-      ]
-    },
-    {
-      "id": "hero-arena-atreus-orb-blocking-report",
-      "title": "Atreus orb: stuck targeting in Hero Arena",
-      "summary": "Persistent red-orb targeting was reported in late October. Current fix status remains unconfirmed.",
-      "body": "## Recognize the symptom\nOctober 31, 2026 reports describe Hero Arena attacks becoming locked onto an Atreus red orb that does not disappear, preventing the battle from being won.\n\n## Capture useful evidence\nKeep the battle replay, installed game version and the moment attacks switch to the orb. These details help distinguish forced targeting from ordinary damage or survival problems.\n\n## Fix status\nThe issue was escalated. The latest saved fix-related reply says it was not fixed on October 31 and suggests watching for a hotfix download. That does not establish its November 3 status. No reliable workaround or independently reproduced cause is available.",
-      "category": "bugs",
-      "status": "community",
-      "gameVersion": "Not specified in source",
-      "updatedOn": "2026-10-31",
-      "reviewedOn": "2026-11-03",
-      "published": true,
-      "tags": [
-        "Atreus",
-        "Hero Arena",
-        "orb",
-        "targeting",
-        "unresolved"
-      ],
-      "sources": [
-        {
-          "label": "Edited report identifying Atreus's orb",
-          "url": "https://discord.com/channels/1268830572743102505/1565882033249722528/1565882033249722528"
+          "label": "Incremental lure purchases and approximate budgets",
+          "url": "https://discord.com/channels/1268830572743102505/1394706549074821271/1394706810774229033"
         },
         {
-          "label": "Reported forced targeting and persistent orb",
-          "url": "https://discord.com/channels/1268830572743102505/1565882033249722528/1565887361651449937"
+          "label": "Dice Companion — calculator, map and run tracker",
+          "url": "https://ksun4176.github.io/archero2-dice-companion/"
         },
         {
-          "label": "Issue escalated to the team",
-          "url": "https://discord.com/channels/1268830572743102505/1565882033249722528/1565928006000836682"
+          "label": "Companion strategy and input instructions — September 2025 source",
+          "url": "https://github.com/ksun4176/archero2-dice-companion/blob/62798d88e03e5fb9eab88d8d929fb95ea548426c/app/_components/guide-button-content.tsx"
         },
         {
-          "label": "October 31 reply says no fix yet",
-          "url": "https://discord.com/channels/1268830572743102505/1565882033249722528/1566146990344249469"
-        }
-      ]
-    },
-    {
-      "id": "all-star-opponent-times-reached-versus-cleared",
-      "title": "All-Star results: reaching a floor versus clearing it",
-      "summary": "Before comparing finish times, check whether both opponents actually cleared the displayed floor.",
-      "body": "## Read progress before time\nAn All-Star result can look contradictory if a faster opponent reached the last floor without defeating its boss. A possible explanation discussed on October 30, 2026 is that the displayed floor means reached, not cleared.\n\n## Review a close result\n1. Check the highest floor each side completed.\n2. Check whether the final boss was defeated.\n3. Compare times only after confirming equivalent progress.\n\n## Current limit\nThis is a proposed interpretation, not a verified scoring specification. The report was acknowledged, but no interface change is confirmed. The attached screenshot was not independently checked.",
-      "category": "bugs",
-      "status": "community",
-      "gameVersion": "Not specified in source",
-      "updatedOn": "2026-10-31",
-      "reviewedOn": "2026-11-03",
-      "published": true,
-      "tags": [
-        "All-Star",
-        "ranking",
-        "timers",
-        "floor progress",
-        "interface"
-      ],
-      "sources": [
-        {
-          "label": "Initial apparent opponent-time contradiction",
-          "url": "https://discord.com/channels/1268830572743102505/1565650042377736192/1565650042377736192"
+          "label": "100k score and shop tickets, 23 Oct 2026",
+          "url": "https://discord.com/channels/1408190992510615633/1465884305103261767/1563039916563234867"
         },
         {
-          "label": "Later explanation: reached floor versus completed floor",
-          "url": "https://discord.com/channels/1268830572743102505/1565650042377736192/1566025544816918681"
+          "label": "150k score comparison",
+          "url": "https://discord.com/channels/1408190992510615633/1465884305103261767/1563040073685925950"
         },
         {
-          "label": "Feedback noted; no fix stated",
-          "url": "https://discord.com/channels/1268830572743102505/1565650042377736192/1566001146911264909"
+          "label": "Fishing regular exchange — visible August 17 edit",
+          "url": "https://discord.com/channels/1268830572743102505/1516738436600430653/1517049419336384573"
+        },
+        {
+          "label": "Fishing premium exchange — visible August 26 edit",
+          "url": "https://discord.com/channels/1268830572743102505/1516738436600430653/1517049515507453952"
+        },
+        {
+          "label": "Ancient Core exception, 26 Aug 2025",
+          "url": "https://discord.com/channels/1408190992510615633/1408205629146927376/1409804323214594138"
+        },
+        {
+          "label": "Wait for overlap information",
+          "url": "https://discord.com/channels/1361208622566211694/1361209094039666728/1363179024246903004"
         }
       ]
     },
@@ -369,7 +435,7 @@
       "title": "Farming choices: Quick Hunt, Hard Mode 5 or Chapter 47",
       "summary": "Compare loot goals against time available. Historical tables favor different routes for runes, gear and convenience.",
       "body": "## Choose your goal\n- Runes per run: the October 2025 comparison favored Hard Mode 5.\n- Gear and gold: Chapter 47 was favored in the written results.\n- Limited time: Quick Hunt offered the most convenient route.\n\n## What the old table models\nWith maxed gear/rune-drop talents and 145 energy daily for 30 days, Chapter 47 projects 1,740 gear pieces versus 1,066 from Quick Hunt. Rune totals are 1,679 versus 1,066. The printed rune difference is 612, although those totals subtract to 613.\n\n## Keep assumptions separate\nThe 51 hours versus 15 minutes compares modeled completion/action time; Quick Hunt assumes one second per action, not total monthly playtime. Adjacent 165-energy columns are a different scenario. Both tables were visually reviewed, but their projections are not current drop guarantees.",
-      "category": "guides",
+      "category": "resources",
       "status": "outdated",
       "gameVersion": "Not specified in source messages",
       "updatedOn": "2025-10-10",
@@ -398,78 +464,6 @@
         {
           "label": "145-energy comparison table image",
           "url": "https://discord.com/channels/1357499983703572490/1424321762065121294/1426192358587891782"
-        }
-      ]
-    },
-    {
-      "id": "fishing-pool-management-corrections-2025",
-      "title": "Fishing: track remaining pools before using line breaks",
-      "summary": "Avoid chasing a legendary that the current pool cannot contain. Early fishing advice received important corrections.",
-      "body": "## Pool-management checklist\n1. Track catches and valuable fish remaining in the lake.\n2. Check whether clearing the pool triggers its refill.\n3. Reserve line breaks for a justified target or lake transition.\n4. Drop old numerical assumptions if the live event uses different rules.\n\n## Historical corrections\nThe June 2025 guide described 40-fish pools. Later replies described an 80-fish final lake with two legendaries and 18 epics. July replies rejected a third legendary in the first lake after only 74 lures, saying it could not occur before passing 80.\n\n## Avoid the old guarantee\nThree legendaries in every early lake was not established. A reported 30 wasted line breaks illustrates the risk of chasing that claim. Recheck current lake, rod and pool rules.",
-      "category": "tips",
-      "status": "outdated",
-      "gameVersion": "Not specified in source messages",
-      "updatedOn": "2025-07-19",
-      "reviewedOn": "2026-11-03",
-      "published": true,
-      "tags": [
-        "fishing",
-        "angler bounty",
-        "line breaks",
-        "event strategy"
-      ],
-      "sources": [
-        {
-          "label": "Forwarded 40-fish pool guide",
-          "url": "https://discord.com/channels/1361208622566211694/1361209094039666728/1383741591688183818"
-        },
-        {
-          "label": "Final-lake pool correction",
-          "url": "https://discord.com/channels/1361208622566211694/1361209094039666728/1384154574809727097"
-        },
-        {
-          "label": "First-lake catch-count correction",
-          "url": "https://discord.com/channels/1361208622566211694/1361209094039666728/1396064984810651709"
-        },
-        {
-          "label": "Wasted line-break follow-up",
-          "url": "https://discord.com/channels/1361208622566211694/1361209094039666728/1396065274133741659"
-        }
-      ]
-    },
-    {
-      "id": "fishing-budgets-and-changing-event-tasks",
-      "title": "Fishing budgets: spend toward the current reward target",
-      "summary": "Count remaining free resources and current tasks, then buy in small batches instead of following an old gem total.",
-      "body": "## Plan purchases\n1. Choose the exact reward you want.\n2. Read the current task list and reward requirements.\n3. Count free resources still available before the event ends.\n4. Buy incrementally, recalculating after valuable catches.\n\n## Why old budgets fail\nApril 2025 lure calculations were approximate and assumed unchanged event rules. The discussion first listed 200 required shovels, then corrected that requirement on April 26 after tasks were reworked.\n\n## Event overlap\nWaiting until overlapping events are known can prevent premature spending of saved shovels, wishes or keys. It does not guarantee an overlap. Archived gem totals are planning examples, not current prices.",
-      "category": "tips",
-      "status": "outdated",
-      "gameVersion": "Not specified in source messages",
-      "updatedOn": "2025-04-26",
-      "reviewedOn": "2026-11-03",
-      "published": true,
-      "tags": [
-        "fishing",
-        "gems",
-        "event tasks",
-        "resource planning"
-      ],
-      "sources": [
-        {
-          "label": "Original task-total claim",
-          "url": "https://discord.com/channels/1361208622566211694/1361209094039666728/1362147994224558240"
-        },
-        {
-          "label": "Approximate lure budget and caveats",
-          "url": "https://discord.com/channels/1361208622566211694/1361209094039666728/1362534563359883334"
-        },
-        {
-          "label": "Wait for overlap information",
-          "url": "https://discord.com/channels/1361208622566211694/1361209094039666728/1363179024246903004"
-        },
-        {
-          "label": "Task requirements changed",
-          "url": "https://discord.com/channels/1361208622566211694/1361209094039666728/1365720149306380388"
         }
       ]
     },
@@ -579,7 +573,7 @@
       "title": "Mystlings: compare collection milestones with single-pet levels",
       "summary": "Evaluate collection gains and active-skill effects before concentrating every resource into one Mystling.",
       "body": "## Before upgrading\nCompare the next collection milestone, heart gain and active-skill description with the benefit of another level on one pet.\n\n## Collection versus concentration\nMay 2026 guidance describes collection leveling as providing hearts and account-wide bonuses, including active-skill cooldown improvements. Heavy investment in one pet was described as mainly increasing its skill damage. No complete scaling table is available here.\n\n## Use relevant active skills\nSome setups gain offensive or defensive stacking buffs through activations. Activate those skills promptly when their current description supports it; do not transfer one setup's percentages to every Mystling.\n\nThe illustrated skills and linked progression workbook were not independently checked. Use actual in-game milestones rather than assuming every upgrade has equal value.",
-      "category": "equipment",
+      "category": "resources",
       "status": "community",
       "gameVersion": "Not specified in source messages",
       "updatedOn": "2026-05-26",
@@ -693,48 +687,11 @@
       ]
     },
     {
-      "id": "full-set-rune-roles-april-2026",
-      "title": "Full-set roles: distance and damage focus",
-      "summary": "Use old Dragoon, Griffin and Oracle roles to understand build intent, not to force mixed sets into one preset.",
-      "body": "## April 2026 reference\nThese roles describe complete, unmixed sets:\n- Dragoon: Far behavior, meteors and elemental scaling.\n- Griffin: Close behavior, circles and elemental pressure.\n- Oracle: ranged main-weapon and elemental damage, with defensive enchants.\n\n## Why distance changes\nAn earlier Oracle circle variation used Close behavior. That differs from the straight Oracle weapon-focused setup. Select distance for the actual damage plan rather than the set name alone.\n\n## Scope\nThis archived reference does not establish current rankings, later Godforge interactions or a mixed-set conversion. Images were not reviewed, so the listed roles do not reconstruct full rune pages.",
-      "category": "builds",
-      "status": "outdated",
-      "gameVersion": "Not specified in source messages",
-      "updatedOn": "2026-04-05",
-      "reviewedOn": "2026-11-03",
-      "published": true,
-      "tags": [
-        "Dragoon",
-        "Griffin",
-        "Oracle",
-        "distance preset",
-        "runes"
-      ],
-      "sources": [
-        {
-          "label": "Straight Dragoon role",
-          "url": "https://discord.com/channels/1357499983703572490/1400142797297680385/1490256315015237632"
-        },
-        {
-          "label": "Straight Griffin role",
-          "url": "https://discord.com/channels/1357499983703572490/1400142797297680385/1490257393441968238"
-        },
-        {
-          "label": "Straight Oracle role",
-          "url": "https://discord.com/channels/1357499983703572490/1400142797297680385/1490257847798333481"
-        },
-        {
-          "label": "Earlier distance advice for circle variants",
-          "url": "https://discord.com/channels/1357499983703572490/1400142797297680385/1478606782543691839"
-        }
-      ]
-    },
-    {
       "id": "twinborn-rune-costs-september-2026",
       "title": "Twinborn crafting: check category, tier and both currencies",
       "summary": "Ability and enhancement examples cannot be applied automatically to blessing or etched runes.",
       "body": "## Before crafting\n1. Select the exact rune category and tier in the current crafting screen.\n2. Check both core and remnant requirements.\n3. Count resources for the complete planned upgrade, not only the first craft.\n\n## September 2026 examples\nReported ability/enhancement examples use Legendary +2 at 5,000 remnants and mythic at 40 cores plus 20,000 remnants. Blessing and etched runes were explicitly described as needing more cores.\n\n## Important limits\nLegendary +1 eligibility was speculation. These examples are not a complete cost table. Remnants may become the bottleneck even when cores are available, depending on inventory. The crafting image was not reviewed; verify the recipe before spending.",
-      "category": "equipment",
+      "category": "resources",
       "status": "community",
       "gameVersion": "Not specified in source messages",
       "updatedOn": "2026-09-29",
@@ -758,70 +715,6 @@
         {
           "label": "Reported remnant bottleneck",
           "url": "https://discord.com/channels/1353899985103749221/1492251130233753722/1548833039373574273"
-        }
-      ]
-    },
-    {
-      "id": "expedition-loadout-submission-checklist",
-      "title": "Expedition preparation: submit the complete saved loadout",
-      "summary": "Include equipment, runes, hero, resonances, Mystling and distance behavior so a build review can assess the whole setup.",
-      "body": "## Submission checklist\n- Gear set and relevant upgrades.\n- Rune page, etched runes and important enchants.\n- Hero and both resonance choices.\n- Mystling.\n- Close, Mid or Far behavior.\n\n## Before the battle\nMake sure the submitted configuration matches the actual saved expedition preset. Recheck newly added presets and remove irrelevant boss/minion enchants from GvG setups where they do not apply.\n\n## Why this helps\nA power total hides important differences in damage, durability and positioning. This workflow supports a useful build review; it does not prescribe one universal loadout.",
-      "category": "expedition",
-      "status": "community",
-      "gameVersion": "Not specified in source messages",
-      "updatedOn": "2026-05-07",
-      "reviewedOn": "2026-11-03",
-      "published": true,
-      "tags": [
-        "expedition",
-        "GvG",
-        "presets",
-        "guild coordination"
-      ],
-      "sources": [
-        {
-          "label": "Loadout submission format",
-          "url": "https://discord.com/channels/1357499983703572490/1400142797297680385/1465796071803584648"
-        },
-        {
-          "label": "Include etched runes",
-          "url": "https://discord.com/channels/1357499983703572490/1400142797297680385/1400143267495936085"
-        },
-        {
-          "label": "Update presets and Mystling",
-          "url": "https://discord.com/channels/1357499983703572490/1384910181355487345/1481963481615044670"
-        },
-        {
-          "label": "Check PvE-only enchants",
-          "url": "https://discord.com/channels/1357499983703572490/1400142797297680385/1501767340348543087"
-        }
-      ]
-    },
-    {
-      "id": "preset-reset-reports-march-2026",
-      "title": "After updates: recheck saved resonances and behavior",
-      "summary": "Historical preset resets affected several modes. Inspect the saved setup before the next important battle.",
-      "body": "## Quick inspection\n1. Open each preset used for expedition, Arena and guild bosses.\n2. Check the hero and both resonance slots.\n3. Confirm Close, Mid or Far behavior.\n4. Restore missing settings and save again.\n\n## Historical context\nMarch 20, 2026 reports describe an update removing resonance and behavior settings from saved builds. The second resonance slot was specifically highlighted.\n\n## Current status\nNo game build, platform or official fix is identified. This checklist addresses a reversible configuration problem; it does not establish that the old bug remains active in November 2026. Power alone may not reveal a missing setting.",
-      "category": "bugs",
-      "status": "outdated",
-      "gameVersion": "Not specified in source messages",
-      "updatedOn": "2026-03-21",
-      "reviewedOn": "2026-11-03",
-      "published": true,
-      "tags": [
-        "presets",
-        "resonance",
-        "GvG",
-        "historical bug"
-      ],
-      "sources": [
-        {
-          "label": "Update-related preset-reset report",
-          "url": "https://discord.com/channels/1357499983703572490/1384910181355487345/1484678331478577274"
-        },
-        {
-          "label": "Second resonance and other modes affected",
-          "url": "https://discord.com/channels/1357499983703572490/1384910181355487345/1484720816196419584"
         }
       ]
     },
@@ -900,95 +793,6 @@
       ]
     },
     {
-      "id": "hela-between-floor-healing-2025",
-      "title": "Hela between floors: verify the recovery interaction",
-      "summary": "An old recovery tip claims healing continues between floors; the rate and roulette effect need separate checks.",
-      "body": "## Historical interaction\nAn August 9, 2025 report says a Hela setup recovered health while waiting between Campaign and Tower floors, quoting 1% per second. It also claims the roulette healing option was excluded when entering at full health.\n\n## Check separately\n- Does health continue rising during the pause with your exact setup?\n- At full health, does the roulette pool actually change?\n\n## Limits\nThe reference does not specify Hela stars, skin, resonances or game version. Screenshots were not reviewed. Neither the rate nor the roulette claim is confirmed for the current game; do not treat them as guaranteed mechanics.",
-      "category": "tips",
-      "status": "outdated",
-      "gameVersion": "Not specified in source messages",
-      "updatedOn": "2025-08-09",
-      "reviewedOn": "2026-11-03",
-      "published": true,
-      "tags": [
-        "Hela",
-        "healing",
-        "campaign",
-        "sky tower"
-      ],
-      "sources": [
-        {
-          "label": "Hela healing and roulette report",
-          "url": "https://discord.com/channels/1353899985103749221/1353900937621803008/1403671132435120128"
-        }
-      ]
-    },
-    {
-      "id": "abyssal-tide-stationary-poison-interactions",
-      "title": "Abyssal Tide: check the anomaly before using poison triggers",
-      "summary": "Stationary-poison strategies depend on a specific anomaly and damage-triggered effects, not merely standing still.",
-      "body": "## Required condition\nThe historical setup depends on the Abyssal Tide anomaly that poisons a stationary character. Without that anomaly, the proposed trigger loop does not apply.\n\n## Reported variations\n- Pair poison ticks with a damage-triggered projectile-clear effect.\n- A later variation combines Sprite's Awe, Sprite Assist and Helix resonance.\n\nThe March 2025 version still moves to collect upgrades and healing before settling into position.\n\n## Recheck before use\nVerify the current anomaly and exact trigger descriptions. March-September 2025 recordings and screenshots were not reviewed. Long survival claims and boss positioning are not guaranteed outcomes.",
-      "category": "builds",
-      "status": "outdated",
-      "gameVersion": "Not specified in source messages",
-      "updatedOn": "2025-09-18",
-      "reviewedOn": "2026-11-03",
-      "published": true,
-      "tags": [
-        "abyssal tide",
-        "poison anomaly",
-        "sprites",
-        "Helix",
-        "survival"
-      ],
-      "sources": [
-        {
-          "label": "March stationary-poison guide",
-          "url": "https://discord.com/channels/1353899985103749221/1353900971872354304/1354850073716068667"
-        },
-        {
-          "label": "July damage-triggered survival report",
-          "url": "https://discord.com/channels/1353899985103749221/1353900937621803008/1397033247988252753"
-        },
-        {
-          "label": "September sprite variation",
-          "url": "https://discord.com/channels/1353899985103749221/1353900937621803008/1418108222669193318"
-        }
-      ]
-    },
-    {
-      "id": "expedition-shop-duplicate-stock-patched-report",
-      "title": "Expedition shop stock bug: reported patched in November 2025",
-      "summary": "Keep this as historical bug context, not an active extra-purchase trick.",
-      "body": "## Historical symptom\nEarly November 2025 reports described inconsistent expedition-shop stock when opening the shop through different menus, apparently allowing additional limited purchases.\n\n## Later correction\nFollow-ups on November 20 and 21 said the glitch had been patched. These are follow-up reports rather than an official patch note, but they contradict presenting the old behavior as a working trick.\n\n## If stock differs again\nRecord the current game version, displayed stock and purchase history. A new inconsistency needs its own diagnosis; it does not prove the old bug returned. The historical recordings were not reviewed.",
-      "category": "bugs",
-      "status": "outdated",
-      "gameVersion": "Not specified in source messages",
-      "updatedOn": "2025-11-21",
-      "reviewedOn": "2026-11-03",
-      "published": true,
-      "tags": [
-        "expedition shop",
-        "historical bug",
-        "reported patched",
-        "stock"
-      ],
-      "sources": [
-        {
-          "label": "Original stock-inconsistency report",
-          "url": "https://discord.com/channels/1353899985103749221/1353900937621803008/1436098859100012718"
-        },
-        {
-          "label": "Follow-up says patched",
-          "url": "https://discord.com/channels/1353899985103749221/1353900937621803008/1441070355321061466"
-        },
-        {
-          "label": "Additional patch confirmation",
-          "url": "https://discord.com/channels/1353899985103749221/1353900937621803008/1441446814032199752"
-        }
-      ]
-    },
-    {
       "id": "darkknight-october-mixed-dragoon-build",
       "title": "Mixed Dragoon: preserve sustain while changing sets",
       "summary": "An October 2026 recipe keeps Oracle chest and Griffin amulet, then chooses plant or sprite support around available upgrades.",
@@ -1027,84 +831,11 @@
       ]
     },
     {
-      "id": "darkknight-godforge-one-to-two-test-limits",
-      "title": "Godforge 1 to 2: test the exact item before spending",
-      "summary": "Reported explosion gains and a bow comparison disagree; one upgrade percentage cannot describe every gear piece.",
-      "body": "## What was reported\nAn October 30, 2026 comparison reports roughly 10-20% more explosion damage between Dragoon Godforge levels 1 and 2. A later bow-specific comparison finds no clear improvement using the earlier setup.\n\n## Repeatable comparison\n1. Change one identified item only.\n2. Keep hero stars, skins, skills and potion count constant.\n3. Use the same target and duration.\n4. Repeat runs and compare averages, not the best proc sequence.\n\nThe first report used one Flame Meteor Potion per run and a Phynx/Otta/Thor setup with specified skins.\n\n## Limit\nScreenshots containing the precise changed gear and results were not reviewed. Neither comparison provides a large sample or validated universal gain.",
-      "category": "equipment",
-      "status": "community",
-      "gameVersion": "Not specified in source; check current game build",
-      "updatedOn": "2026-11-03",
-      "reviewedOn": "2026-11-03",
-      "published": true,
-      "tags": [
-        "Godforge",
-        "Dragoon",
-        "testing",
-        "explosion"
-      ],
-      "sources": [
-        {
-          "label": "Initial comparison, 30 Oct 2026",
-          "url": "https://discord.com/channels/1408190992510615633/1465867412594233375/1565612604120899706"
-        },
-        {
-          "label": "Screenshot order for first comparison",
-          "url": "https://discord.com/channels/1408190992510615633/1465867412594233375/1565612851366989855"
-        },
-        {
-          "label": "Bow comparison found no clear gain",
-          "url": "https://discord.com/channels/1408190992510615633/1465867412594233375/1565620521024884819"
-        },
-        {
-          "label": "Bow screenshot order and same setup",
-          "url": "https://discord.com/channels/1408190992510615633/1465867412594233375/1565621447152509061"
-        }
-      ]
-    },
-    {
-      "id": "darkknight-gungnir-dragoon-counter-hypothesis",
-      "title": "Gungnir versus Dragoon boots: test the dodge hypothesis",
-      "summary": "Reduced enemy dodging may reduce dodge-related explosions, but other equipment differences can explain the result.",
-      "body": "## Matchup idea\nOctober 24-31, 2026 discussion proposes using Gungnir against Dragoon boots: fewer successful enemy dodges might mean fewer associated explosions.\n\n## Compare the right evidence\n- Inspect both end-of-match damage breakdowns.\n- Record survival time and successful hits.\n- Keep other gear and artifact set bonuses unchanged.\n- Repeat comparable matches before spending for this interaction.\n\n## Why the result is unresolved\nShared results showed large explosion differences, but weapon skins, Wukong effects and artifact bonuses were also raised as explanations. Images and replays were not independently checked. This remains a hypothesis without a proven percentage benefit.",
-      "category": "builds",
-      "status": "community",
-      "gameVersion": "Not specified in source; check current game build",
-      "updatedOn": "2026-11-03",
-      "reviewedOn": "2026-11-03",
-      "published": true,
-      "tags": [
-        "Gungnir",
-        "Dragoon",
-        "PvP",
-        "dodge",
-        "artifacts"
-      ],
-      "sources": [
-        {
-          "label": "Dodge/explosion hypothesis, 24 Oct 2026",
-          "url": "https://discord.com/channels/1408190992510615633/1465867412594233375/1563349450515288077"
-        },
-        {
-          "label": "Gungnir versus boots claim, 31 Oct 2026",
-          "url": "https://discord.com/channels/1408190992510615633/1465867412594233375/1566125407789519040"
-        },
-        {
-          "label": "Damage-table comparison proposed",
-          "url": "https://discord.com/channels/1408190992510615633/1465867412594233375/1566126823979360259"
-        },
-        {
-          "label": "Weapon-skin confounder raised",
-          "url": "https://discord.com/channels/1408190992510615633/1465867412594233375/1566131969660813555"
-        }
-      ]
-    },
-    {
       "id": "darkknight-artifact-priorities-october",
       "title": "Artifacts: compare set milestones with survival upgrades",
       "summary": "Balance set progression against durability required by your main mode; avoid unresolved star targets.",
       "body": "## Set progression\nOctober 2026 advice favors keeping Flute and Conch balanced for their set bonus. An older guide also targets Magic Harp with universal legendary shards to advance Heavenly Music milestones.\n\n## PvP and GvG survival\nThe same October discussion explicitly corrects its recommendation to favor Demon King Eye over Blood for damage reduction.\n\n## Do not copy the conflicting target\nA later line says to raise Blood to at least eight stars, conflicting with the preceding correction. No settled star prescription follows.\n\nChoose the next meaningful set milestone or survival improvement using actual inventory. These are recommendations, not measured universal returns.",
-      "category": "equipment",
+      "category": "resources",
       "status": "community",
       "gameVersion": "Not specified in source; check current game build",
       "updatedOn": "2026-11-03",
@@ -1142,7 +873,7 @@
       "title": "Treasure Island: compare score targets and ticket costs",
       "summary": "100,000 and 150,000 are event-point targets, not gem budgets. Include unlocked purchases when comparing ticket totals.",
       "body": "## Historical reward comparison\nOctober 23, 2026 discussion reports:\n- 100,000 points: eight Island Tickets plus access to two additional gem-shop ticket purchases.\n- 150,000 points: ten more tickets, giving a stated total of 20 when those purchases are included.\n\nThat produces 10,000 versus 7,500 points per ticket only with the purchased tickets counted.\n\n## Before choosing a stopping point\n1. Check the current reward track and gem-shop prices.\n2. Separate earned tickets from tickets still requiring a purchase.\n3. Account for variable dice outcomes rather than a fixed roll budget.\n\n## Repeat-event limit\nThe shop threshold was reported to reset each event. A 400,000-point comparison had tentative ticket counts, so no complete gem-cost or expected-value calculation is established.",
-      "category": "expedition",
+      "category": "tips",
       "status": "community",
       "gameVersion": "Not specified in source; check current game build",
       "updatedOn": "2026-11-03",
@@ -1178,7 +909,7 @@
       "title": "Event currencies: check carryover item by item",
       "summary": "The old dice-only carryover rule has exceptions. Read each currency's current conversion or retention text.",
       "body": "## Before an event ends\n1. Identify the exact currency name.\n2. Read its current carryover or conversion rule.\n3. Check whether that rule applies to future reruns of the same event.\n4. Save or spend according to that currency's rule, not a blanket event rule.\n\n## Known historical exception\nAn old guide says only Treasure Hunt dice and Treasure Coins carry over. An August 26, 2025 hotfix notice says Ancient Cores can carry into later summoning events, starting with the August 30-September 5 event.\n\n## What this establishes\nThe dice-only statement is too broad, even though the guide was edited later. This exception does not establish current retention rules for every currency or future event.",
-      "category": "tips",
+      "category": "resources",
       "status": "community",
       "gameVersion": "Not specified in source; check current game build",
       "updatedOn": "2026-11-03",
@@ -1236,119 +967,6 @@
         {
           "label": "Favorable practice-run report",
           "url": "https://discord.com/channels/1408190992510615633/1408212765172174948/1478771303111593984"
-        }
-      ]
-    },
-    {
-      "id": "darkknight-ring-boss-speed-testing",
-      "title": "Ring boss builds: compare speed, distance and Slow Field",
-      "summary": "Test the complete ring setup instead of assuming slower attacks always improve Oracle helmet damage.",
-      "body": "## Historical observations\nA February 16, 2026 comparison reports 237B control damage versus 301B with Slow Field over 20 seconds, about 27% higher. It excluded some extra crit triggers and blessing effects.\n\nLater April comments report attack-speed gains with beam/rings plus Bolt and Super Bolt, and separately emphasize standing farther from the boss.\n\n## Useful test design\n1. Keep weapon, target, skills and duration fixed.\n2. Compare distance separately from attack speed.\n3. Test Slow Field after fixing those conditions.\n4. Repeat runs to reduce proc variation.\n\n## Limit\nThe screenshots were not reviewed. These small historical tests do not isolate a stable formula or justify removing all attack-speed bonuses from every ring build.",
-      "category": "builds",
-      "status": "outdated",
-      "gameVersion": "Not specified in source; check current game build",
-      "updatedOn": "2026-11-03",
-      "reviewedOn": "2026-11-03",
-      "published": true,
-      "tags": [
-        "bosses",
-        "Slow Field",
-        "attack speed",
-        "energy rings",
-        "testing"
-      ],
-      "sources": [
-        {
-          "label": "Reported 20-second control, 16 Feb 2026",
-          "url": "https://discord.com/channels/1408190992510615633/1408212765172174948/1472966681390485718"
-        },
-        {
-          "label": "Test exclusions",
-          "url": "https://discord.com/channels/1408190992510615633/1408212765172174948/1472966801406034095"
-        },
-        {
-          "label": "Beam/Bolt conditional result, 2 Apr 2026",
-          "url": "https://discord.com/channels/1408190992510615633/1408212765172174948/1489188126965366835"
-        },
-        {
-          "label": "Distance-related observation, 9 Apr 2026",
-          "url": "https://discord.com/channels/1408190992510615633/1408212765172174948/1491692776629338162"
-        }
-      ]
-    },
-    {
-      "id": "darkknight-explosion-luck-theory-needs-recheck",
-      "title": "Explosion and luck: verify interactions before using formulas",
-      "summary": "October explosion theories include uncertain proc rates and an announced hotfix that may change the result.",
-      "body": "## Interaction to test\nOctober 21, 2026 discussion suggests Dragoon-ring explosions inherit character crit stats before some elemental and Equinox Bloom bonuses. Acid Swamp and multishot are also proposed for burst damage.\n\n## Do not turn guesses into coefficients\nThe luck explanation explicitly guesses at one-versus-two-skill improvements and multishot rates. No validated additive formula follows.\n\n## Patch check first\nAn October 28 notice announces an upcoming fix for endless Dragoon Helmet Noxfire Explosion triggers. It does not confirm delivery to every installed version, but makes earlier tests especially sensitive to patch changes.\n\nTraining images were not independently checked. Record the installed version and repeat controlled trials before applying the theory to a damage calculator.",
-      "category": "builds",
-      "status": "outdated",
-      "gameVersion": "Not specified in source; check current game build",
-      "updatedOn": "2026-11-03",
-      "reviewedOn": "2026-11-03",
-      "published": true,
-      "tags": [
-        "Dragoon",
-        "explosion",
-        "critical rate",
-        "luck",
-        "Equinox Bloom",
-        "testing"
-      ],
-      "sources": [
-        {
-          "label": "Training-ground observation, 21 Oct 2026",
-          "url": "https://discord.com/channels/1408190992510615633/1408212765172174948/1562411485756653688"
-        },
-        {
-          "label": "Proposed inheritance order",
-          "url": "https://discord.com/channels/1408190992510615633/1408212765172174948/1562477849523396619"
-        },
-        {
-          "label": "Explicitly uncertain luck/proc estimates",
-          "url": "https://discord.com/channels/1408190992510615633/1408212765172174948/1562495383744286721"
-        },
-        {
-          "label": "Upcoming explosion-related fix, 28 Oct 2026",
-          "url": "https://discord.com/channels/1408190992510615633/1408205629146927376/1565025554799923320"
-        }
-      ]
-    },
-    {
-      "id": "darkknight-chapter-contact-healing-build",
-      "title": "Chapter sustain: test contact healing against the right enemies",
-      "summary": "A contact-based survival setup can fail when enemies are pushed away or cannot be reached.",
-      "body": "## October 2026 experiment\nThe proposed setup combines Helix, Dracula and Thor with Spirit/Spring Potion or Rootguard options, Invincibility Potion and luck skills. Gear uses Dragoon weapon, ring and boots with Oracle amulet, helmet and chest.\n\n## How the plan differs\nIt tries to survive controlled enemy contact rather than projectile volleys. Band Aid was recommended for some chapters. A separate circle version adds Orbital/Pulsing Orbs and Vampire Circles.\n\n## Stop conditions\nContact recovery can fail when enemies are unreachable or knocked away. Exact hero-star requirements are not supplied, and a later question about stage 186 remained unanswered. These notes do not prove every chapter can be cleared by standing on enemies; test survival in the intended encounter.",
-      "category": "builds",
-      "status": "community",
-      "gameVersion": "Not specified in source; check current game build",
-      "updatedOn": "2026-11-03",
-      "reviewedOn": "2026-11-03",
-      "published": true,
-      "tags": [
-        "chapters",
-        "sustain",
-        "healing",
-        "Helix",
-        "Dracula",
-        "Thor"
-      ],
-      "sources": [
-        {
-          "label": "Written contact-healing setup, 28 Oct 2026",
-          "url": "https://discord.com/channels/1408190992510615633/1562289180715782144/1564903113675251735"
-        },
-        {
-          "label": "Band Aid qualification",
-          "url": "https://discord.com/channels/1408190992510615633/1562289180715782144/1564903798739181580"
-        },
-        {
-          "label": "Circle variant and contact limitation",
-          "url": "https://discord.com/channels/1408190992510615633/1562289180715782144/1564923500182118403"
-        },
-        {
-          "label": "Knockback limitation",
-          "url": "https://discord.com/channels/1408190992510615633/1562289180715782144/1564987271957061734"
         }
       ]
     },
@@ -1457,36 +1075,6 @@
       ]
     },
     {
-      "id": "darkknight-hotfix-status-old-bug-reports",
-      "title": "Bug status: separate released fixes from upcoming hotfixes",
-      "summary": "Use the notice wording and installed version to decide whether an old interaction needs retesting.",
-      "body": "## Released notice: January 16, 2026\nThe notice explicitly describes a released hotfix covering:\n- Tracking Eye on Oracle Light Spear failing after Divine Forging.\n- Otta's five-star critical instant kills preventing Satellite Orbs below Legendary II from triggering.\n\n## Upcoming notice: October 28, 2026\nThis notice announces a future hotfix, including endless Dragoon Helmet Noxfire Explosion triggers and Dracoola's two-star skill failing after acquiring Enchanted Weapon.\n\n## Before reusing old advice\nCheck the installed version and whether the notice says released or upcoming. An announcement alone does not prove every client received the fix. These references describe notices; the bugs were not reproduced during this review.",
-      "category": "bugs",
-      "status": "community",
-      "gameVersion": "Not specified in source; check current game build",
-      "updatedOn": "2026-11-03",
-      "reviewedOn": "2026-11-03",
-      "published": true,
-      "tags": [
-        "hotfix",
-        "Tracking Eye",
-        "Otta",
-        "Satellite Orbs",
-        "Dragoon",
-        "Dracoola"
-      ],
-      "sources": [
-        {
-          "label": "Released hotfix, 16 Jan 2026",
-          "url": "https://discord.com/channels/1408190992510615633/1408205629146927376/1461669222101946411"
-        },
-        {
-          "label": "Upcoming hotfix announcement, 28 Oct 2026",
-          "url": "https://discord.com/channels/1408190992510615633/1408205629146927376/1565025554799923320"
-        }
-      ]
-    },
-    {
       "id": "jungle-meteor-knockback-experiment",
       "title": "Jungle meteor control: build knockback around a damage package",
       "summary": "Try the meteor/potion control loop without discarding the damage source that clears the stage.",
@@ -1516,43 +1104,6 @@
       ]
     },
     {
-      "id": "umbral-boss-skills-and-unresolved-formula",
-      "title": "Umbral bosses: use skill priorities without assuming a proven formula",
-      "summary": "A September boss recipe suggests a skill package, but its modifier classifications remain inconsistent.",
-      "body": "## Proposed skill package\nFor an energy-beam/tracking boss build, September 16, 2026 guidance prioritizes Giant Arrow, Piercing Arrow, Boss Slayer and Corrosive Field. Split Shot and Bounce Arrow follow. Swift Arrow is suggested only without Short Range Strike.\n\n## Setup conditions\nThe crit/potion plan references Otta at two stars plus skin benefits. Its claimed 100% crit cannot be reconstructed from the available setup and timing details.\n\n## Formula unresolved\nBoss Slayer is first treated as multiplicative, then grouped with Giant Arrow and Lightwing in a later example. Do not convert those examples into a validated calculator. The skill list is a test candidate; gameplay, images and the complete current loadout were not checked.",
-      "category": "builds",
-      "status": "outdated",
-      "gameVersion": "Unknown; no patch version stated in sampled messages",
-      "updatedOn": "2026-11-03",
-      "reviewedOn": "2026-11-03",
-      "published": true,
-      "tags": [
-        "Umbral Tempest",
-        "boss damage",
-        "skills",
-        "damage formula",
-        "Otta"
-      ],
-      "sources": [
-        {
-          "label": "Proposed Umbral skill package - September 16, 2026",
-          "url": "https://discord.com/channels/1408190992510615633/1496108191589597184/1549736209302167627"
-        },
-        {
-          "label": "Initial multiplier classification - September 16, 2026",
-          "url": "https://discord.com/channels/1408190992510615633/1496108191589597184/1549735715191922739"
-        },
-        {
-          "label": "Later worked example changes Boss Slayer grouping - September 16, 2026",
-          "url": "https://discord.com/channels/1408190992510615633/1496108191589597184/1549766997301002277"
-        },
-        {
-          "label": "Otta and skin-dependent crit/potion plan - September 16, 2026",
-          "url": "https://discord.com/channels/1408190992510615633/1496108191589597184/1549767204197630082"
-        }
-      ]
-    },
-    {
       "id": "guild-raid-keep-participation-window-open",
       "title": "Guild raids: leave time for everyone to participate",
       "summary": "Clearing the boss and closing the raid are separate actions in the June 2026 guide. Announce a closing time before selecting results.",
@@ -1573,44 +1124,6 @@
         {
           "label": "Guild Raid Information — visible June 22, 2026 edit",
           "url": "https://discord.com/channels/1268830572743102505/1517736424265220136/1517736424265220136"
-        }
-      ]
-    },
-    {
-      "id": "oracle-helmet-attack-speed-test-your-build",
-      "title": "Oracle helmet: test attack speed with your own crit setup",
-      "summary": "Both damage losses and gains were reported. Crit sources, charging and multishot conditions can change the result.",
-      "body": "## Run a controlled comparison\n1. Fix target, gear, movement and duration.\n2. Record crit chance and effects that can trigger critical hits.\n3. Change only the attack-speed skill or rune under comparison.\n4. Repeat each setup and compare typical damage, not the best run.\n\n## Why blanket advice fails\nA July 17, 2026 Chaotic Oracle helmet test reports lower damage after adding speed. A July 25 counterexample reports higher DPS, possibly from a lower-crit setup.\n\n## Formula limit\nCharging time, crit-count windows and multishot accumulation were debated; an August explanation still retained uncertainty. These reports do not prove all attack speed is harmful or justify downgrading a rune without testing.",
-      "category": "builds",
-      "status": "community",
-      "gameVersion": "Not specified in source",
-      "updatedOn": "2026-08-12",
-      "reviewedOn": "2026-11-03",
-      "published": true,
-      "tags": [
-        "Oracle",
-        "attack speed",
-        "multishot",
-        "crit",
-        "training",
-        "DPS"
-      ],
-      "sources": [
-        {
-          "label": "July test reporting lower DPS with attack speed",
-          "url": "https://discord.com/channels/1268830572743102505/1520524787460341801/1527619009485344798"
-        },
-        {
-          "label": "Counterexample: lower-crit setup gained DPS",
-          "url": "https://discord.com/channels/1268830572743102505/1520524787460341801/1530643496179073134"
-        },
-        {
-          "label": "August explanation retains uncertainty",
-          "url": "https://discord.com/channels/1268830572743102505/1520524787460341801/1537004112590278738"
-        },
-        {
-          "label": "Suggested equal-duration training comparison",
-          "url": "https://discord.com/channels/1268830572743102505/1520524787460341801/1531428535221223484"
         }
       ]
     },
@@ -1653,40 +1166,11 @@
       ]
     },
     {
-      "id": "fusion-unavailable-check-all-presets",
-      "title": "Fusion unavailable? Unequip the item from every preset",
-      "summary": "Check all saved loadouts before retrying fusion, then preserve the exact error if the problem remains.",
-      "body": "## First troubleshooting step\n1. Find the gear or rune in every saved preset.\n2. Unequip it from all presets, not just the active one.\n3. Retry the intended fusion after checking the materials.\n\n## If it still fails\nRecord the exact error, item tier and recipe state. Do not consume different materials merely to experiment with an unresolved problem.\n\n## Historical context\nThe July 2025 tip referred to three presets available then; check every preset your current client offers. A later unresolved help request shows this is not a guaranteed fix. Detailed linked images were not reviewed.",
-      "category": "bugs",
-      "status": "outdated",
-      "gameVersion": "Not specified in source",
-      "updatedOn": "2025-07-02",
-      "reviewedOn": "2026-11-03",
-      "published": true,
-      "tags": [
-        "fusion",
-        "presets",
-        "runes",
-        "gear",
-        "troubleshooting"
-      ],
-      "sources": [
-        {
-          "label": "Fusion troubleshooting — visible July 2, 2025 edit",
-          "url": "https://discord.com/channels/1268830572743102505/1360494961765781726/1360494961765781726"
-        },
-        {
-          "label": "Unresolved help request in the same thread",
-          "url": "https://discord.com/channels/1268830572743102505/1360494961765781726/1389887006628118609"
-        }
-      ]
-    },
-    {
       "id": "ticket-stacking-is-not-additive-daily-refill",
       "title": "Saving tickets: distinguish stacking from daily top-ups",
       "summary": "A balance that carries over may stop receiving free refills. Count attempts lost while saving, including ad opportunities.",
       "body": "## Understand the difference\nA retained balance is not necessarily an additive daily grant. Historical 2025 examples top Sky Tower up to three and Arena up to five when below those thresholds, rather than adding that many tickets above them.\n\n## Before stockpiling\n- Check the current mode's reset description.\n- Compare bonus rewards with free attempts forgone while saving.\n- Include daily ad opportunities.\n- Check privilege-card effects separately.\n\n## Mode-specific limits\nQuick Hunt stacking was reported, with warnings about lost ad attempts. Golden Cave was explicitly uncertain. April-August 2025 counts should not be applied to all modes or assumed current without checking.",
-      "category": "tips",
+      "category": "resources",
       "status": "outdated",
       "gameVersion": "Not specified in source",
       "updatedOn": "2025-08-06",
@@ -1724,7 +1208,7 @@
       "title": "Artifact shards: count remaining stages, not the whole chart",
       "summary": "The old mythic chart includes a zero-star stage. Adjust for existing progress before estimating remaining shards.",
       "body": "## Historical mythic sequence\nThe June 8, 2025 chart lists:\n- Stages labeled zero through eight: 10 shards each.\n- Stages nine through fourteen: 20 shards each.\n- Stage fifteen: 30 shards.\n\nThe full sequence totals 240 shards. Because it includes a zero-star stage, that is not automatically the remaining cost for an artifact already owned.\n\n## Lower-rarity uncertainty\nFollow-ups suggest starting costs of 20 legendary, 40 epic and 100 rare shards, with an apparent doubling pattern. They leave the later cap and continued doubling unknown.\n\nUse the current upgrade screen for the next step. Do not extend the tentative pattern into a maximum-cost calculator.",
-      "category": "equipment",
+      "category": "resources",
       "status": "outdated",
       "gameVersion": "Not specified in source",
       "updatedOn": "2025-06-08",
@@ -1756,7 +1240,7 @@
       "title": "Changing sets: plan piece targets and recalculate the timeline",
       "summary": "Stage a transition around specific items, keys and swapping orbs instead of treating old example schedules as deadlines.",
       "body": "## Build a transition plan\n1. List exact pieces needed for the intended mixed or full set.\n2. Count useful pieces already owned.\n3. Estimate keys and swapping orbs from events and shops you actually use.\n4. Recalculate as drops and exchanges change.\n\n## Historical model\nAugust 2025 examples include Oracle-to-Dragoon weapon/helmet targets and partial moves in the opposite direction. They assume roughly 200 chest openings and four S-grade pieces monthly, plus regular swapping-orb purchases.\n\n## Do not treat estimates as promises\nThe guide warns some success probabilities may be inflated and insufficiently tested. Its 30-, 60-, 90- and 120-day routes are examples, not guaranteed dates or current best-set rankings.",
-      "category": "equipment",
+      "category": "resources",
       "status": "outdated",
       "gameVersion": "Not specified in source",
       "updatedOn": "2025-08-14",
@@ -1793,7 +1277,7 @@
       "title": "Third etched slot: budget for variance, not pull 184",
       "summary": "A historical simulation suggests the scale of the grind, but its average and observed range are not guarantees.",
       "body": "## Reported simulation\nA July 31, 2025 model simulates 100,000 accounts starting from scratch. Written results report:\n- Mean: 183.86 epic blessing pulls.\n- Standard deviation: 11.57 pulls.\n- Observed sample range: 130-233 pulls.\n\n## Apply the estimate carefully\nAn average near 184 does not promise an unlock on pull 184. The finite sample minimum and maximum are not absolute bounds. Existing rune inventory also makes an established account different from the model.\n\n## Missing assumptions\nCurrent drop rates and fusion assumptions cannot be verified from the text. The histogram was not inspected. Use this as a dated scale estimate, not a precise gem bill.",
-      "category": "equipment",
+      "category": "resources",
       "status": "outdated",
       "gameVersion": "Not specified in source",
       "updatedOn": "2025-07-31",
@@ -1884,7 +1368,7 @@
       "title": "Shop priorities: buy toward the next progression milestone",
       "summary": "Early hero and etched-slot goals require different purchases from a mature account.",
       "body": "## Early purchase sequence\nNovember 2026 guidance starts with a chosen rare hero toward six stars through the guild shop, then blessing runes for additional etched slots.\n\n## Other priorities to compare\n- Arena: blessing runes and discounted swapping orbs.\n- GvG: blessing runes, Otta shards and swapping orbs.\n- Peak Arena: Loki's first star, then Enchantium.\n\n## After the third etched slot\nReassess blessing-rune purchases. Epic hero shards, another rare hero or Sacred Hall progression may become more useful.\n\nThis is conditional, not an instruction to buy everything simultaneously. An account-specific Godforge core purchase does not make cores mandatory for every beginner. Match spending to the next achievable milestone.",
-      "category": "equipment",
+      "category": "resources",
       "status": "community",
       "gameVersion": "Not specified in source",
       "updatedOn": "2026-11-03",
@@ -1951,7 +1435,7 @@
       "title": "Second-star Godforge: inspect ability and opportunity cost",
       "summary": "Separate what the upgrade unlocks from whether cores outperform your next artifact or hero milestone.",
       "body": "## Upgrade checklist\n1. Read the exact item's second-star ability.\n2. Check which mode and damage source it affects.\n3. Compare the core cost with the next artifact or hero milestone.\n4. Test a comparable setup before extrapolating from another item.\n\n## October 2026 reports\nDiscussion identifies a second-star Godforge Descent ability and perceived gains after bow/ring upgrades. An approximate two-second effect interval and hearts appearing at the enemy are also reported.\n\n## Unresolved value\nThose observations lack complete controlled setups. They do not establish a universal cooldown or whether cores outperform Demon artifacts or legendary hero progression. Screenshot-only ability details were not checked.",
-      "category": "equipment",
+      "category": "resources",
       "status": "community",
       "gameVersion": "Not specified in source",
       "updatedOn": "2026-10-31",
@@ -1987,7 +1471,7 @@
       "title": "Event shops: compare bundle size and currency before price",
       "summary": "Calculate cost per item within the same currency, then check stock limits and the current listing.",
       "body": "## Comparison checklist\n1. Identify the exact reward and bundle quantity.\n2. Read the currency attached to the price.\n3. Divide price by quantity to compare equivalent offers.\n4. Check stock limits and event dates.\n\n## Historical example\nAn August 2026 fishing table lists five Chromatic Chest Keys for 8,000 silver tickets: 1,600 silver tickets each. Its premium table lists five keys for four golden tickets.\n\nThose currencies cannot be compared directly without a justified conversion or opportunity-cost model.\n\n## Freshness limit\nA later thank-you message does not update prices. These are archived entries, not verified live offers; images and current in-game prices were not checked.",
-      "category": "tips",
+      "category": "resources",
       "status": "outdated",
       "gameVersion": "Not specified in source",
       "updatedOn": "2026-08-26",
@@ -2012,43 +1496,6 @@
         {
           "label": "Reference thread: separate item, amount and price fields",
           "url": "https://discord.com/channels/1268830572743102505/1516738436600430653/1516738436600430653"
-        }
-      ]
-    },
-    {
-      "id": "damage-formula-research-use-as-dated-reference",
-      "title": "Damage research: check maintenance before using coefficients",
-      "summary": "Use old spreadsheets to form testable questions, then verify version-sensitive interactions in the current game.",
-      "body": "## Before using a formula\n- Check the spreadsheet's latest update and scope.\n- Identify systems the model does not cover.\n- Look for later corrections to the specific interaction.\n- Reproduce a controlled case before using coefficients to choose upgrades.\n\n## Why this reference needs care\nThe project began as work in progress. An October 3, 2025 reply says broad updates were no longer planned. Later replies say boss-damage buffs now affect elemental damage and warn that old Stand Strong/sprite tests may have changed.\n\n## Scope\nThe spreadsheet's current cells and linked images were not inspected. No current equation is reproduced here. Treat the reference as a research starting point rather than a current specification.",
-      "category": "guides",
-      "status": "outdated",
-      "gameVersion": "Not specified in source",
-      "updatedOn": "2025-10-24",
-      "reviewedOn": "2026-11-03",
-      "published": true,
-      "tags": [
-        "damage",
-        "testing",
-        "spreadsheets",
-        "mechanics",
-        "research"
-      ],
-      "sources": [
-        {
-          "label": "Damage-testing project and linked spreadsheet",
-          "url": "https://discord.com/channels/1268830572743102505/1340897089969852550/1340897089969852550"
-        },
-        {
-          "label": "October 2025 maintenance limitation",
-          "url": "https://discord.com/channels/1268830572743102505/1340897089969852550/1423656632012898367"
-        },
-        {
-          "label": "Later report changing boss-damage applicability",
-          "url": "https://discord.com/channels/1268830572743102505/1340897089969852550/1430809122957168660"
-        },
-        {
-          "label": "Warning: old tests may have been patched",
-          "url": "https://discord.com/channels/1268830572743102505/1340897089969852550/1431346290976882778"
         }
       ]
     },
@@ -2168,35 +1615,6 @@
       ]
     },
     {
-      "id": "reference-visibility-and-skill-replacement",
-      "title": "Clearer combat: display options and skill replacement checks",
-      "summary": "Try visibility settings that help your play, and check whether a new skill replaces an existing effect.",
-      "body": "## Interface options to try\nThe historical tips page identifies Effect Reduction, Skip Skill Choice Animation and Hide Joystick. Check current labels and retain the controls that suit your playstyle.\n\n## Before choosing a skill\nThe page warns that Energy Beam and Energy Ring replace one another. If one is active, verify the current description instead of assuming both effects will coexist.\n\n## Freshness\nThe reference was edited March 29, 2025. Interface labels and the replacement interaction have not been reproduced in the current game; later changes may affect them.",
-      "category": "tips",
-      "status": "outdated",
-      "gameVersion": "Not specified; wiki revision 2025-03-29",
-      "updatedOn": "2025-03-29",
-      "reviewedOn": "2026-11-03",
-      "published": true,
-      "tags": [
-        "reference",
-        "settings",
-        "visibility",
-        "Energy Beam",
-        "Energy Ring"
-      ],
-      "sources": [
-        {
-          "label": "Reference index: Tips and Tricks root post",
-          "url": "https://discord.com/channels/1268830572743102505/1325034812180009011/1325034812180009011"
-        },
-        {
-          "label": "Reference: Tips and Tricks",
-          "url": "https://archero-2.game-vault.net/wiki/Tips_and_Tricks"
-        }
-      ]
-    },
-    {
       "id": "treasure-island-x10-tile-guide",
       "title": "Treasure Island: when to roll ×1 or ×10",
       "summary": "Use the numbered departure map, check your held dice and estimate your target with Dice Companion. A practical walkthrough of the September 2025 model, with its limits clearly marked.",
@@ -2249,7 +1667,7 @@
       "title": "Fishing: pools, line breaks and ticket routes",
       "summary": "Track what remains in each lake, choose a silver- or golden-ticket route, and save selective line breaks for the catches that matter.",
       "body": "## Start with your reward\nChoose the item you want from the exchange, note whether it costs silver or golden tickets, and set a gem ceiling. Count free lures still available from current tasks before buying more. Purchase extra lures in small batches and stop when your actual ticket balance reaches the target.\n\n## Understand the pool\nNormal Lakehouse, Sunset Coast and Oceanic Abyss pools contain 40 fish: 30 rare, 9 epic and 1 legendary. Polar Glacier doubles that to 80: 60 rare, 18 epic and 2 legendary. Each lake keeps its own remaining fish. The pool refills after all fish in that pool have been caught.\n- Catching removes a fish from its pool.\n- Breaking a line returns that fish to the pool. It does not create another legendary or advance the refill.\n- A new lake has its own pool; revisiting an earlier lake resumes its remaining fish.\n- Count fish landed, not button presses. Four complete x10 catches account for 40 fish. Catch order is still random.\n\n## When to use x10 or break a line\nUse x10 when you intend to finish a complete pool. Switch to smaller casts when approaching a lake transition or your final partial pool. Track whether a legendary or useful epic still remains before spending breaks.\nIf you will catch the whole pool anyway, a break only postpones catching that fish. Selective breaks help when you intend to leave some fish behind. Once your target legendary is caught, catch the fish needed to progress instead of repeatedly rejecting the same depleted pool.\nThe simpler selective method uses x1. A March 2026 route uses x2 and rejects rare-only batches while keeping epics and legendaries; this requires reading the whole batch correctly. Check your remaining exchange allowance before every selective session: the collected guides describe 120 refundable broken lines, not unlimited free retries.\n\n## Route A: prioritize silver tickets\nThis route tries to reach Polar with more lures available for its higher-value catches.\n1. Lakehouse: clear one full pool. Target the second legendary and epics in the next pool, then catch what is needed to unlock Sunset.\n2. Sunset: clear two full pools. Target the third legendary and epics, then progress to Oceanic.\n3. Oceanic: clear two full pools. Target the third legendary and epics, then progress to Polar.\n4. Polar: clear complete 80-fish pools while pursuing your chosen ticket goal. Reserve remaining breaks for valuable fish in your final partial pool.\n\n## Route B: prioritize golden tickets\nThis route seeks additional legendaries in earlier lakes, accepting fewer silver tickets in exchange for a lower historical gem budget.\n1. Lakehouse: clear two full pools. Revisit after unlocking Sunset if needed, then use x1 selective catches to seek a third legendary.\n2. Sunset: clear two full pools, seek the third legendary, then progress.\n3. Oceanic: clear three full pools. Revisit after unlocking Polar if needed and use x1 to seek a fourth legendary.\n4. Polar: clear two full pools, then use your remaining breaks to seek the two legendaries in the next pool.\nThe normal-lake target is 3 + 3 + 4 + 6 legendary catches. Lures or refundable breaks can run out before you finish; this is a route, not a guaranteed 16-legendary run.\n\n## Read tension with the correct rod\nLook at initial tension when the fish bites. Compare it only with examples for the same rod and lake: stronger rods lower tension and later lakes increase it. Resistance colors describe behavior and should not be used alone as a universal rarity code. Practice with x1 before rejecting a batch.\nThe linked early-lake comparison uses the final rod in lakes 1-3. The separate Polar comparison uses an epic rod. Those screenshots are different references, not interchangeable thresholds.\n\n## Use the Fishing Companion\n1. Open Fishing Companion from References and select your current lake and matching fish artwork.\n2. Set the actual cast multiplier before logging. Tap each fish landed; the app groups the results into that cast.\n3. Use Undo for mistakes. Track broken lines separately instead of removing released fish from the pool.\n4. Choose the gold- or silver-focused plan by its description. Option numbers differ between older guides and tools.\n5. Check actual in-game weight and ticket balance before changing lakes or spending. The tool estimates weight; its break advice is a model, not proof of an optimal cast. Progress saves in that browser only.\n\n## Dragon Gate and Fullmoon\nThese are special event pools, separate from the normal lake. Select the correct special pool in the tracker and keep its counts separate. Check the event's own visit limit and shard rewards. Reports disagree about selectively breaking rare fish there; catching its fish is the conservative approach until your rotation's rules are clear. Do not apply normal 40/80-fish refill logic automatically to a limited special-pool visit.\n\n## Version notes\nThe routes come from a March 2026 guide; October 2026 replies reaffirm the normal pool sizes and early-lake filtering approach. The linked tracker was updated in October 2026. No current game build was tested here. Check live task requirements, rod behavior, exchange limits and special-pool rules before committing resources. Archived gem estimates are intentionally omitted because costs depend on actual catches and event changes.",
-      "category": "guides",
+      "category": "tips",
       "status": "community",
       "gameVersion": "Unspecified; normal-pool reports through October 2026",
       "updatedOn": "2026-10-18",

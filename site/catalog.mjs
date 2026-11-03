@@ -4,7 +4,7 @@ export const CATEGORIES = Object.freeze([
   { id: 'equipment', label: 'Gear & upgrades', description: 'Equipment decisions and resource planning.', symbol: '03' },
   { id: 'expedition', label: 'Guild & expedition', description: 'Shared strategy, roles and expedition notes.', symbol: '04' },
   { id: 'tips', label: 'Tips & discoveries', description: 'Small discoveries from the community.', symbol: '05' },
-  { id: 'bugs', label: 'Bugs & workarounds', description: 'Reports, reproduction steps and known fixes.', symbol: '06' }
+  { id: 'resources', label: 'Gems & resources', description: 'Spending priorities, farming and upgrade budgets.', symbol: '06' }
 ]);
 
 export const STATUSES = Object.freeze({

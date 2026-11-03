@@ -1,0 +1,1760 @@
+{
+  "schemaVersion": 1,
+  "articles": [
+    {
+      "id": "gems-spending-plan",
+      "title": "Gemas: un plan de gasto que protege tu próxima mejora",
+      "summary": "Elige un hito de progreso, usa la moneda adecuada de cada tienda y deja de comprar cuando consigas la recompensa. Un presupuesto práctico para equipo, héroes y eventos.",
+      "body": "## Decide qué deben conseguir tus próximas gemas\nAnota un objetivo alcanzable: un nivel de estrellas de héroe, otra casilla grabada, una pieza de equipo que te falta o una recompensa concreta de evento. Compara las compras con ese objetivo antes de pagar. Un objeto rebajado que no contribuya a él también puede retrasar tu mejora.\n\n## Usa primero el recurso adecuado\n1. Orientación del equipo: usa llaves Mythstone para tu conjunto inicial. La guía de principiantes de noviembre de 2026 recomienda expresamente reservar gemas para otras oportunidades de progreso.\n2. Progreso de héroes: compara la ruta de la tienda de hermandad hacia las seis estrellas de tu héroe raro elegido antes de repartir recursos entre varios héroes.\n3. Casillas grabadas: compara las compras de runas de bendición en las tiendas pertinentes. Después de la tercera casilla, reevalúa en lugar de comprar runas automáticamente.\n4. Recompensa de evento: cuenta los recursos obtenidos y las tareas gratuitas pendientes antes de comprar más dados, cebos u otros objetos del evento.\n\n## Decide: comprar, esperar o descartar\n- Comprar: el objeto exacto completa un hito útil, conoces el coste total y cabe en tu límite.\n- Esperar: las tareas gratuitas todavía pueden reducir lo que te falta, el regateo de hermandad no ha terminado o aún no se han anunciado las tareas de eventos coincidentes.\n- Descartar: la compra solo aumenta el poder mostrado, pertenece a una configuración que todavía no puedes montar o exige perseguir un resultado aleatorio desconocido por encima de tu límite.\n\n## Fija cuándo parar antes de un evento\nElige un máximo de gemas que puedas gastar sin retrasar tu mejora prioritaria. Resta los recursos disponibles y los recursos gratuitos previstos del objetivo del evento; no copies el gasto total de otra persona. Compra en pequeños lotes, actualiza tu saldo real de recompensas y detente en cuanto llegues al objetivo. Las tareas de pesca cambiaron en la conversación histórica, por lo que los presupuestos antiguos no son precios actuales.\n\n## Compara correctamente las ofertas\nDivide el precio por la cantidad del lote solo para objetos equivalentes pagados con la misma moneda. Separa las ofertas de tickets de plata y de oro. En el mercader de hermandad, participa primero en el regateo y después valora el precio final. El ejemplo comunicado de 2.000 a 500 gemas supuso una reducción del 75%; no garantiza ese descuento para todos los objetos.\n\n## Protege las oportunidades gratuitas\nAntes de guardar tickets para un evento, comprueba si el modo añade tickets cada día o solo repone un saldo bajo. Incluye los intentos por anuncios que podrías perder mientras acumulas. Conservar el saldo no significa automáticamente obtener más intentos gratuitos.\n\n## Base de este plan\nLas prioridades de tiendas y de inicio reflejan los consejos de noviembre de 2026. Los ejemplos de descuentos, pesca y reposición son históricos; comprueba las ofertas y reglas de reinicio vigentes. Estas referencias no establecen ingresos diarios fijos de gemas ni un rendimiento garantizado en eventos.",
+      "category": "resources",
+      "status": "community",
+      "gameVersion": "Síntesis de guías revisadas; comprueba las reglas actuales",
+      "updatedOn": "2026-11-04",
+      "reviewedOn": "2026-11-04",
+      "published": true,
+      "tags": [
+        "gemas",
+        "presupuesto",
+        "tiendas",
+        "principiante",
+        "planificación de recursos"
+      ],
+      "sources": [
+        {
+          "label": "Consejos iniciales de héroes: editados el 3 de noviembre de 2026",
+          "url": "https://discord.com/channels/1268830572743102505/1544939755106607144/1544939755106607144"
+        },
+        {
+          "label": "Preguntas frecuentes del 3 de noviembre: grabadas y encantamientos",
+          "url": "https://discord.com/channels/1268830572743102505/1544939755106607144/1567145405190373487"
+        },
+        {
+          "label": "Ejemplo de descuento comunicado",
+          "url": "https://discord.com/channels/1353899985103749221/1487226276103065713/1487228159362469979"
+        },
+        {
+          "label": "Presupuesto aproximado de cebos y advertencias",
+          "url": "https://discord.com/channels/1361208622566211694/1361209094039666728/1362534563359883334"
+        },
+        {
+          "label": "Cambio de requisitos de las tareas",
+          "url": "https://discord.com/channels/1361208622566211694/1361209094039666728/1365720149306380388"
+        },
+        {
+          "label": "Canje normal de pesca: edición visible del 17 de agosto",
+          "url": "https://discord.com/channels/1268830572743102505/1516738436600430653/1517049419336384573"
+        },
+        {
+          "label": "Ahorrar puede hacer perder oportunidades diarias de anuncios",
+          "url": "https://discord.com/channels/1268830572743102505/1360658919512604693/1402531016056242297"
+        }
+      ]
+    },
+    {
+      "id": "upgrade-priority-roadmap",
+      "title": "Qué mejorar primero: una ruta de progreso",
+      "summary": "Sigue hitos alcanzables para tu modo principal: equipo inicial, estrellas de héroe, casillas grabadas, encantamientos útiles y colecciones de apoyo. Reevalúa tras cada desbloqueo.",
+      "body": "## 1. Elige un modo principal y una orientación de equipo\nEscoge primero la actividad en la que quieres mejorar. Los consejos iniciales de noviembre de 2026 favorecen Dragoon como opción general y Oracle para PvE. Usa llaves Mythstone para avanzar en esa dirección en lugar de cambiar de plan con cada objeto obtenido. Son recomendaciones iniciales, no requisitos permanentes de conjunto completo.\n\n## 2. Avanza hacia un hito de héroe alcanzable\n- PvP inicial: Helix es la opción rara sugerida.\n- Daño PvE: Hou Yi es la opción rara sugerida.\n- Movimiento: se propone Nyanja cuando la velocidad favorece tu objetivo.\nUsa la tienda de hermandad para acercarte a las seis estrellas del héroe raro elegido. Dos héroes raros de seis estrellas para modos distintos pueden ser un plan posterior; evita valorar un héroe incompleto por bonificaciones que todavía no tiene.\n\n## 3. Avanza hacia las casillas grabadas\nUna vez atendido el primer hito de héroe, compara las runas de bendición de las tiendas de hermandad, Arena y GvG. El objetivo son las casillas grabadas adicionales, no un número arbitrario de tiradas. Cuenta tus runas actuales y el progreso real de fusión.\nDespués de la tercera casilla, detén las compras automáticas de runas de bendición. Compara fragmentos de héroe épico, un segundo héroe raro o progreso en Sacred Hall según tu próxima necesidad.\n\n## 4. Compra daño que tu configuración pueda aprovechar\n- Arma principal contra un objetivo: compara encantamientos de crítico del arma principal.\n- Objetivos múltiples: el rebote de Sharp Arrow cumple otra función.\n- Hitos iniciales de PvE: Arrow of Echoes legendaria y Echo Scythe rara son objetivos separados.\n- Ruta de apoyo: Sprite’s Awe legendaria con dos runas de espíritus a la derecha es una opción; no exige que todas las casillas sean de espíritus.\nElige un paquete coherente antes de gastar en otro tipo de daño. Un porcentaje elevado en el efecto equivocado no resuelve lo que frena tu progreso.\n\n## 5. Compara los hitos de apoyo\nArtefactos: compara el siguiente hito del conjunto Heavenly Music, manteniendo equilibrados Flute y Conch, con la supervivencia que necesita tu modo. Los consejos de octubre favorecen Demon King Eye frente a Blood para reducir daño; no establecen un objetivo universal de estrellas.\nMystlings: compara el próximo hito de colección y los corazones obtenidos con otro nivel de una sola mascota. Las bonificaciones de colección y los efectos activos pueden cumplir una función distinta del daño bruto de la mascota.\n\n## 6. Cambia de configuración cuando tengas las piezas\nEnumera los objetos, rarezas, encantamientos y apoyos exactos del siguiente conjunto. Cuenta lo que tienes antes de gastar llaves u orbes de intercambio. Conserva tu configuración funcional mientras preparas las piezas que faltan; los antiguos plazos de transición de 30–120 días son ejemplos, no fechas límite.\n\n## Cuándo cambiar de prioridad\nSi mueres antes de infligir daño, compara supervivencia antes de buscar más daño teórico. Si sobrevives pero no alcanzas el objetivo, revisa el origen real del daño y los encantamientos pertinentes. Si un hito exige un aspecto o nivel de estrellas inalcanzable, elige un beneficio que puedas desbloquear antes. Revisa esta secuencia tras desbloqueos importantes; es un plan condicional, no una orden de comprar todo a la vez.",
+      "category": "equipment",
+      "status": "community",
+      "gameVersion": "Síntesis de guías revisadas; comprueba las reglas actuales",
+      "updatedOn": "2026-11-04",
+      "reviewedOn": "2026-11-04",
+      "published": true,
+      "tags": [
+        "mejoras",
+        "progreso",
+        "equipo",
+        "héroes",
+        "casillas grabadas",
+        "artefactos"
+      ],
+      "sources": [
+        {
+          "label": "Consejos iniciales de héroes: editados el 3 de noviembre de 2026",
+          "url": "https://discord.com/channels/1268830572743102505/1544939755106607144/1544939755106607144"
+        },
+        {
+          "label": "Dos héroes raros pueden cubrir modos distintos",
+          "url": "https://discord.com/channels/1268830572743102505/1544939755106607144/1546995993697067108"
+        },
+        {
+          "label": "Recomendaciones PvE de Dracoola y Seraph con sus condiciones",
+          "url": "https://discord.com/channels/1268830572743102505/1544939755106607144/1564953325890175048"
+        },
+        {
+          "label": "Preguntas frecuentes del 3 de noviembre: grabadas y encantamientos",
+          "url": "https://discord.com/channels/1268830572743102505/1544939755106607144/1567145405190373487"
+        },
+        {
+          "label": "Preguntas frecuentes del 3 de noviembre: grabadas y encantamientos",
+          "url": "https://discord.com/channels/1268830572743102505/1544939755106607144/1567145405190373487"
+        },
+        {
+          "label": "Mejoras equilibradas para la bonificación de conjunto, 23 oct 2026",
+          "url": "https://discord.com/channels/1408190992510615633/1465884305103261767/1563003189689843743"
+        },
+        {
+          "label": "Prioridad corregida de Eye frente a Blood",
+          "url": "https://discord.com/channels/1408190992510615633/1465884305103261767/1563003481483247752"
+        },
+        {
+          "label": "Corazones y subida de colección",
+          "url": "https://discord.com/channels/1353899985103749221/1487226276103065713/1508925687988228178"
+        },
+        {
+          "label": "Beneficios descritos para la cuenta frente a una sola mascota",
+          "url": "https://discord.com/channels/1353899985103749221/1487226276103065713/1508926241330167970"
+        },
+        {
+          "label": "Supuestos de progresión y fuentes de orbes",
+          "url": "https://discord.com/channels/1268830572743102505/1405327770254577776/1405327770254577776"
+        }
+      ]
+    },
+    {
+      "id": "build-planner-by-mode",
+      "title": "Planificador de builds: jefes, oleadas y PvP",
+      "summary": "Elige una fuente de daño, adapta los encantamientos al modo y guarda una configuración completa. Incluye una ruta de conjunto mixto y comprobaciones antes de cambiar de apoyo.",
+      "body": "## Empieza por la función, no por el poder\nCrea configuraciones guardadas distintas para actividades con objetivos diferentes. Un poder mostrado más alto puede incluir efectos que no hacen nada en el modo al que vas a entrar.\n- Jefes: daño a un objetivo y suficiente supervivencia para terminar. Compara cambios contra el mismo jefe durante un tiempo similar.\n- Oleadas: cobertura, daño a varios objetivos y control de masas. El rebote y los efectos elementales o de círculos cumplen una función distinta del daño exclusivo a jefes.\n- PvP/GvG: revisa los efectos contra jugadores y la supervivencia. Retira los encantamientos exclusivos de jefes/enemigos menores donde no se aplican, aunque baje el poder.\n\n## Identifica tu fuente principal de daño\nUsa los resultados para decidir si el daño procede sobre todo del arma, las explosiones, los círculos u otro efecto. Adapta los encantamientos a ese tipo. El crítico de arma principal de Sharp Arrow no mejora automáticamente todos los componentes de daño de una combinación Dragoon/Oracle. Cambia un solo encantamiento pertinente cada vez que compares.\n\n## Orientación de equipo y opción de conjunto mixto\nPara una cuenta inicial, los consejos de noviembre de 2026 proponen Dragoon como orientación general u Oracle para PvE. Avanza hacia piezas útiles en lugar de imponer un conjunto completo permanente.\nUn ejemplo mixto de octubre usa pechera Oracle, amuleto Griffin y Dragoon en las demás casillas. Busca combinar daño de explosiones con capacidad de mantenerse con vida. Trátalo como una opción que probar con tu inventario, no como una obligación de desmontar una configuración existente más fuerte.\n\n## Elige un apoyo que puedas montar\n- Ruta de espíritus: Sprite’s Awe legendaria con dos runas de espíritus a la derecha apoya otra fuente principal de daño. No necesitas llenar todas las casillas de espíritus.\n- Ruta de plantas: comprueba la rareza de las runas, los encantamientos, el apoyo grabado y cualquier configuración con Demeter que se dé por supuesta antes de cambiar.\n- Regla de transición: conserva el apoyo que funciona hasta reunir las piezas necesarias del sustituto. Compara la supervivencia además del daño.\n\n## Encantamientos de plantas según su función\nLos consejos de septiembre de 2026 distinguen el exclusivo de Vine Bind para PvE del daño de plantas para PvP. El exclusivo de Rootguard se propone para GvG y daño de plantas para los demás casos. Equinox Bloom y Plant Summon usan encantamientos exclusivos en las configuraciones comentadas, con alternativas de daño en algunos híbridos. Son elecciones según la función; no apliques una única lista a todos los modos.\n\n## Guarda una configuración completa\nAnota equipo, página de runas, runas grabadas, encantamientos, héroe, ambas resonancias, Mystling y comportamiento Close/Mid/Far. Vuelve a abrir la configuración guardada para comprobar que coincide con lo previsto. Una captura de equipo por sí sola deja partes importantes sin especificar.\n\n## ¿Mantener o cambiar?\nConserva la nueva configuración si mejora el objetivo elegido sin una pérdida inaceptable de supervivencia. Si el daño solo mejora en un combate más corto o fácil, repite en condiciones comparables. No sumes directamente varias reducciones de daño recibido: la conversación del conjunto mixto no estableció cómo se acumulan. Los ejemplos son recomendaciones de septiembre a noviembre de 2026, no una configuración completa probada para todas las rarezas.",
+      "category": "builds",
+      "status": "community",
+      "gameVersion": "Síntesis de guías revisadas; comprueba las reglas actuales",
+      "updatedOn": "2026-11-04",
+      "reviewedOn": "2026-11-04",
+      "published": true,
+      "tags": [
+        "builds",
+        "configuraciones",
+        "PvE",
+        "PvP",
+        "jefes",
+        "Dragoon",
+        "encantamientos"
+      ],
+      "sources": [
+        {
+          "label": "Ejemplo de cambios de runas específicos por modo",
+          "url": "https://discord.com/channels/1353899985103749221/1492251130233753722/1536860422123167855"
+        },
+        {
+          "label": "Comprobar encantamientos exclusivos de PvE",
+          "url": "https://discord.com/channels/1357499983703572490/1400142797297680385/1501767340348543087"
+        },
+        {
+          "label": "La respuesta limita el encantamiento al daño del arma principal: 24 de octubre de 2026",
+          "url": "https://discord.com/channels/1268830572743102505/1392597464581804152/1563655659659206780"
+        },
+        {
+          "label": "Consejos iniciales de héroes: editados el 3 de noviembre de 2026",
+          "url": "https://discord.com/channels/1268830572743102505/1544939755106607144/1544939755106607144"
+        },
+        {
+          "label": "Equipo mixto propuesto, 24 oct 2026",
+          "url": "https://discord.com/channels/1408190992510615633/1465867412594233375/1563404055995351241"
+        },
+        {
+          "label": "Alternativas de plantas y sprites, 24 oct 2026",
+          "url": "https://discord.com/channels/1408190992510615633/1465867412594233375/1563406995804000437"
+        },
+        {
+          "label": "Recomendaciones de encantamientos de plantas: edición visible del 15 de septiembre",
+          "url": "https://discord.com/channels/1268830572743102505/1485068964210938046/1526927882365046875"
+        },
+        {
+          "label": "Condiciones de rareza, encantamientos y Demeter",
+          "url": "https://discord.com/channels/1268830572743102505/1485068964210938046/1527395060696617051"
+        },
+        {
+          "label": "Mantener el apoyo existente hasta cumplir los requisitos del cambio",
+          "url": "https://discord.com/channels/1268830572743102505/1485068964210938046/1527495291450953729"
+        },
+        {
+          "label": "Sprite's Awe legendaria y dos runas de sprites a la derecha",
+          "url": "https://discord.com/channels/1268830572743102505/1544939755106607144/1555300857384534027"
+        },
+        {
+          "label": "Formato de envío de configuración",
+          "url": "https://discord.com/channels/1357499983703572490/1400142797297680385/1465796071803584648"
+        }
+      ]
+    },
+    {
+      "id": "daily-weekly-progression-checklist",
+      "title": "Lista de progreso diario y semanal",
+      "summary": "Protege los intentos gratuitos, usa la energía con un objetivo y organiza la participación de hermandad. Una rutina repetible sin inventar cantidades fijas de recompensas.",
+      "body": "## Al comenzar: comprueba qué caduca\n1. Abre las tareas actuales y las pantallas de eventos activos. Anota la hora real de reinicio o cierre.\n2. Comprueba los saldos de tickets y las reglas de reposición antes de guardar intentos. Un modo puede reponer solo por debajo de su límite; conservar tickets puede costarte futuros intentos gratuitos.\n3. Cuenta por separado las oportunidades por anuncios si las utilizas. Revisa las condiciones de las tarjetas de privilegios en lugar de suponer que todas las cuentas tienen la misma cantidad disponible.\n\n## Gasta energía según el objetivo de hoy\n- Necesitas runas y tienes tiempo: compara tus resultados de farmeo en modo difícil.\n- Necesitas equipo u oro y tienes tiempo: compara un capítulo que puedas superar con fiabilidad.\n- Tienes poco tiempo: usa Quick Hunt cuando esté disponible en lugar de planear partidas manuales que no terminarás.\nLa comparación de octubre de 2025 favorecía el modo difícil 5 para runas, el capítulo 47 para equipo/oro y Quick Hunt por comodidad. Úsalos como rutas que comparar, no como tasas actuales de botín garantizadas. Sus talentos de obtención al máximo y sus supuestos de energía pueden diferir de tu cuenta.\n\n## Completa las acciones de hermandad que necesitan coordinación\nParticipa en el regateo del mercader antes de valorar compras. Comprueba los plazos de la incursión y usa el intento de participación exigido por las reglas actuales de recompensas. Mantén completa la configuración de expedición: equipo, runas, héroe, resonancias, Mystling y distancia.\nSi diriges la incursión, anuncia la hora de cierre y permite participar a los miembros ausentes después de derrotar pronto al jefe cuando el evento actual lo permita. No pulses un botón de resultados sin comprobar si termina la participación.\n\n## Antes de cerrar la sesión\nComprueba si ya puedes alcanzar la próxima mejora prevista. Recoge los recursos obtenidos, actualiza el saldo utilizado por cualquier calculadora de eventos y deja de comprar al conseguir tu objetivo. Guarda las configuraciones modificadas; no des por hecho que una configuración de prueba es la que quieres llevar al combate.\n\n## Una vez por semana: revisa el plan\n1. Vuelve a contar las piezas, fragmentos de héroe y runas exactos que faltan para tu próximo hito.\n2. Revisa las prioridades de tiendas: héroe raro elegido y después casillas grabadas; reevalúa tras la tercera casilla.\n3. Revisa repeticiones de combates comparables. Identifica si el daño, el posicionamiento o las muertes tempranas frenan el progreso.\n4. Cambia una prioridad para la próxima semana en lugar de repartir recursos entre todas las ideas de builds.\n\n## Antes de que termine cada evento\nLee las reglas de conservación o conversión de cada moneda concreta. No supongas que solo se conservan los dados ni que se conservan todas las monedas. Gasta o guarda según la regla vigente, las existencias y tu objetivo. Esta rutina reúne consejos comunitarios revisados; las cantidades diarias, las tiendas y los horarios de eventos deben consultarse en la pantalla actual del juego.",
+      "category": "guides",
+      "status": "community",
+      "gameVersion": "Síntesis de guías revisadas; comprueba las reglas actuales",
+      "updatedOn": "2026-11-04",
+      "reviewedOn": "2026-11-04",
+      "published": true,
+      "tags": [
+        "rutina diaria",
+        "rutina semanal",
+        "progreso",
+        "energía",
+        "hermandad",
+        "lista de control"
+      ],
+      "sources": [
+        {
+          "label": "Límites de reposición archivados y dudas expresadas",
+          "url": "https://discord.com/channels/1268830572743102505/1360658919512604693/1360658919512604693"
+        },
+        {
+          "label": "Ahorrar puede hacer perder oportunidades diarias de anuncios",
+          "url": "https://discord.com/channels/1268830572743102505/1360658919512604693/1402531016056242297"
+        },
+        {
+          "label": "Resumen de resultados de farmeo",
+          "url": "https://discord.com/channels/1357499983703572490/1424321762065121294/1426192332948111371"
+        },
+        {
+          "label": "Recordatorio del regateo del mercader",
+          "url": "https://discord.com/channels/1353899985103749221/1487226276103065713/1487226881341395014"
+        },
+        {
+          "label": "Información de incursiones de hermandad: edición visible del 22 jun 2026",
+          "url": "https://discord.com/channels/1268830572743102505/1517736424265220136/1517736424265220136"
+        },
+        {
+          "label": "Formato de envío de configuración",
+          "url": "https://discord.com/channels/1357499983703572490/1400142797297680385/1465796071803584648"
+        },
+        {
+          "label": "Preguntas frecuentes del 3 de noviembre: grabadas y encantamientos",
+          "url": "https://discord.com/channels/1268830572743102505/1544939755106607144/1567145405190373487"
+        },
+        {
+          "label": "Excepción de Ancient Core, 26 ago 2025",
+          "url": "https://discord.com/channels/1408190992510615633/1408205629146927376/1409804323214594138"
+        },
+        {
+          "label": "Recordatorio para revisar las repeticiones",
+          "url": "https://discord.com/channels/1357499983703572490/1384910181355487345/1507243285847081103"
+        }
+      ]
+    },
+    {
+      "id": "event-spending-decision-guide",
+      "title": "Gasto en eventos: elige un objetivo y decide cuándo parar",
+      "summary": "Una guía de decisión para pesca, Treasure Island y tiendas de eventos. Separa las recompensas del coste en gemas, cuenta los recursos gratuitos y evita perseguir lo ya gastado.",
+      "body": "## Antes de la primera compra\nElige una recompensa exacta del intercambio actual. Anota su moneda, cantidad, límite de existencias y hora de cierre. Fija un máximo de gemas antes de que los resultados aleatorios influyan en la decisión. Cuenta los recursos actuales y las tareas gratuitas pendientes; espera información pertinente sobre eventos coincidentes cuando pueda cambiar la compra.\n\n## Adapta la ruta a la recompensa\n- La recompensa de pesca cuesta tickets de plata: compara la ruta centrada en plata, que busca llegar a Polar con más cebos para capturas de mayor valor.\n- La recompensa de pesca cuesta tickets de oro: compara la ruta centrada en oro, que busca legendarios adicionales en lagos anteriores. Sacrifica parte del progreso en tickets de plata a cambio de un presupuesto histórico de gemas menor; no garantiza un precio fijo.\n- Hito de Treasure Island: introduce casilla actual, puntos, dados disponibles y contador de la tarea de tiradas del juego en Dice Companion. Recalcula después de cambios importantes en lugar de tratar la primera estimación como una promesa.\n\n## Separa los puntos de las compras\n100.000 o 150.000 puntos de Treasure Island son objetivos de puntuación, no presupuestos de gemas. La comparación de octubre de 2026 incluía compras adicionales de tickets: ocho tickets obtenidos más dos compras a los 100.000 puntos, y un total indicado de 20 a los 150.000 contando esas compras. Revisa el recorrido y los precios actuales antes de usar esos totales. Una compra desbloqueada no es una recompensa que ya poseas.\n\n## Comprueba si comprar o parar\n1. Lee el requisito real de la siguiente recompensa.\n2. Resta tu saldo actual y los recursos gratuitos que todavía puedas obtener de forma realista.\n3. Compara el coste de la siguiente compra pequeña con el margen restante de tu máximo de gemas.\n4. Compra solo si el objetivo sigue mereciendo ese coste; actualiza el cálculo después del resultado.\n5. Detente cuando tengas la recompensa, alcances el máximo o el objetivo restante deje de justificar el coste.\nHaber gastado antes no hace más valiosa la siguiente compra. Las capturas y tiradas aleatorias pueden dejar un objetivo incompleto dentro de tu presupuesto.\n\n## Compara correctamente los intercambios\nPara recompensas equivalentes pagadas con la misma moneda, divide el precio por la cantidad del lote y revisa las existencias. Un ejemplo histórico de pesca indica cinco llaves por 8.000 tickets de plata, o 1.600 cada una; otra oferta premium usa cuatro tickets de oro por cinco llaves. No compares directamente esas cantidades de monedas sin un modelo de conversión respaldado. Lee las ofertas actuales.\n\n## Decisión al cerrar el evento\nComprueba la regla de conservación o conversión de la moneda exacta, incluidas futuras repeticiones. Un aviso de conservación de Ancient Cores es una excepción histórica a una afirmación anterior que solo incluía dados; ninguno establece las reglas actuales de todas las monedas. Guarda únicamente cuando el texto vigente lo permita. En caso contrario, valora los intercambios útiles restantes antes del cierre.\n\n## Usa las guías detalladas\nLa guía de pesca explica los grupos de peces, las roturas de sedal y ambas rutas. La guía de Treasure Island explica las casillas de salida, los límites de multiplicador y los datos de la calculadora. Sus modelos orientan decisiones; no sustituyen las reglas actuales del evento ni garantizan alcanzar un objetivo.",
+      "category": "tips",
+      "status": "community",
+      "gameVersion": "Síntesis de guías revisadas; comprueba las reglas actuales",
+      "updatedOn": "2026-11-04",
+      "reviewedOn": "2026-11-04",
+      "published": true,
+      "tags": [
+        "eventos",
+        "gemas",
+        "pesca",
+        "Treasure Island",
+        "recompensas",
+        "presupuesto"
+      ],
+      "sources": [
+        {
+          "label": "Fishing Companion: registro de capturas y planificador de rutas",
+          "url": "https://jgdevalpha.github.io/archero-fish-companion/"
+        },
+        {
+          "label": "Modelo de reservas normales y objetivos de rutas: marzo de 2026",
+          "url": "https://discord.com/channels/1268830572743102505/1481345072766124285/1481345072766124285"
+        },
+        {
+          "label": "Compras graduales de cebos y presupuestos aproximados",
+          "url": "https://discord.com/channels/1268830572743102505/1394706549074821271/1394706810774229033"
+        },
+        {
+          "label": "Dice Companion: calculadora, mapa y seguimiento de tiradas",
+          "url": "https://ksun4176.github.io/archero2-dice-companion/"
+        },
+        {
+          "label": "Estrategia e instrucciones de datos: código de septiembre de 2025",
+          "url": "https://github.com/ksun4176/archero2-dice-companion/blob/62798d88e03e5fb9eab88d8d929fb95ea548426c/app/_components/guide-button-content.tsx"
+        },
+        {
+          "label": "100.000 puntos y tickets de tienda, 23 oct 2026",
+          "url": "https://discord.com/channels/1408190992510615633/1465884305103261767/1563039916563234867"
+        },
+        {
+          "label": "Objetivos de puntuación y compras de tienda separadas: octubre de 2026",
+          "url": "https://discord.com/channels/1408190992510615633/1465884305103261767/1563040073685925950"
+        },
+        {
+          "label": "Canje normal de pesca: edición visible del 17 de agosto",
+          "url": "https://discord.com/channels/1268830572743102505/1516738436600430653/1517049419336384573"
+        },
+        {
+          "label": "Canje prémium de pesca: edición visible del 26 de agosto",
+          "url": "https://discord.com/channels/1268830572743102505/1516738436600430653/1517049515507453952"
+        },
+        {
+          "label": "Excepción de Ancient Core, 26 ago 2025",
+          "url": "https://discord.com/channels/1408190992510615633/1408205629146927376/1409804323214594138"
+        },
+        {
+          "label": "Esperar información sobre eventos coincidentes",
+          "url": "https://discord.com/channels/1361208622566211694/1361209094039666728/1363179024246903004"
+        }
+      ]
+    },
+    {
+      "id": "jungle-rating-upgrades-and-skipped-stages",
+      "title": "Mejoras en la Jungla: revisa los saltos de fases antes de subir la valoración",
+      "summary": "Revisa la potencia de la bendición, los bloques de recompensas y las fases completadas automáticamente antes de aumentar mucho la valoración de runas.",
+      "body": "## Antes de mejorar\n1. Consulta la descripción actual de Jungle Blessing y el siguiente umbral de valoración.\n2. Compara las recompensas de las fases manuales con las de finalización automática.\n3. Mejora de forma gradual si un gran salto omitiría recompensas que todavía necesitas.\n\n## Optimización histórica\nLas notas de julio de 2025 describen una bendición naranja con 200% de ATQ/PS frente al 20% de la morada, recompensas de Enchantium en bloques de diez fases y una fase objetivo terminada en 1. La idea era mantener la bendición más potente sin perder los tickets obtenidos manualmente.\n\n## Vuelve a comprobarlo primero\nEstos valores son históricos. Una calculadora enlazada, editada el 3 de febrero de 2026, figuraba como trabajo en curso con valores inciertos en los niveles superiores. No se comprobaron sus celdas ni la imagen de la bendición. Debes verificar en el juego los umbrales actuales y las recompensas de las fases omitidas.",
+      "category": "guides",
+      "status": "outdated",
+      "gameVersion": "Desconocida; sin versión de parche en los mensajes consultados",
+      "updatedOn": "2026-11-03",
+      "reviewedOn": "2026-11-03",
+      "published": true,
+      "tags": [
+        "Shackled Jungle",
+        "valoración de runas",
+        "Jungle Blessing",
+        "planificación de mejoras"
+      ],
+      "sources": [
+        {
+          "label": "Guía de valoración y recompensas de la Jungla: 4 de julio de 2025; editada el 9 de julio",
+          "url": "https://discord.com/channels/1268830572743102505/1355348706202878012/1390537734489116773"
+        },
+        {
+          "label": "Advertencia de la calculadora: 30 de noviembre de 2025; editada el 3 de febrero de 2026",
+          "url": "https://discord.com/channels/1268830572743102505/1355348706202878012/1444510806518665417"
+        }
+      ]
+    },
+    {
+      "id": "jungle-circle-build-rarity-prerequisites",
+      "title": "Círculos en la Jungla: elige encantamientos según la rareza de Sawblade",
+      "summary": "Usa planes de encantamientos distintos antes y después de Sawblade mítica; prioriza el control con círculos antes del daño secundario.",
+      "body": "## Configuración inicial\nLa propuesta de junio de 2026 sin runas gemelas incluye ambas runas de círculos, Frostshock Seal y Root Guard a la izquierda, con Pulsing, Orbital y Awe como opciones grabadas. La página derecha depende de una imagen y no se reconstruye por completo aquí.\n\n## Elige la variante adecuada\n- Antes de Sawblade mítica: un encantamiento mítico de probabilidad crítica de círculos, el exclusivo de Flamenox y después daño a jefes; el exclusivo de Frostshock es otra opción.\n- Con Sawblade mítica: su encantamiento exclusivo, más velocidad de giro y daño de círculos.\n- Habilidades: efectos de círculos, especialmente congelación, y después fuego/veneno; a continuación, espíritus y aumentos de ataque.\n\n## Revisa la corrección\nUna edición del 1 de julio afirma que Sawblade usa las estadísticas críticas globales, no las del arma principal, y sustituye Sharp Arrow por daño a jefes. Esto sigue sin verificarse. Los comentarios de octubre sobre runas gemelas no establecen una configuración actualizada completa; vuelve a comprobarlo antes de invertir.",
+      "category": "builds",
+      "status": "outdated",
+      "gameVersion": "Desconocida; sin versión de parche en los mensajes consultados",
+      "updatedOn": "2026-11-03",
+      "reviewedOn": "2026-11-03",
+      "published": true,
+      "tags": [
+        "Shackled Jungle",
+        "círculos",
+        "Sawblade",
+        "encantamientos",
+        "runas gemelas"
+      ],
+      "sources": [
+        {
+          "label": "Configuración de círculos fijada: 4 de junio de 2026; corrección de Sawblade editada el 1 de julio",
+          "url": "https://discord.com/channels/1268830572743102505/1355348706202878012/1511903248825712720"
+        },
+        {
+          "label": "Ejemplo grabado gemelo de círculos con mucho daño: 29 de octubre de 2026",
+          "url": "https://discord.com/channels/1268830572743102505/1355348706202878012/1565242763413553193"
+        },
+        {
+          "label": "Matización inmediata de la configuración comentada: 29 de octubre de 2026",
+          "url": "https://discord.com/channels/1268830572743102505/1355348706202878012/1565242812507889726"
+        }
+      ]
+    },
+    {
+      "id": "jungle-elemental-build-enchant-prerequisites",
+      "title": "Jungla elemental: comprueba los requisitos de encantamientos",
+      "summary": "Cumple los requisitos de Domain, crítico elemental y encantamientos de la propuesta antes de invertir en una configuración elemental.",
+      "body": "## Requisitos de la configuración\nLa propuesta del 6 de junio de 2026 especifica:\n- Domain L1 y crítico elemental L1, preferiblemente L2 en ambos.\n- Dos encantamientos de 30% de probabilidad crítica elemental.\n- Dos encantamientos de 30% de daño elemental.\n- Encantamiento exclusivo de Ring of Agony.\n\nSon requisitos de esta propuesta, no mínimos universales.\n\n## Prioridades de habilidades\nPrioriza los efectos elementales, especialmente anillos, seguimiento, Split Shot y Pierce. Se sugieren habilidades de flechas adicionales y Short Range; Swift Arrow ayuda a activar efectos elementales. Bounce ayuda en oleadas densas, mientras que el daño a jefes se dirige a otro tipo de objetivo.\n\n## Ruta inicial de menor inversión\nOtra propuesta inicial usa anillos cargados, perforación, Lightwing y mejoras de flechas, con congelación/relámpagos para controlar enemigos. No se ha demostrado que sea equivalente. No se comprobaron las capturas completas ni el comportamiento del parche actual.",
+      "category": "builds",
+      "status": "outdated",
+      "gameVersion": "Desconocida; sin versión de parche en los mensajes consultados",
+      "updatedOn": "2026-11-03",
+      "reviewedOn": "2026-11-03",
+      "published": true,
+      "tags": [
+        "Shackled Jungle",
+        "daño elemental",
+        "encantamientos",
+        "control de masas",
+        "principiante"
+      ],
+      "sources": [
+        {
+          "label": "Configuración elemental fijada y requisitos indicados: 6 de junio de 2026",
+          "url": "https://discord.com/channels/1268830572743102505/1355348706202878012/1512673967024898139"
+        },
+        {
+          "label": "Ruta inicial independiente: 4 de junio de 2026",
+          "url": "https://discord.com/channels/1268830572743102505/1355348706202878012/1511902554668400761"
+        }
+      ]
+    },
+    {
+      "id": "sharp-arrow-crit-damage-family-check",
+      "title": "Sharp Arrow: adapta los encantamientos críticos al origen del daño",
+      "summary": "Compara el crítico del arma principal con el daño a jefes según la parte de tu configuración que realmente inflige daño.",
+      "body": "## Compara correctamente\n1. Identifica si el daño procede principalmente del arma, las explosiones, los círculos u otro efecto.\n2. Comprueba qué tipo de daño menciona cada encantamiento.\n3. Compara partidas de igual duración contra el mismo objetivo, cambiando únicamente el encantamiento.\n\n## Orientación de octubre de 2026\nUna conversación que compara 30% de probabilidad crítica de Sharp Arrow con 15% de daño a jefes limita expresamente el encantamiento crítico al daño del arma principal. La recomendación favorable para jefes se refería a una configuración centrada en el arma principal, no a cualquier combinación Dragoon/Oracle.\n\n## Matiz para Arena\nComentarios posteriores matizan su valor en configuraciones avanzadas de Arena, aunque admiten usos del crítico del arma principal. No hay resultados controlados que establezcan un ganador universal. Un porcentaje mostrado más alto no supone automáticamente una mejora superior.",
+      "category": "builds",
+      "status": "community",
+      "gameVersion": "Desconocida; sin versión de parche en los mensajes consultados",
+      "updatedOn": "2026-11-03",
+      "reviewedOn": "2026-11-03",
+      "published": true,
+      "tags": [
+        "Sharp Arrow",
+        "probabilidad crítica",
+        "arma principal",
+        "daño a jefes",
+        "Arena"
+      ],
+      "sources": [
+        {
+          "label": "Pregunta original sobre crítico frente a daño a jefes: 24 de octubre de 2026",
+          "url": "https://discord.com/channels/1268830572743102505/1392597464581804152/1563647339430944850"
+        },
+        {
+          "label": "La respuesta limita el encantamiento al daño del arma principal: 24 de octubre de 2026",
+          "url": "https://discord.com/channels/1268830572743102505/1392597464581804152/1563655659659206780"
+        },
+        {
+          "label": "La configuración de arma principal para jefes explica la recomendación: 24 de octubre de 2026",
+          "url": "https://discord.com/channels/1268830572743102505/1392597464581804152/1563655767947747481"
+        },
+        {
+          "label": "Matización posterior para Arena: 24 de octubre de 2026",
+          "url": "https://discord.com/channels/1268830572743102505/1392597464581804152/1563656747300954183"
+        }
+      ]
+    },
+    {
+      "id": "farming-quick-hunt-hm5-ch47-2025",
+      "title": "Farmeo: Quick Hunt, modo difícil 5 o capítulo 47",
+      "summary": "Compara tus objetivos de botín con el tiempo disponible. Las tablas históricas favorecen rutas distintas para runas, equipo y comodidad.",
+      "body": "## Elige tu objetivo\n- Runas por partida: la comparación de octubre de 2025 favorecía el modo difícil 5.\n- Equipo y oro: los resultados escritos favorecían el capítulo 47.\n- Poco tiempo: Quick Hunt ofrecía la ruta más cómoda.\n\n## Qué representa la tabla antigua\nCon los talentos de obtención de equipo/runas al máximo y 145 de energía diaria durante 30 días, el capítulo 47 proyecta 1.740 piezas de equipo frente a 1.066 de Quick Hunt. Los totales de runas son 1.679 frente a 1.066. La diferencia impresa de runas es 612, aunque la resta de esos totales da 613.\n\n## Mantén separados los supuestos\nLas 51 horas frente a 15 minutos comparan el tiempo calculado de finalización/acciones; Quick Hunt presupone un segundo por acción, no el tiempo total de juego mensual. Las columnas contiguas de 165 de energía corresponden a otro escenario. Ambas tablas se revisaron visualmente, pero sus proyecciones no garantizan el botín actual.",
+      "category": "resources",
+      "status": "outdated",
+      "gameVersion": "No especificada en la fuente",
+      "updatedOn": "2025-10-10",
+      "reviewedOn": "2026-11-03",
+      "published": true,
+      "tags": [
+        "farmeo",
+        "Quick Hunt",
+        "modo difícil",
+        "capítulo 47",
+        "eficiencia de tiempo"
+      ],
+      "sources": [
+        {
+          "label": "Condiciones del estudio y muestra prevista",
+          "url": "https://discord.com/channels/1357499983703572490/1424321762065121294/1424349852405596160"
+        },
+        {
+          "label": "Resumen de resultados de farmeo",
+          "url": "https://discord.com/channels/1357499983703572490/1424321762065121294/1426192332948111371"
+        },
+        {
+          "label": "Imagen de la tabla completa de cálculos de farmeo",
+          "url": "https://discord.com/channels/1357499983703572490/1424321762065121294/1426192314916667412"
+        },
+        {
+          "label": "Imagen de la comparación con 145 de energía",
+          "url": "https://discord.com/channels/1357499983703572490/1424321762065121294/1426192358587891782"
+        }
+      ]
+    },
+    {
+      "id": "guild-merchant-coordinate-bargaining",
+      "title": "Mercader de hermandad: regatead juntos antes de comprar",
+      "summary": "Ayuda a reducir el precio mostrado y después evalúa la compra final según tu objetivo actual de progreso.",
+      "body": "## Lista de comprobación de compra\n1. Comprueba el estado actual del regateo.\n2. Realiza tu aportación disponible al regateo antes de comprar.\n3. Revisa el objeto final, la moneda y el precio.\n4. Compra solo si la recompensa contribuye a tu objetivo actual.\n\n## Ejemplo de descuento\nLos consejos de marzo de 2026 describen cómo la participación colectiva redujo un objeto de 2.000 gemas a 500 gemas: una rebaja del 75%.\n\n## Ten clara la limitación\nEse ejemplo no demuestra que todos los objetos reciban siempre un descuento del 75%. Las capturas de los objetos y el límite actual no se comprobaron de forma independiente. Un descuento por sí solo no convierte una compra en el mejor uso de las gemas.",
+      "category": "expedition",
+      "status": "community",
+      "gameVersion": "No especificada en la fuente",
+      "updatedOn": "2026-03-27",
+      "reviewedOn": "2026-11-03",
+      "published": true,
+      "tags": [
+        "mercader de hermandad",
+        "regateo",
+        "tienda",
+        "gemas"
+      ],
+      "sources": [
+        {
+          "label": "Recordatorio del regateo del mercader",
+          "url": "https://discord.com/channels/1353899985103749221/1487226276103065713/1487226881341395014"
+        },
+        {
+          "label": "Ejemplo de descuento comunicado",
+          "url": "https://discord.com/channels/1353899985103749221/1487226276103065713/1487228159362469979"
+        }
+      ]
+    },
+    {
+      "id": "rumble-450-trophy-route-april-2026",
+      "title": "Hitos de Rumble: reparte los trofeos entre varios héroes",
+      "summary": "Una ruta de abril de 2026 busca 450 trofeos con tres héroes cerca de 150 cada uno. Comprueba las recompensas de cada modalidad y las tareas diarias.",
+      "body": "## Ruta histórica de hitos\nEl plan de abril de 2026 busca 450 trofeos totales llevando a tres héroes a unos 150 cada uno. Favorece las franjas bajas de trofeos porque se describían como más fáciles y sin penalizaciones por derrota en ese tramo.\n\n## Separa las vías de progreso\nSe indicó que los modos con y sin equipo tenían recompensas de hitos independientes. La guía también recomendaba tres partidas diarias para las tareas de entonces, incluso después de completar los hitos.\n\n## Antes de dedicarle tiempo\nComprueba la pantalla actual de hitos, las reglas de pérdida y las tareas diarias. Se afirmó que el progreso se conservaba en eventos posteriores, pero no está confirmado para las reglas actuales. No se comprobaron los vídeos ni las imágenes de recompensas; la ruta es una opción de planificación histórica.",
+      "category": "guides",
+      "status": "outdated",
+      "gameVersion": "No especificada en la fuente",
+      "updatedOn": "2026-04-08",
+      "reviewedOn": "2026-11-03",
+      "published": true,
+      "tags": [
+        "Rumble",
+        "trofeos",
+        "tareas diarias",
+        "progreso de eventos"
+      ],
+      "sources": [
+        {
+          "label": "Objetivo de 450 trofeos",
+          "url": "https://discord.com/channels/1353899985103749221/1487226276103065713/1491459785621770300"
+        },
+        {
+          "label": "Vías independientes por modalidad y afirmación sobre conservación del progreso",
+          "url": "https://discord.com/channels/1353899985103749221/1487226276103065713/1491460044259065856"
+        },
+        {
+          "label": "Enfoque de tres héroes",
+          "url": "https://discord.com/channels/1353899985103749221/1487226276103065713/1491461079371481259"
+        },
+        {
+          "label": "Partidas diarias después de los hitos",
+          "url": "https://discord.com/channels/1353899985103749221/1487226276103065713/1491464061668425848"
+        }
+      ]
+    },
+    {
+      "id": "plant-defense-orbs-and-archers",
+      "title": "Defensa de la planta: sube de nivel antes de recoger orbes de progreso",
+      "summary": "Prioriza a los arqueros y equilibra la finalización rápida con el tiempo necesario para ganar niveles.",
+      "body": "## Controla la amenaza principal\nLa estrategia de mayo de 2026 rodea la planta, vigila las posiciones recurrentes de aparición de arqueros y utiliza control de hielo. La resonancia de Rolla es una opción sugerida, no un requisito universal.\n\n## Decide cuándo recoger los orbes blancos\nSe comunicó que los orbes blancos hacen avanzar la barra de progreso y acortan la partida. Si tu supervivencia es incierta, retrasar su recogida puede darte más tiempo para subir de nivel. Cuando tu configuración sea suficientemente fuerte, avanzar más deprisa puede ayudar.\n\n## Revisa el equilibrio\nLa mejora de seis a cuatro minutos fue una observación individual, no una garantía de tiempo. Los vídeos no se revisaron, por lo que no se reconstruyen la posición exacta ni una configuración completa. Adapta la recogida de orbes al modo actual y a tu margen de supervivencia.",
+      "category": "guides",
+      "status": "community",
+      "gameVersion": "No especificada en la fuente",
+      "updatedOn": "2026-05-08",
+      "reviewedOn": "2026-11-03",
+      "published": true,
+      "tags": [
+        "defensa de la planta",
+        "arqueros",
+        "experiencia",
+        "Rolla",
+        "hielo"
+      ],
+      "sources": [
+        {
+          "label": "Priorizar a los arqueros",
+          "url": "https://discord.com/channels/1353899985103749221/1487226276103065713/1502146956691112037"
+        },
+        {
+          "label": "Sugerencia de hielo y Rolla",
+          "url": "https://discord.com/channels/1353899985103749221/1487226276103065713/1502147151503949855"
+        },
+        {
+          "label": "Ventajas y costes de los orbes de progreso",
+          "url": "https://discord.com/channels/1353899985103749221/1487226276103065713/1502147696616804363"
+        },
+        {
+          "label": "Observación sobre posicionamiento",
+          "url": "https://discord.com/channels/1353899985103749221/1487226276103065713/1502148033104576663"
+        }
+      ]
+    },
+    {
+      "id": "mystlings-collection-and-active-skills",
+      "title": "Mystlings: compara los hitos de colección con los niveles de una mascota",
+      "summary": "Valora las mejoras de colección y los efectos de habilidades activas antes de concentrar todos los recursos en un único Mystling.",
+      "body": "## Antes de mejorar\nCompara el próximo hito de colección, los corazones obtenidos y la descripción de la habilidad activa con el beneficio de subir otro nivel a una mascota.\n\n## Colección frente a concentración\nLos consejos de mayo de 2026 describen la subida de la colección como una fuente de corazones y bonificaciones para toda la cuenta, incluidas mejoras del tiempo de recarga de habilidades activas. Se indicó que invertir mucho en una mascota aumenta principalmente el daño de su habilidad. Aquí no se dispone de una tabla completa de escalado.\n\n## Usa las habilidades activas pertinentes\nAlgunas configuraciones acumulan bonificaciones ofensivas o defensivas mediante activaciones. Activa esas habilidades sin demora cuando su descripción actual lo justifique; no apliques los porcentajes de una configuración a todos los Mystlings.\n\nLas habilidades ilustradas y la hoja de progreso enlazada no se comprobaron de forma independiente. Utiliza los hitos reales del juego en lugar de suponer que todas las mejoras tienen el mismo valor.",
+      "category": "resources",
+      "status": "community",
+      "gameVersion": "No especificada en la fuente",
+      "updatedOn": "2026-05-26",
+      "reviewedOn": "2026-11-03",
+      "published": true,
+      "tags": [
+        "Mystlings",
+        "colección",
+        "habilidades activas",
+        "tiempo de recarga",
+        "mejoras"
+      ],
+      "sources": [
+        {
+          "label": "Finalidad del registro de colección",
+          "url": "https://discord.com/channels/1353899985103749221/1487226276103065713/1507017287796916375"
+        },
+        {
+          "label": "Ejemplo de acumulaciones mediante habilidades activas",
+          "url": "https://discord.com/channels/1353899985103749221/1487226276103065713/1508924705720107188"
+        },
+        {
+          "label": "Corazones y subida de colección",
+          "url": "https://discord.com/channels/1353899985103749221/1487226276103065713/1508925687988228178"
+        },
+        {
+          "label": "Beneficios descritos para la cuenta frente a una sola mascota",
+          "url": "https://discord.com/channels/1353899985103749221/1487226276103065713/1508926241330167970"
+        }
+      ]
+    },
+    {
+      "id": "jungle-sprites-and-crowd-control-june-2026",
+      "title": "Espíritus en la Jungla: ¿daño principal o apoyo?",
+      "summary": "Decide si los espíritus serán tu fuente de daño o un apoyo mediante Sprite’s Awe; cada plan necesita prioridades de habilidades distintas.",
+      "body": "## Elige un plan principal\n- Centrado en espíritus: invierte en su daño y resuelve las oleadas densas con un componente secundario de círculos o dominio elemental.\n- Centrado en apoyo: usa Sprite’s Awe para apoyar otra fuente principal de daño sin llenar todas las casillas de espíritus.\n\n## Compromiso en fases con muchos enemigos\nLa variante de dominio de junio de 2026 se describía como más segura contra jefes que contra oleadas densas. Necesitaba suficiente daño elemental para limpiar enemigos de forma fiable, con una advertencia contra superar la dificultad verde sin la inversión comentada de Domain L+2.\n\n## Actualiza antes de copiar\nLa conversación de octubre todavía mencionaba estructuras de espíritus, mientras que una advertencia posterior indicaba que las runas Twinborn habían cambiado las configuraciones. Algunas casillas dependían de imágenes y no se indicó la versión del parche. Úsalo como una distinción de planificación, no como una configuración actual completa.",
+      "category": "builds",
+      "status": "outdated",
+      "gameVersion": "No especificada en la fuente",
+      "updatedOn": "2026-10-30",
+      "reviewedOn": "2026-11-03",
+      "published": true,
+      "tags": [
+        "Shackled Jungle",
+        "espíritus",
+        "dominio elemental",
+        "control de masas"
+      ],
+      "sources": [
+        {
+          "label": "Variantes propuestas con espíritus",
+          "url": "https://discord.com/channels/1353899985103749221/1487226276103065713/1512343596974473286"
+        },
+        {
+          "label": "Daño de espíritus y debilidad ante grupos",
+          "url": "https://discord.com/channels/1353899985103749221/1487226276103065713/1512344659815436339"
+        },
+        {
+          "label": "Enfoque de Awe solo como apoyo",
+          "url": "https://discord.com/channels/1353899985103749221/1487226276103065713/1512344931178385499"
+        },
+        {
+          "label": "Advertencia sobre dificultad y nivel de dominio",
+          "url": "https://discord.com/channels/1353899985103749221/1487226276103065713/1512354722139603046"
+        },
+        {
+          "label": "Uso continuado de la estructura de espíritus el 9 de octubre",
+          "url": "https://discord.com/channels/1408190992510615633/1513504281322459206/1558055281131520072"
+        },
+        {
+          "label": "Actualización de la Jungla: advertencia sobre Twinborn del 30 de octubre",
+          "url": "https://discord.com/channels/1268830572743102505/1355348706202878012/1565614734839906365"
+        }
+      ]
+    },
+    {
+      "id": "separate-presets-by-game-mode",
+      "title": "Guarda configuraciones distintas para jefes, oleadas y PvP",
+      "summary": "Adapta encantamientos, supervivencia y comportamiento al modo real en lugar de perseguir una única puntuación máxima de poder.",
+      "body": "## Lista de comprobación de configuraciones\n- Jefes: prioriza el daño pertinente a un solo objetivo y suficiente supervivencia para terminar.\n- Oleadas: ten en cuenta los objetivos múltiples, la cobertura y el control.\n- PvP/GvG: revisa los efectos que solo se aplican a jefes o enemigos menores antes de entrar.\n\n## Prueba en el modo previsto\nUna conversación de agosto de 2026 presenta una configuración para jefes sin opciones de rebote, escudo o esquiva. Es especialización, no una prueba de que esos efectos sean siempre inútiles.\n\nLas recomendaciones repetidas para GvG advierten que los encantamientos de jefes/enemigos menores no ayudan en esos combates, aunque retirarlos reduzca el poder mostrado.\n\n## Comprobación final\nGuarda cada configuración, verifica su héroe y sus encantamientos activos y compara los resultados reales. Las mejores elecciones dependen de las mejoras disponibles y las mecánicas actuales.",
+      "category": "builds",
+      "status": "community",
+      "gameVersion": "No especificada en la fuente",
+      "updatedOn": "2026-08-11",
+      "reviewedOn": "2026-11-03",
+      "published": true,
+      "tags": [
+        "configuraciones",
+        "jefes",
+        "PvP",
+        "PvE",
+        "encantamientos"
+      ],
+      "sources": [
+        {
+          "label": "Pregunta que distingue jefes de enemigos menores",
+          "url": "https://discord.com/channels/1353899985103749221/1492251130233753722/1536762924629098649"
+        },
+        {
+          "label": "Ejemplo de cambios de runas específicos por modo",
+          "url": "https://discord.com/channels/1353899985103749221/1492251130233753722/1536860422123167855"
+        },
+        {
+          "label": "Advertencia de GvG sobre encantamientos PvE",
+          "url": "https://discord.com/channels/1357499983703572490/1400142797297680385/1429001357863424061"
+        },
+        {
+          "label": "Advertencia repetida sobre encantamientos en GvG",
+          "url": "https://discord.com/channels/1357499983703572490/1400142797297680385/1501767340348543087"
+        }
+      ]
+    },
+    {
+      "id": "twinborn-rune-costs-september-2026",
+      "title": "Creación Twinborn: comprueba categoría, nivel y ambas monedas",
+      "summary": "Los ejemplos de runas de habilidad y mejora no se pueden aplicar automáticamente a las runas de bendición o grabadas.",
+      "body": "## Antes de crear\n1. Selecciona la categoría y el nivel exactos de la runa en la pantalla actual de creación.\n2. Comprueba los requisitos de núcleos y remanentes.\n3. Cuenta los recursos de toda la mejora prevista, no solo de la primera creación.\n\n## Ejemplos de septiembre de 2026\nLos ejemplos comunicados de habilidad/mejora usan Legendaria +2 con 5.000 remanentes y mítica con 40 núcleos más 20.000 remanentes. Se indicó expresamente que las runas de bendición y grabadas necesitaban más núcleos.\n\n## Limitaciones importantes\nLa posibilidad de usar Legendaria +1 era una especulación. Estos ejemplos no constituyen una tabla completa de costes. Los remanentes pueden ser el recurso limitante aunque haya núcleos disponibles, según el inventario. La imagen de creación no se revisó; verifica la receta antes de gastar.",
+      "category": "resources",
+      "status": "community",
+      "gameVersion": "No especificada en la fuente",
+      "updatedOn": "2026-09-29",
+      "reviewedOn": "2026-11-03",
+      "published": true,
+      "tags": [
+        "Twinborn",
+        "núcleos",
+        "remanentes",
+        "creación de runas"
+      ],
+      "sources": [
+        {
+          "label": "Ejemplos de creación comunicados y afirmación incierta sobre L+1",
+          "url": "https://discord.com/channels/1357499983703572490/1400142797297680385/1554418900144492544"
+        },
+        {
+          "label": "Matización según la categoría de runa",
+          "url": "https://discord.com/channels/1357499983703572490/1400142797297680385/1554419247936184402"
+        },
+        {
+          "label": "Escasez de remanentes comunicada",
+          "url": "https://discord.com/channels/1353899985103749221/1492251130233753722/1548833039373574273"
+        }
+      ]
+    },
+    {
+      "id": "expedition-lanes-and-replay-review",
+      "title": "Carriles de expedición: planifica los emparejamientos y revisa las repeticiones",
+      "summary": "Decide cómo concentrar fuerzas según la plantilla rival y utiliza las repeticiones para evaluar comportamiento, supervivencia y daño.",
+      "body": "## Planifica la formación\n1. Compara los carriles rivales y la plantilla disponible.\n2. Decide si repartir la fuerza entre tres carriles o concentrarla en menos ofrece mejores emparejamientos.\n3. Anota los ajustes de comportamiento y la formación utilizada.\n\n## Revisa el resultado\nObserva repeticiones de combates comparables. Comprueba si la posición, el control o las bajas tempranas explican el resultado antes de juzgar únicamente por el daño total.\n\n## Mecánica sin resolver\nUna conversación de marzo de 2026 sugiere que los miembros de un carril se benefician del equipo y los artefactos más fuertes de su grupo, lo que motivaría repartir a los jugadores mejor equipados. No se aporta una fórmula, así que no calcules una bonificación de estadísticas compartidas a partir de esta afirmación.\n\nNo se analizaron las imágenes de las plantillas. Son prácticas de planificación, no una formación óptima única.",
+      "category": "expedition",
+      "status": "community",
+      "gameVersion": "No especificada en los mensajes originales",
+      "updatedOn": "2026-05-22",
+      "reviewedOn": "2026-11-03",
+      "published": true,
+      "tags": [
+        "GvG",
+        "carriles",
+        "repeticiones",
+        "despliegue",
+        "artefactos"
+      ],
+      "sources": [
+        {
+          "label": "Influencia comunicada sobre las estadísticas del carril",
+          "url": "https://discord.com/channels/1357499983703572490/1384910181355487345/1482197680846405672"
+        },
+        {
+          "label": "Prueba deliberada de emparejamientos",
+          "url": "https://discord.com/channels/1357499983703572490/1384910181355487345/1491437005845041205"
+        },
+        {
+          "label": "Ejemplo de concentración de fuerzas en carriles",
+          "url": "https://discord.com/channels/1357499983703572490/1384910181355487345/1505725879714713750"
+        },
+        {
+          "label": "Recordatorio para revisar las repeticiones",
+          "url": "https://discord.com/channels/1357499983703572490/1384910181355487345/1507243285847081103"
+        }
+      ]
+    },
+    {
+      "id": "meteor-build-survival-support",
+      "title": "Configuraciones de meteoros: completa el soporte de supervivencia antes de cambiar",
+      "summary": "Comprueba la generación de pociones, los escudos y el apoyo del héroe antes de valorar un cambio a ballesta o Dragoon.",
+      "body": "## Lista para el cambio\n- Confirma los efectos de pociones y los encantamientos de recarga de los que depende el plan.\n- Comprueba si Potion Spring y los escudos de pociones tienen mejoras suficientes.\n- Compara el apoyo del héroe y de su aspecto.\n- Evalúa tanto la supervivencia como el daño frente a rivales similares.\n\n## Por qué importa el apoyo\nUna conversación de noviembre de 2026 relaciona la menor supervivencia tras un cambio propuesto con la falta de Otta, Potion Spring y el apoyo de escudos de pociones. La explicación se presentó expresamente como teórica. Un consejo anterior favorecía un aspecto de Otta para una configuración dependiente de pociones, no como primera compra universal.\n\n## Límite de las pruebas\nNo hay una comparación controlada de victorias que establezca el mejor héroe, arma o aspecto. No se revisó la configuración de la imagen. Copiar un objeto sin los efectos que lo apoyan puede producir resultados distintos.",
+      "category": "builds",
+      "status": "community",
+      "gameVersion": "No especificada en los mensajes originales",
+      "updatedOn": "2026-11-02",
+      "reviewedOn": "2026-11-03",
+      "published": true,
+      "tags": [
+        "meteoros",
+        "Dragoon",
+        "Otta",
+        "pociones",
+        "supervivencia"
+      ],
+      "sources": [
+        {
+          "label": "Explicación de la ballesta presentada expresamente como teoría",
+          "url": "https://discord.com/channels/1353899985103749221/1492251130233753722/1566684531459752088"
+        },
+        {
+          "label": "Sinergias de apoyo enumeradas",
+          "url": "https://discord.com/channels/1353899985103749221/1492251130233753722/1566684922305970268"
+        },
+        {
+          "label": "Apoyo no disponible en la cuenta de prueba",
+          "url": "https://discord.com/channels/1353899985103749221/1492251130233753722/1566684983840743486"
+        },
+        {
+          "label": "Elección anterior del aspecto de Otta para una configuración de pociones",
+          "url": "https://discord.com/channels/1353899985103749221/1492251130233753722/1515330803205279775"
+        }
+      ]
+    },
+    {
+      "id": "darkknight-october-mixed-dragoon-build",
+      "title": "Dragoon mixto: conserva la supervivencia al cambiar de conjuntos",
+      "summary": "Una propuesta de octubre de 2026 mantiene el pecho Oracle y el amuleto Griffin, y elige apoyo de plantas o sprites según las mejoras disponibles.",
+      "body": "## Ejemplo de conjunto mixto\nLa propuesta del 24 de octubre utiliza pecho Oracle, amuleto Griffin y Dragoon en las demás ranuras. Su objetivo es equilibrar el daño de explosiones y la supervivencia, en lugar de maximizar una bonificación de conjunto a cualquier precio.\n\n## Adapta el apoyo de runas a tus recursos\n- Considera las plantas si dispones de las rarezas y los encantamientos necesarios.\n- En caso contrario, los sprites del lado derecho con Sprite's Awe ofrecen otro conjunto de apoyo.\n- Compara los escudos y la supervivencia antes de sustituir una configuración de círculos que ya funciona.\n\n## Prueba el cambio completo\nUna propuesta que sumaba un 80% entre varios efectos de daño recibido reconocía expresamente la incertidumbre sobre los rendimientos decrecientes. No asumas que esos efectos se suman directamente. Los requisitos míticos completos dependían en parte de imágenes y no se comprobaron. Compara daño y supervivencia con tus propios héroes, resonancias y artefactos.",
+      "category": "builds",
+      "status": "community",
+      "gameVersion": "No especificada; comprueba la versión actual del juego",
+      "updatedOn": "2026-11-03",
+      "reviewedOn": "2026-11-03",
+      "published": true,
+      "tags": [
+        "Dragoon",
+        "Oracle",
+        "Griffin",
+        "plantas",
+        "sprites",
+        "PvP"
+      ],
+      "sources": [
+        {
+          "label": "Equipo mixto propuesto, 24 oct 2026",
+          "url": "https://discord.com/channels/1408190992510615633/1465867412594233375/1563404055995351241"
+        },
+        {
+          "label": "Alternativas de plantas y sprites, 24 oct 2026",
+          "url": "https://discord.com/channels/1408190992510615633/1465867412594233375/1563406995804000437"
+        },
+        {
+          "label": "Afirmación de acumulación expresamente incierta",
+          "url": "https://discord.com/channels/1408190992510615633/1465867412594233375/1563409029336928330"
+        },
+        {
+          "label": "Contexto de círculos frente a plantas",
+          "url": "https://discord.com/channels/1408190992510615633/1465867412594233375/1563409935528763485"
+        }
+      ]
+    },
+    {
+      "id": "darkknight-artifact-priorities-october",
+      "title": "Artefactos: compara los hitos de conjunto con las mejoras de supervivencia",
+      "summary": "Equilibra el progreso del conjunto con la resistencia necesaria para tu modo principal; evita objetivos de estrellas sin resolver.",
+      "body": "## Progreso del conjunto\nLos consejos de octubre de 2026 favorecen mantener Flute y Conch equilibrados por su bonificación de conjunto. Una guía anterior también propone usar fragmentos legendarios universales en Magic Harp para avanzar en los hitos de Heavenly Music.\n\n## Supervivencia en PvP y GvG\nLa misma conversación de octubre corrige expresamente su recomendación para dar prioridad a Demon King Eye frente a Blood por la reducción de daño.\n\n## No copies el objetivo contradictorio\nUna línea posterior dice que se debe subir Blood al menos a ocho estrellas, lo que contradice la corrección anterior. No se desprende una recomendación definitiva de estrellas.\n\nElige el siguiente hito de conjunto relevante o la mejora de supervivencia según tu inventario real. Son recomendaciones, no rendimientos universales medidos.",
+      "category": "resources",
+      "status": "community",
+      "gameVersion": "No especificada; comprueba la versión actual del juego",
+      "updatedOn": "2026-11-03",
+      "reviewedOn": "2026-11-03",
+      "published": true,
+      "tags": [
+        "artefactos",
+        "Heavenly Music",
+        "Flute",
+        "Conch",
+        "Magic Harp",
+        "Demon King Eye"
+      ],
+      "sources": [
+        {
+          "label": "Guía de artefactos y conjuntos, editada el 9 jun 2026",
+          "url": "https://discord.com/channels/1408190992510615633/1465884305103261767/1465887045464621223"
+        },
+        {
+          "label": "Mejoras equilibradas para la bonificación de conjunto, 23 oct 2026",
+          "url": "https://discord.com/channels/1408190992510615633/1465884305103261767/1563003189689843743"
+        },
+        {
+          "label": "Objetivo de estrellas de Blood con redacción contradictoria",
+          "url": "https://discord.com/channels/1408190992510615633/1465884305103261767/1563003757401215097"
+        },
+        {
+          "label": "Prioridad corregida de Eye frente a Blood",
+          "url": "https://discord.com/channels/1408190992510615633/1465884305103261767/1563003481483247752"
+        }
+      ]
+    },
+    {
+      "id": "darkknight-dice-score-targets",
+      "title": "Treasure Island: compara objetivos de puntuación y costes de tickets",
+      "summary": "100.000 y 150.000 son objetivos de puntos del evento, no presupuestos de gemas. Incluye las compras desbloqueadas al comparar los tickets totales.",
+      "body": "## Comparación histórica de recompensas\nUna conversación del 23 de octubre de 2026 indica:\n- 100.000 puntos: ocho Island Tickets más acceso a dos compras adicionales de tickets en la tienda de gemas.\n- 150.000 puntos: diez tickets más, con un total indicado de 20 al incluir esas compras.\n\nEsto da 10.000 frente a 7.500 puntos por ticket únicamente si se cuentan los tickets comprados.\n\n## Antes de elegir dónde parar\n1. Revisa el recorrido actual de recompensas y los precios de la tienda de gemas.\n2. Separa los tickets ganados de los que todavía requieren una compra.\n3. Ten en cuenta la variabilidad de los resultados de los dados, en lugar de un presupuesto fijo de tiradas.\n\n## Limitación entre ediciones del evento\nSe comunicó que el umbral de la tienda se reiniciaba en cada evento. Una comparación de 400.000 puntos utilizaba cantidades tentativas de tickets, por lo que no queda establecido un cálculo completo del coste en gemas ni del valor esperado.",
+      "category": "tips",
+      "status": "community",
+      "gameVersion": "No especificada; comprueba la versión actual del juego",
+      "updatedOn": "2026-11-03",
+      "reviewedOn": "2026-11-03",
+      "published": true,
+      "tags": [
+        "Treasure Island",
+        "dados",
+        "economía del evento",
+        "Island Tickets"
+      ],
+      "sources": [
+        {
+          "label": "100.000 puntos y tickets de tienda, 23 oct 2026",
+          "url": "https://discord.com/channels/1408190992510615633/1465884305103261767/1563039916563234867"
+        },
+        {
+          "label": "Comparación de 150.000 puntos",
+          "url": "https://discord.com/channels/1408190992510615633/1465884305103261767/1563040073685925950"
+        },
+        {
+          "label": "Cálculo de puntos por ticket",
+          "url": "https://discord.com/channels/1408190992510615633/1465884305103261767/1563040276052840531"
+        },
+        {
+          "label": "El desbloqueo debe repetirse, 24 oct 2026",
+          "url": "https://discord.com/channels/1408190992510615633/1465884305103261767/1563551371074998304"
+        }
+      ]
+    },
+    {
+      "id": "darkknight-event-currency-carryover-exceptions",
+      "title": "Monedas de eventos: comprueba por separado cuáles se conservan",
+      "summary": "La antigua regla que solo permitía conservar dados tiene excepciones. Lee el texto actual de conversión o conservación de cada moneda.",
+      "body": "## Antes de que termine un evento\n1. Identifica el nombre exacto de la moneda.\n2. Lee su regla actual de conservación o conversión.\n3. Comprueba si esa regla se aplica a futuras ediciones del mismo evento.\n4. Guarda o gasta según la regla de esa moneda, no según una norma general para todos los eventos.\n\n## Excepción histórica conocida\nUna guía antigua afirma que solo se conservan los dados de Treasure Hunt y las Treasure Coins. Un aviso de corrección del 26 de agosto de 2025 indica que los Ancient Cores pueden conservarse para posteriores eventos de invocación, empezando por el evento del 30 de agosto al 5 de septiembre.\n\n## Qué demuestra esto\nLa afirmación de que solo se conservan los dados es demasiado amplia, aunque la guía se editara después. Esta excepción no establece las reglas actuales de conservación para todas las monedas ni para futuros eventos.",
+      "category": "resources",
+      "status": "community",
+      "gameVersion": "No especificada; comprueba la versión actual del juego",
+      "updatedOn": "2026-11-03",
+      "reviewedOn": "2026-11-03",
+      "published": true,
+      "tags": [
+        "monedas de eventos",
+        "Ancient Cores",
+        "Treasure Hunt",
+        "correcciones"
+      ],
+      "sources": [
+        {
+          "label": "Afirmación general sobre conservación, editada el 9 jun 2026",
+          "url": "https://discord.com/channels/1408190992510615633/1465884305103261767/1465885735797260504"
+        },
+        {
+          "label": "Excepción de Ancient Core, 26 ago 2025",
+          "url": "https://discord.com/channels/1408190992510615633/1408205629146927376/1409804323214594138"
+        }
+      ]
+    },
+    {
+      "id": "darkknight-archived-energy-ring-boss-build",
+      "title": "Configuración archivada para jefes: Tracking Eye, anillos y activaciones por crítico",
+      "summary": "Una propuesta de marzo de 2026 para Monster Invasion y Seal requiere Thor de 5 estrellas y un conjunto mixto con predominio de Oracle.",
+      "body": "## Configuración necesaria\nLa propuesta del 4 de marzo de 2026 utiliza Tracking Eye, anillos de energía y Lightwing, con Thor de al menos 5 estrellas para su interacción de críticos de rayo.\n\n## Prioridades de equipo y runas\n- Arma Dragoon, amuleto Oracle y anillo Griffin.\n- Casco, pecho y botas Oracle.\n- Probabilidad de crítico del arma principal, encantamiento de probabilidad de crítico de quemadura/veneno y probabilidad de crítico elemental.\n- Arrow Rain con daño del arma principal; Star of Time y Ring of Agony son elecciones condicionales.\n\nEl mecanismo propuesto consiste en golpes críticos repetidos que activan los multidisparos del casco Oracle.\n\n## Antes de rehacer la configuración\nUn resultado favorable de práctica se describió como excepcionalmente afortunado. Es una propuesta histórica, no una afirmación sobre la mejor configuración actual. No se revisaron las imágenes ni el vídeo de demostración; los cambios posteriores en runas, héroes y Godforge requieren nuevas pruebas.",
+      "category": "builds",
+      "status": "outdated",
+      "gameVersion": "No especificada; comprueba la versión actual del juego",
+      "updatedOn": "2026-11-03",
+      "reviewedOn": "2026-11-03",
+      "published": true,
+      "tags": [
+        "jefes",
+        "Monster Invasion",
+        "Seal Battle",
+        "Tracking Eye",
+        "anillos de energía",
+        "Thor"
+      ],
+      "sources": [
+        {
+          "label": "Requisito de Thor de 5 estrellas, 4 mar 2026",
+          "url": "https://discord.com/channels/1408190992510615633/1408212765172174948/1478653136204857502"
+        },
+        {
+          "label": "Propuesta detallada de conjunto mixto y runas",
+          "url": "https://discord.com/channels/1408190992510615633/1408212765172174948/1478653235274448936"
+        },
+        {
+          "label": "Explicación de críticos y multidisparo",
+          "url": "https://discord.com/channels/1408190992510615633/1408212765172174948/1478653719812902912"
+        },
+        {
+          "label": "Informe favorable de una prueba de práctica",
+          "url": "https://discord.com/channels/1408190992510615633/1408212765172174948/1478771303111593984"
+        }
+      ]
+    },
+    {
+      "id": "darkknight-guild-airship-ticket-pool",
+      "title": "Coordinación del dirigible: reúne primero los tickets para renovaciones",
+      "summary": "Acuerda el capitán y los tickets comunes antes de gastar renovaciones; mejores cabinas no garantizan una recompensa concreta.",
+      "body": "## Lista de coordinación\n1. Confirma quién capitaneará el próximo dirigible.\n2. Anuncia el objetivo de aportaciones y reúne los tickets antes de renovar.\n3. Revisa la cabina y las recompensas mostradas tras cada renovación.\n4. Separa las expectativas de selección de recompensas de las donaciones.\n\n## Ejemplo de plan de aportaciones\nUn plan de finales de octubre de 2026 pide un ticket por miembro participante, con un objetivo de 40 tickets para cinco renovaciones y una cabina de categoría superior.\n\n## Limitaciones\nSe comunicó que el núcleo deseado apareció solo después de renovaciones adicionales, y los dirigibles legendarios aún podían ofrecer un botín decepcionante. Las reglas de participación del capitán cambiaron durante la conversación, así que confirma las asignaciones en lugar de imponer una antigua restricción temporal. Son consejos de coordinación, no una garantía de recompensa.",
+      "category": "expedition",
+      "status": "community",
+      "gameVersion": "No especificada; comprueba la versión actual del juego",
+      "updatedOn": "2026-11-03",
+      "reviewedOn": "2026-11-03",
+      "published": true,
+      "tags": [
+        "dirigible",
+        "coordinación de hermandad",
+        "tickets",
+        "renovaciones"
+      ],
+      "sources": [
+        {
+          "label": "Reunir primero 40 tickets, 28 oct 2026",
+          "url": "https://discord.com/channels/1408190992510615633/1561235138782822470/1564893521473835141"
+        },
+        {
+          "label": "Plan de aportaciones, 31 oct 2026",
+          "url": "https://discord.com/channels/1408190992510615633/1561235138782822470/1565926678050377829"
+        },
+        {
+          "label": "El núcleo necesitó renovaciones adicionales, 31 oct 2026",
+          "url": "https://discord.com/channels/1408190992510615633/1561235138782822470/1566133919756320798"
+        },
+        {
+          "label": "Posible ampliación de capitanes, 3 nov 2026",
+          "url": "https://discord.com/channels/1408190992510615633/1561235138782822470/1567204449682718752"
+        }
+      ]
+    },
+    {
+      "id": "darkknight-airship-captain-handoff",
+      "title": "Capitán del dirigible: confirma que el guardián acepta antes de partir",
+      "summary": "Coordina con antelación al defensor y los tickets comunes; después revisa el estado de la invitación y los temporizadores actuales.",
+      "body": "## Lista para el capitán\n1. Acuerda el defensor y el plan de aportaciones antes de seleccionar al capitán.\n2. Abre la ventana VIP.\n3. Elige Guardian Angel e invita al defensor acordado.\n4. Confirma su aceptación; seleccionar un nombre no basta.\n5. Comprueba el temporizador de salida.\n\n## Tiempos comunicados\nLas instrucciones del 30 de octubre de 2026 describen diez horas entre la selección del capitán y la salida, intervalos de una hora en torno a la invitación y la aceptación, y una recarga aproximada de 24 horas del dirigible.\n\n## Usa la pantalla actual\nEsos tiempos son ejemplos comunicados, no reglas actuales comprobadas de forma independiente. Revisa los requisitos de participación y los derechos a recompensas en la pantalla del dirigible, y organiza los horarios según sus temporizadores.",
+      "category": "expedition",
+      "status": "community",
+      "gameVersion": "No especificada; comprueba la versión actual del juego",
+      "updatedOn": "2026-11-03",
+      "reviewedOn": "2026-11-03",
+      "published": true,
+      "tags": [
+        "dirigible",
+        "capitán",
+        "guardián",
+        "coordinación de hermandad"
+      ],
+      "sources": [
+        {
+          "label": "Coordinar al capitán con antelación, 27 oct 2026",
+          "url": "https://discord.com/channels/1408190992510615633/1561235138782822470/1564714471526629397"
+        },
+        {
+          "label": "Proceso del guardián y recarga aproximada, 30 oct 2026",
+          "url": "https://discord.com/channels/1408190992510615633/1561235138782822470/1565722945693814866"
+        },
+        {
+          "label": "Plazos de salida e invitación",
+          "url": "https://discord.com/channels/1408190992510615633/1561235138782822470/1565723135536402476"
+        }
+      ]
+    },
+    {
+      "id": "darkknight-airship-seat-selection",
+      "title": "Plazas del dirigible: las donaciones mejoran las opciones, no garantizan resultados",
+      "summary": "Comprueba la ocupación de cada grupo de recompensas antes de aportar. Los pesos exactos de las contribuciones siguen siendo inciertos.",
+      "body": "## Elige el grupo con criterio\nUna conversación de octubre de 2026 describe cinco plazas por grupo de recompensas y sugiere revisar los grupos menos concurridos, en lugar de que todos elijan la recompensa más atractiva.\n\n## Entiende la selección\nSe describió un sistema que selecciona a los destinatarios; el capitán no asigna sin más una plaza a cada persona. Según los informes, las donaciones aumentan el peso en la selección, pero no se revelaron los pesos exactos.\n\n## Evita las falsas garantías\nHubo miembros que comunicaron quedarse sin plaza pese a aportar varios tickets o la contribución máxima. Una afirmación de noviembre según la cual el peso no utilizado se conserva para el día siguiente sigue sin verificarse. No calcules probabilidades precisas a partir de pesos desconocidos ni asumas que donar garantiza una recompensa.",
+      "category": "expedition",
+      "status": "community",
+      "gameVersion": "No especificada; comprueba la versión actual del juego",
+      "updatedOn": "2026-11-03",
+      "reviewedOn": "2026-11-03",
+      "published": true,
+      "tags": [
+        "dirigible",
+        "plazas",
+        "tickets",
+        "grupos de recompensas"
+      ],
+      "sources": [
+        {
+          "label": "Cinco plazas por grupo de recompensas, 23 oct 2026",
+          "url": "https://discord.com/channels/1408190992510615633/1561235138782822470/1563169793031282872"
+        },
+        {
+          "label": "Selección del sistema, 29 oct 2026",
+          "url": "https://discord.com/channels/1408190992510615633/1561235138782822470/1565254406922969099"
+        },
+        {
+          "label": "Afirmación sin verificar sobre conservación del peso, 2 nov 2026",
+          "url": "https://discord.com/channels/1408190992510615633/1561235138782822470/1566866474272825537"
+        },
+        {
+          "label": "Sin selección pese al máximo de tickets, 3 nov 2026",
+          "url": "https://discord.com/channels/1408190992510615633/1561235138782822470/1567203207917080650"
+        }
+      ]
+    },
+    {
+      "id": "jungle-meteor-knockback-experiment",
+      "title": "Control con meteoros en Jungle: combina los empujes con una fuente de daño",
+      "summary": "Prueba el ciclo de control de meteoros y pociones sin eliminar la fuente de daño que permite completar la fase.",
+      "body": "## Conjunto de control propuesto\nLa configuración del 2 de noviembre de 2026 combina:\n- Star of Time para los empujes.\n- Meteor Potion para generar pociones.\n- Giant Meteor para ampliar el impacto.\n- Potion Spring como componente grabado de supervivencia.\n\nMantén un conjunto separado de daño; el ejemplo comunicado utiliza sprites. La ventaja buscada es el empuje de área contra grupos.\n\n## Comprueba Swift Arrow con cuidado\nLa propuesta advierte de que Swift Arrow puede alterar el empuje de los meteoros. Otra configuración anterior advertía de elegir Swift Arrow antes de Short Range. Son observaciones específicas de cada configuración, no una prohibición universal.\n\n## Prueba antes de sustituir tu configuración\nLa mejora comunicada de 44 fases no procedía de una prueba controlada. Faltan las rarezas de las runas, los encantamientos completos y mediciones del tiempo activo. No está demostrado un control continuo ni infinito.",
+      "category": "builds",
+      "status": "community",
+      "gameVersion": "Desconocida; los mensajes consultados no indican la versión del parche",
+      "updatedOn": "2026-11-03",
+      "reviewedOn": "2026-11-03",
+      "published": true,
+      "tags": [
+        "Shackled Jungle",
+        "meteoros",
+        "empujes",
+        "Potion Spring",
+        "Swift Arrow"
+      ],
+      "sources": [
+        {
+          "label": "Propuesta de control con meteoros y resultado comunicado, 2 nov 2026",
+          "url": "https://discord.com/channels/1408190992510615633/1513504281322459206/1566759334053019829"
+        },
+        {
+          "label": "Matiz anterior sobre los empujes de Swift Arrow, 9 oct 2026",
+          "url": "https://discord.com/channels/1408190992510615633/1513504281322459206/1558109188172025929"
+        }
+      ]
+    },
+    {
+      "id": "guild-raid-keep-participation-window-open",
+      "title": "Incursiones de hermandad: deja tiempo para que participe todo el mundo",
+      "summary": "Derrotar al jefe y cerrar la incursión son acciones distintas en la guía de junio de 2026. Anuncia una hora de cierre antes de seleccionar los resultados.",
+      "body": "## Lista para responsables\n1. Anuncia la hora de cierre prevista.\n2. Tras derrotar pronto al jefe, deja abierta la incursión para los miembros ausentes.\n3. Recuerda que usen al menos un intento cuando las reglas actuales de recompensas exijan participar.\n4. Comprueba el botón de resultados antes de terminar la incursión.\n\n## Reglas históricas del evento\nLa guía editada el 22 de junio de 2026 indica que el jefe final se puede repetir y que los nodos sin terminar siguen disponibles después de derrotarlo. Seleccionar Raid Results termina la incursión. Describe dos intentos diarios y sugiere una primera incursión de 72 horas seguida de dos incursiones de 48 horas.\n\n## Antes de reutilizar el calendario\nConfirma los intentos actuales, los requisitos para recibir recompensas y el funcionamiento del cierre. Es un modelo de coordinación de aquella edición del evento; no se revisaron las capturas de la interfaz.",
+      "category": "expedition",
+      "status": "community",
+      "gameVersion": "No especificada en la referencia",
+      "updatedOn": "2026-06-22",
+      "reviewedOn": "2026-11-03",
+      "published": true,
+      "tags": [
+        "incursión de hermandad",
+        "liderazgo",
+        "participación",
+        "recompensas"
+      ],
+      "sources": [
+        {
+          "label": "Información de incursiones de hermandad: edición visible del 22 jun 2026",
+          "url": "https://discord.com/channels/1268830572743102505/1517736424265220136/1517736424265220136"
+        }
+      ]
+    },
+    {
+      "id": "plant-enchants-later-advice-corrects-old-list",
+      "title": "Encantamientos de plantas: define su función antes de sustituir el apoyo",
+      "summary": "Los consejos posteriores sobre plantas sustituyen un rechazo general inicial, pero siguen importando la rareza, los encantamientos y el apoyo del héroe.",
+      "body": "## Recomendaciones según la función\nUna recomendación posterior, con edición visible del 15 de septiembre, enumera:\n- Vine Bind: encantamiento único para PvE; daño de plantas para PvP.\n- Rootguard: encantamiento único para GvG; daño de plantas en los demás casos.\n- Equinox Bloom y Plant Summon: encantamientos únicos, con alternativas de daño para algunas configuraciones híbridas.\n\n## Lista para la transición\nComprueba la rareza de las runas, los encantamientos necesarios, el apoyo de runas grabadas y si la configuración prevista presupone usar a Demeter. Si faltan piezas, conserva el apoyo de Sprite's Awe que ya tengas mientras preparas el cambio.\n\n## Alcance\nEl consejo inicial de rechazar todas las plantas quedó desactualizado. Las recomendaciones posteriores siguen refiriéndose a configuraciones concretas; no demuestran que todas las cuentas deban cambiar de inmediato ni que un encantamiento gane en todas las situaciones.",
+      "category": "builds",
+      "status": "community",
+      "gameVersion": "No indicada en la fuente",
+      "updatedOn": "2026-09-15",
+      "reviewedOn": "2026-11-03",
+      "published": true,
+      "tags": [
+        "plantas",
+        "encantamientos",
+        "Vine Bind",
+        "Rootguard",
+        "Equinox Bloom",
+        "Demeter"
+      ],
+      "sources": [
+        {
+          "label": "Lista inicial de encantamientos y rechazo general de las plantas",
+          "url": "https://discord.com/channels/1268830572743102505/1485068964210938046/1485068964210938046"
+        },
+        {
+          "label": "Recomendaciones de encantamientos de plantas: edición visible del 15 de septiembre",
+          "url": "https://discord.com/channels/1268830572743102505/1485068964210938046/1526927882365046875"
+        },
+        {
+          "label": "Condiciones de rareza, encantamientos y Demeter",
+          "url": "https://discord.com/channels/1268830572743102505/1485068964210938046/1527395060696617051"
+        },
+        {
+          "label": "Mantener el apoyo existente hasta cumplir los requisitos del cambio",
+          "url": "https://discord.com/channels/1268830572743102505/1485068964210938046/1527495291450953729"
+        }
+      ]
+    },
+    {
+      "id": "ticket-stacking-is-not-additive-daily-refill",
+      "title": "Guardar entradas: distingue la acumulación de la reposición diaria",
+      "summary": "Un saldo que se conserva puede dejar de recibir reposiciones gratuitas. Cuenta los intentos que pierdes al ahorrar, incluidos los de anuncios.",
+      "body": "## Entiende la diferencia\nConservar un saldo no implica recibir una cantidad adicional cada día. Los ejemplos históricos de 2025 reponen Sky Tower hasta tres entradas y Arena hasta cinco cuando estás por debajo de esos límites, en lugar de añadir esa cantidad por encima de ellos.\n\n## Antes de acumular\n- Comprueba la descripción del reinicio del modo actual.\n- Compara las recompensas adicionales con los intentos gratuitos que dejas pasar al ahorrar.\n- Incluye las oportunidades diarias de anuncios.\n- Comprueba por separado los efectos de las tarjetas de privilegios.\n\n## Límites de cada modo\nSe comunicó que Quick Hunt permitía acumular, con advertencias sobre la pérdida de intentos por anuncios. Golden Cave quedó expresamente sin confirmar. Las cantidades de abril a agosto de 2025 no deben aplicarse a todos los modos ni darse por actuales sin comprobarlas.",
+      "category": "resources",
+      "status": "outdated",
+      "gameVersion": "No indicada en la fuente",
+      "updatedOn": "2025-08-06",
+      "reviewedOn": "2026-11-03",
+      "published": true,
+      "tags": [
+        "entradas",
+        "reinicio diario",
+        "Quick Hunt",
+        "Sky Tower",
+        "Arena",
+        "eventos"
+      ],
+      "sources": [
+        {
+          "label": "Límites de reposición archivados y dudas expresadas",
+          "url": "https://discord.com/channels/1268830572743102505/1360658919512604693/1360658919512604693"
+        },
+        {
+          "label": "Informe de acumulación en Quick Hunt",
+          "url": "https://discord.com/channels/1268830572743102505/1360658919512604693/1402462080237568153"
+        },
+        {
+          "label": "Ahorrar puede hacer perder oportunidades diarias de anuncios",
+          "url": "https://discord.com/channels/1268830572743102505/1360658919512604693/1402531016056242297"
+        },
+        {
+          "label": "Las condiciones de las tarjetas de privilegios afectan a las cantidades",
+          "url": "https://discord.com/channels/1268830572743102505/1360658919512604693/1398244601906593834"
+        }
+      ]
+    },
+    {
+      "id": "artifact-star-costs-historical-chart",
+      "title": "Fragmentos de artefactos: cuenta las etapas pendientes, no toda la tabla",
+      "summary": "La antigua tabla mítica incluye una etapa de cero estrellas. Descuenta el progreso existente antes de calcular los fragmentos restantes.",
+      "body": "## Secuencia mítica histórica\nLa tabla del 8 de junio de 2025 indica:\n- Etapas de cero a ocho: 10 fragmentos cada una.\n- Etapas de nueve a catorce: 20 fragmentos cada una.\n- Etapa quince: 30 fragmentos.\n\nLa secuencia completa suma 240 fragmentos. Como incluye una etapa de cero estrellas, no equivale automáticamente al coste pendiente de un artefacto que ya posees.\n\n## Dudas en rarezas inferiores\nLas respuestas sugieren costes iniciales de 20 fragmentos legendarios, 40 épicos y 100 raros, con un aparente patrón de duplicación. Dejan sin aclarar el límite posterior y si la duplicación continúa.\n\nConsulta la pantalla de mejora actual para el siguiente paso. No extrapoles este patrón provisional a una calculadora de coste máximo.",
+      "category": "resources",
+      "status": "outdated",
+      "gameVersion": "No indicada en la fuente",
+      "updatedOn": "2025-06-08",
+      "reviewedOn": "2026-11-03",
+      "published": true,
+      "tags": [
+        "artefactos",
+        "fragmentos",
+        "mejora de estrellas",
+        "planificación de recursos"
+      ],
+      "sources": [
+        {
+          "label": "Costes de etapas míticas y total comunicado",
+          "url": "https://discord.com/channels/1268830572743102505/1381065472077860964/1381065472077860964"
+        },
+        {
+          "label": "Patrón provisional de crecimiento en rarezas inferiores",
+          "url": "https://discord.com/channels/1268830572743102505/1381065472077860964/1381066404475961437"
+        },
+        {
+          "label": "Duda explícita sobre el límite superior",
+          "url": "https://discord.com/channels/1268830572743102505/1381065472077860964/1381069041124245606"
+        }
+      ]
+    },
+    {
+      "id": "set-transition-routes-are-planning-models",
+      "title": "Cambiar de conjunto: fija las piezas objetivo y recalcula los plazos",
+      "summary": "Organiza la transición por objetos, llaves y orbes de intercambio concretos, sin convertir los calendarios antiguos en fechas límite.",
+      "body": "## Prepara una transición\n1. Enumera las piezas exactas del conjunto mixto o completo que buscas.\n2. Cuenta las piezas útiles que ya tienes.\n3. Calcula las llaves y los orbes de intercambio de los eventos y tiendas que realmente utilizas.\n4. Recalcula a medida que cambien los objetos obtenidos y los intercambios.\n\n## Modelo histórico\nLos ejemplos de agosto de 2025 incluyen objetivos de arma y casco para pasar de Oracle a Dragoon y cambios parciales en sentido contrario. Presuponen unas 200 aperturas de cofres y cuatro piezas de grado S al mes, además de compras regulares de orbes de intercambio.\n\n## Las estimaciones no son promesas\nLa guía advierte que algunas probabilidades de éxito podrían estar infladas y poco contrastadas. Sus rutas de 30, 60, 90 y 120 días son ejemplos, no fechas garantizadas ni clasificaciones actuales de los mejores conjuntos.",
+      "category": "resources",
+      "status": "outdated",
+      "gameVersion": "No indicada en la fuente",
+      "updatedOn": "2025-08-14",
+      "reviewedOn": "2026-11-03",
+      "published": true,
+      "tags": [
+        "equipo",
+        "cambio de conjunto",
+        "orbes de intercambio",
+        "Mythstone",
+        "planificación"
+      ],
+      "sources": [
+        {
+          "label": "Supuestos de progresión y fuentes de orbes",
+          "url": "https://discord.com/channels/1268830572743102505/1405327770254577776/1405327770254577776"
+        },
+        {
+          "label": "Ejemplos de transición por etapas de Oracle a Dragoon",
+          "url": "https://discord.com/channels/1268830572743102505/1405327770254577776/1405327799425699844"
+        },
+        {
+          "label": "Otros ejemplos de cambios parciales",
+          "url": "https://discord.com/channels/1268830572743102505/1405327770254577776/1405327804265922610"
+        },
+        {
+          "label": "Advertencia explícita sobre probabilidades de éxito sin comprobar",
+          "url": "https://discord.com/channels/1268830572743102505/1405327770254577776/1405328053596323972"
+        }
+      ]
+    },
+    {
+      "id": "third-etched-slot-simulation-is-not-a-guarantee",
+      "title": "Tercer hueco grabado: cuenta con la variación, no con la tirada 184",
+      "summary": "Una simulación histórica orienta sobre la magnitud del esfuerzo, pero su media y su intervalo observado no son garantías.",
+      "body": "## Simulación publicada\nUn modelo del 31 de julio de 2025 simula 100.000 cuentas que empiezan de cero. Los resultados escritos indican:\n- Media: 183,86 tiradas épicas de bendición.\n- Desviación típica: 11,57 tiradas.\n- Intervalo observado en la muestra: 130–233 tiradas.\n\n## Aplica la estimación con cuidado\nUna media cercana a 184 no promete el desbloqueo en la tirada 184. El mínimo y el máximo de una muestra finita no son límites absolutos. El inventario de runas existente también diferencia una cuenta avanzada del modelo.\n\n## Supuestos que faltan\nEl texto no permite verificar las probabilidades actuales de obtención ni los supuestos de fusión. No se inspeccionó el histograma. Úsalo como estimación histórica de magnitud, no como un presupuesto exacto de gemas.",
+      "category": "resources",
+      "status": "outdated",
+      "gameVersion": "No indicada en la fuente",
+      "updatedOn": "2025-07-31",
+      "reviewedOn": "2026-11-03",
+      "published": true,
+      "tags": [
+        "runas de bendición",
+        "huecos grabados",
+        "simulación",
+        "probabilidad",
+        "progresión"
+      ],
+      "sources": [
+        {
+          "label": "Alcance de la simulación: 100.000 cuentas desde cero",
+          "url": "https://discord.com/channels/1268830572743102505/1400503476928118985/1400503476928118985"
+        },
+        {
+          "label": "Media, desviación e intervalo observado publicados por escrito",
+          "url": "https://discord.com/channels/1268830572743102505/1400503476928118985/1400503783850770565"
+        }
+      ]
+    },
+    {
+      "id": "beginner-gear-plan-november-2026",
+      "title": "Equipo inicial: elige una dirección y vuelve a evaluarla",
+      "summary": "Busca un conjunto inicial con llaves Mythstone y revisa el plan según evolucionen los modos, las rarezas y las opciones de conjuntos mixtos.",
+      "body": "## Plan de progresión inicial\n1. Elige un conjunto inicial que apoye los modos que juegas.\n2. Utiliza las llaves Mythstone para avanzar en esa dirección.\n3. Reserva gemas para otras oportunidades de progresión.\n4. Revisa la configuración cuando consigas piezas importantes para conjuntos mixtos y nuevas mejoras.\n\n## Opciones iniciales de noviembre de 2026\nLa guía editada el 3 de noviembre favorece Dragoon como opción versátil y Oracle para PvE. Son recomendaciones iniciales, no una regla permanente de llevar el conjunto completo.\n\n## Cuándo revisarlo\nEl alcance previsto es aproximadamente los primeros tres a seis meses, con una nueva evaluación después. No hay una comparación controlada de todas las rarezas, modos o combinaciones Godforge. La configuración de seguimiento referenciada depende de una imagen y no se reconstruye aquí.",
+      "category": "guides",
+      "status": "community",
+      "gameVersion": "No indicada en la fuente",
+      "updatedOn": "2026-11-03",
+      "reviewedOn": "2026-11-03",
+      "published": true,
+      "tags": [
+        "principiantes",
+        "equipo",
+        "Dragoon",
+        "Oracle",
+        "Mythstone"
+      ],
+      "sources": [
+        {
+          "label": "Guía rápida para principiantes: editada el 3 de noviembre de 2026",
+          "url": "https://discord.com/channels/1268830572743102505/1544939755106607144/1544939755106607144"
+        },
+        {
+          "label": "Aclaración: alcance inicial y revisión posterior",
+          "url": "https://discord.com/channels/1268830572743102505/1544939755106607144/1546995993697067108"
+        }
+      ]
+    },
+    {
+      "id": "hero-priorities-by-mode-and-breakpoint",
+      "title": "Plan de héroes: elige primero el modo y una mejora alcanzable",
+      "summary": "Compara las estrellas y apariencias que realmente puedes conseguir; PvP y PvE pueden justificar inversiones separadas.",
+      "body": "## Opciones raras iniciales\nLos consejos de noviembre de 2026 recomiendan Helix para el PvP inicial con héroes raros, Hou Yi para daño PvE y Nyanja para velocidad de movimiento. La misma conversación contempla desarrollar dos héroes raros de seis estrellas para distintos modos.\n\n## Opciones épicas para PvE\nDracoola se presenta como opción general de daño. La recomendación de Seraph por su selección de habilidades presupone ocho estrellas; otra recomendación para Seal/Monster Invasion también presupone una apariencia y una configuración de apoyo.\n\n## Antes de gastar fragmentos\nElige el modo, compara mejoras de estrellas alcanzables e incluye las apariencias necesarias. No valores a un héroe con pocas estrellas o sin apariencia usando una ventaja que solo tendrá más adelante. Estas recomendaciones no establecen un único mejor héroe universal.",
+      "category": "guides",
+      "status": "community",
+      "gameVersion": "No indicada en la fuente",
+      "updatedOn": "2026-11-03",
+      "reviewedOn": "2026-11-03",
+      "published": true,
+      "tags": [
+        "héroes",
+        "principiantes",
+        "PvP",
+        "PvE",
+        "fragmentos"
+      ],
+      "sources": [
+        {
+          "label": "Consejos iniciales de héroes: editados el 3 de noviembre de 2026",
+          "url": "https://discord.com/channels/1268830572743102505/1544939755106607144/1544939755106607144"
+        },
+        {
+          "label": "Dos héroes raros pueden cubrir modos distintos",
+          "url": "https://discord.com/channels/1268830572743102505/1544939755106607144/1546995993697067108"
+        },
+        {
+          "label": "Recomendaciones PvE de Dracoola y Seraph con sus condiciones",
+          "url": "https://discord.com/channels/1268830572743102505/1544939755106607144/1564953325890175048"
+        }
+      ]
+    },
+    {
+      "id": "shop-priorities-before-third-etched-slot",
+      "title": "Prioridades de tiendas: compra para tu siguiente objetivo de progresión",
+      "summary": "Los primeros objetivos de héroes y huecos grabados requieren compras distintas a las de una cuenta avanzada.",
+      "body": "## Secuencia inicial de compras\nLos consejos de noviembre de 2026 comienzan por llevar al héroe raro elegido hacia seis estrellas mediante la tienda de hermandad, seguido de runas de bendición para conseguir más huecos grabados.\n\n## Otras prioridades que comparar\n- Arena: runas de bendición y orbes de intercambio rebajados.\n- GvG: runas de bendición, fragmentos de Otta y orbes de intercambio.\n- Peak Arena: primera estrella de Loki y después Enchantium.\n\n## Después del tercer hueco grabado\nRevisa las compras de runas de bendición. Los fragmentos de héroes épicos, otro héroe raro o el progreso en Sacred Hall podrían aportar más.\n\nEstas prioridades dependen de la situación; no son una orden de comprarlo todo a la vez. Que una cuenta concreta compre núcleos Godforge no los convierte en obligatorios para todo principiante. Ajusta el gasto al siguiente objetivo alcanzable.",
+      "category": "resources",
+      "status": "community",
+      "gameVersion": "No indicada en la fuente",
+      "updatedOn": "2026-11-03",
+      "reviewedOn": "2026-11-03",
+      "published": true,
+      "tags": [
+        "tiendas",
+        "runas de bendición",
+        "huecos grabados",
+        "progresión",
+        "Otta"
+      ],
+      "sources": [
+        {
+          "label": "Preguntas frecuentes del 3 de noviembre: tiendas y prioridades",
+          "url": "https://discord.com/channels/1268830572743102505/1544939755106607144/1567145405190373487"
+        },
+        {
+          "label": "Compras de una cuenta concreta y objetivo del tercer hueco",
+          "url": "https://discord.com/channels/1268830572743102505/1544939755106607144/1549609087363453091"
+        }
+      ]
+    },
+    {
+      "id": "rune-and-enchant-priorities-by-purpose",
+      "title": "Prioridades de runas: separa el daño al objetivo de los efectos de apoyo",
+      "summary": "Usa los encantamientos según su función y añade combinaciones de apoyo sin asumir que todos los huecos deban compartir un tipo de daño.",
+      "body": "## Adapta la elección al objetivo\nLos consejos de noviembre de 2026 distinguen el rebote de Sharp Arrow para varios objetivos del crítico del arma principal para un solo objetivo. Arrow Rain se combina con daño del arma principal.\n\n## Comprueba los efectos condicionales\nLos encantamientos únicos de Flamenox y Frostshock dependen de la configuración. Se sugieren únicos de sprites para Shackled Jungle, mientras que el único de Ring of Agony es una opción PvP.\n\n## Progresión de grabadas y apoyos\nArrow of Echoes legendaria y Echo Scythe rara son objetivos iniciales PvE distintos. Una ruta de Sprite's Awe utiliza Awe legendaria con dos runas de sprites a la derecha; no exige llenar todos los huecos con sprites. Los meteoros con buenos encantamientos pueden combinarse con ese apoyo.\n\nNo se revisó la imagen de la configuración completa. Son prioridades, no una configuración íntegra.",
+      "category": "builds",
+      "status": "community",
+      "gameVersion": "No indicada en la fuente",
+      "updatedOn": "2026-11-03",
+      "reviewedOn": "2026-11-03",
+      "published": true,
+      "tags": [
+        "runas",
+        "encantamientos",
+        "Arrow of Echoes",
+        "Sprite's Awe",
+        "Sharp Arrow",
+        "PvE"
+      ],
+      "sources": [
+        {
+          "label": "Preguntas frecuentes del 3 de noviembre: grabadas y encantamientos",
+          "url": "https://discord.com/channels/1268830572743102505/1544939755106607144/1567145405190373487"
+        },
+        {
+          "label": "Sprite's Awe legendaria y dos runas de sprites a la derecha",
+          "url": "https://discord.com/channels/1268830572743102505/1544939755106607144/1555300857384534027"
+        },
+        {
+          "label": "La sinergia de apoyo no exige más huecos de sprites",
+          "url": "https://discord.com/channels/1268830572743102505/1544939755106607144/1555301151505645690"
+        },
+        {
+          "label": "Los encantamientos de meteoros importan al combinar enfoques",
+          "url": "https://discord.com/channels/1268830572743102505/1544939755106607144/1555300622075437197"
+        }
+      ]
+    },
+    {
+      "id": "godforge-second-star-evidence-limits",
+      "title": "Segunda estrella Godforge: revisa la habilidad y el coste de oportunidad",
+      "summary": "Separa lo que desbloquea la mejora de si los núcleos aportan más que tu siguiente objetivo de artefacto o héroe.",
+      "body": "## Comprobaciones de la mejora\n1. Lee la habilidad de segunda estrella del objeto exacto.\n2. Comprueba a qué modo y fuente de daño afecta.\n3. Compara el coste en núcleos con el siguiente objetivo de artefacto o héroe.\n4. Prueba una configuración comparable antes de extrapolar desde otro objeto.\n\n## Informes de octubre de 2026\nLa conversación identifica una habilidad Godforge Descent de segunda estrella y mejoras percibidas tras mejorar arco y anillo. También se comunica un intervalo aproximado de dos segundos entre efectos y la aparición de corazones junto al enemigo.\n\n## Valor sin resolver\nEsas observaciones carecen de configuraciones controladas completas. No establecen un tiempo de reutilización universal ni si los núcleos aportan más que los artefactos Demon o la progresión de héroes legendarios. No se comprobaron los detalles de habilidades disponibles solo en capturas.",
+      "category": "resources",
+      "status": "community",
+      "gameVersion": "No indicada en la fuente",
+      "updatedOn": "2026-10-31",
+      "reviewedOn": "2026-11-03",
+      "published": true,
+      "tags": [
+        "Godforge",
+        "equipo",
+        "planificación de mejoras",
+        "pruebas"
+      ],
+      "sources": [
+        {
+          "label": "Habilidad de segunda estrella: corrección en la conversación",
+          "url": "https://discord.com/channels/1268830572743102505/1565414335914975473/1565487788885934135"
+        },
+        {
+          "label": "Comparación entre artefactos y núcleos sin resolver",
+          "url": "https://discord.com/channels/1268830572743102505/1565414335914975473/1565414832528826429"
+        },
+        {
+          "label": "Intervalo aproximado del efecto comunicado",
+          "url": "https://discord.com/channels/1268830572743102505/1565414335914975473/1565767810985230447"
+        },
+        {
+          "label": "Observación del lugar de aparición de corazones y limitación PvE",
+          "url": "https://discord.com/channels/1268830572743102505/1565414335914975473/1565767911967297768"
+        }
+      ]
+    },
+    {
+      "id": "event-shop-price-tables-check-bundles-and-currency",
+      "title": "Tiendas de eventos: compara la cantidad y la moneda antes del precio",
+      "summary": "Calcula el coste por objeto dentro de la misma moneda y comprueba los límites de existencias y la oferta actual.",
+      "body": "## Lista de comparación\n1. Identifica la recompensa exacta y la cantidad del lote.\n2. Lee la moneda asociada al precio.\n3. Divide el precio entre la cantidad para comparar ofertas equivalentes.\n4. Comprueba los límites de existencias y las fechas del evento.\n\n## Ejemplo histórico\nUna tabla de pesca de agosto de 2026 enumera cinco Chromatic Chest Keys por 8.000 tickets plateados: 1.600 tickets plateados por unidad. Su tabla prémium indica cinco llaves por cuatro tickets dorados.\n\nNo puedes comparar directamente esas monedas sin justificar una conversión o un modelo de coste de oportunidad.\n\n## Límite de vigencia\nUn mensaje posterior de agradecimiento no actualiza los precios. Son entradas archivadas, no ofertas actuales verificadas; no se comprobaron las imágenes ni los precios vigentes dentro del juego.",
+      "category": "resources",
+      "status": "outdated",
+      "gameVersion": "No indicada en la fuente",
+      "updatedOn": "2026-08-26",
+      "reviewedOn": "2026-11-03",
+      "published": true,
+      "tags": [
+        "eventos",
+        "tiendas",
+        "pesca",
+        "monedas",
+        "lotes"
+      ],
+      "sources": [
+        {
+          "label": "Canje normal de pesca: edición visible del 17 de agosto",
+          "url": "https://discord.com/channels/1268830572743102505/1516738436600430653/1517049419336384573"
+        },
+        {
+          "label": "Canje prémium de pesca: edición visible del 26 de agosto",
+          "url": "https://discord.com/channels/1268830572743102505/1516738436600430653/1517049515507453952"
+        },
+        {
+          "label": "Hilo de referencia: campos separados de objeto, cantidad y precio",
+          "url": "https://discord.com/channels/1268830572743102505/1516738436600430653/1516738436600430653"
+        }
+      ]
+    },
+    {
+      "id": "reference-rune-types-and-rarity",
+      "title": "Runas básicas: clases, huecos y materiales de fusión compatibles",
+      "summary": "La rareza puede desbloquear comportamientos nuevos, mientras que las recetas de fusión pueden exigir duplicados concretos.",
+      "body": "## Cuatro clases de runas\nLa referencia enumera runas de bendición (Blessing), habilidad (Ability), mejora (Enhancement) y grabadas (Etched), con dos, cuatro, cuatro y tres huecos respectivamente. Las grabadas combinan aumentos de ataque y vida con efectos ligados a ataques concretos.\n\n## Antes de fusionar\nComprueba los duplicados necesarios en Rune Workshop. No supongas que las recetas de runas utilizan las reglas más flexibles de material del mismo hueco de algunas recetas de equipo.\n\n## Compara efectos, no solo estadísticas\nUna rareza superior puede cambiar el comportamiento además de las cifras. Valora el siguiente desbloqueo antes de gastar materiales.\n\n## Vigencia\nEl texto se recuperó el 3 de noviembre de 2026, pero se desconocen la fecha de revisión y la versión del juego. Verifica los huecos y las recetas actuales dentro del juego.",
+      "category": "equipment",
+      "status": "outdated",
+      "gameVersion": "Desconocida; fecha de revisión de la wiki no disponible",
+      "updatedOn": "2025-01-02",
+      "reviewedOn": "2026-11-03",
+      "published": true,
+      "tags": [
+        "referencia",
+        "runas",
+        "rareza",
+        "fusión",
+        "huecos"
+      ],
+      "sources": [
+        {
+          "label": "Índice de referencia: publicación inicial de Runes",
+          "url": "https://discord.com/channels/1268830572743102505/1324383006546460845/1324383006546460845"
+        },
+        {
+          "label": "Referencia: Runes",
+          "url": "https://archero-2.game-vault.net/wiki/Runes"
+        }
+      ]
+    },
+    {
+      "id": "reference-gear-slots-and-fusion",
+      "title": "Equipo básico: el nivel del hueco y la calidad del objeto son distintos",
+      "summary": "Cambiar de equipo puede conservar la inversión en el hueco, mientras que la fusión consume materiales para aumentar la calidad del objeto.",
+      "body": "## Seis posiciones de equipo\nArma, armadura, casco, botas, amuleto y anillo ocupan un hueco distinto cada uno.\n\n## Subir de nivel frente a fusionar\nLa referencia describe la subida de nivel con oro y pergaminos como una inversión en el hueco que se conserva al cambiar el objeto equipado. La fusión, en cambio, aumenta la calidad de un objeto.\n\n## Lee la receta con cuidado\nAlgunos pasos exigen un duplicado exacto; otros permiten otro objeto del mismo hueco y algunos requisitos incluyen material universal. Comprueba qué objeto se consumirá antes de confirmar.\n\n## Alcance histórico\nLa página se editó el 18 de julio de 2025 y su tabla llega hasta Chaotic. No es una documentación completa de los sistemas de fabricación posteriores ni de los costes actuales.",
+      "category": "equipment",
+      "status": "outdated",
+      "gameVersion": "No indicada; revisión de la wiki del 2025-07-18",
+      "updatedOn": "2025-07-18",
+      "reviewedOn": "2026-11-03",
+      "published": true,
+      "tags": [
+        "referencia",
+        "equipo",
+        "huecos",
+        "fusión",
+        "herrería"
+      ],
+      "sources": [
+        {
+          "label": "Índice de referencia: publicación inicial de Gear",
+          "url": "https://discord.com/channels/1268830572743102505/1324385366958149683/1324385366958149683"
+        },
+        {
+          "label": "Referencia: Gear",
+          "url": "https://archero-2.game-vault.net/wiki/Gear"
+        }
+      ]
+    },
+    {
+      "id": "reference-talent-card-table",
+      "title": "Cartas de talento: compara valores con el mismo nivel de estrellas",
+      "summary": "Comprueba las etiquetas de rango y la bonificación de obtención concreta antes de comparar resultados de farmeo mediante una tabla de talentos.",
+      "body": "## Lee las condiciones de la tabla\nLa referencia histórica describe la mayoría de las cartas como mejorables hasta cinco estrellas, con Glory y Tactics como excepciones de una estrella. Describe una segunda colección que se desbloquea al completar la primera.\n\n## Evita comparar rangos distintos\nLa mayoría de los valores corresponden a cinco estrellas, pero varias entradas de la segunda colección usan una estrella y una entrada de recuperación usa dos. No compares esas filas como si compartieran rango.\n\n## Comprobaciones de farmeo\nRegistra por separado los niveles reales de talentos de obtención de pergaminos, equipo y runas. Una cuenta avanzada en general puede tener bonificaciones relevantes distintas.\n\n## Vigencia\nLa página se editó el 21 de junio de 2025. No es una lista verificada de todas las cartas o límites disponibles en noviembre de 2026.",
+      "category": "guides",
+      "status": "outdated",
+      "gameVersion": "No indicada; revisión de la wiki del 2025-06-21",
+      "updatedOn": "2025-06-21",
+      "reviewedOn": "2026-11-03",
+      "published": true,
+      "tags": [
+        "referencia",
+        "cartas de talento",
+        "niveles de estrellas",
+        "probabilidades de obtención"
+      ],
+      "sources": [
+        {
+          "label": "Índice de referencia: publicación inicial de Talent Cards",
+          "url": "https://discord.com/channels/1268830572743102505/1330134812295696394/1330134812295696394"
+        },
+        {
+          "label": "Referencia: Talent Cards",
+          "url": "https://archero-2.game-vault.net/wiki/Talent_Cards"
+        }
+      ]
+    },
+    {
+      "id": "reference-skills-and-damage-terms",
+      "title": "Términos de daño: ataque, daño de arma y velocidad son distintos",
+      "summary": "Identifica la fuente de daño afectada y prueba los umbrales de velocidad de ataque antes de comparar bonificaciones porcentuales.",
+      "body": "## Separa los términos\nEl poder de ataque, el daño del arma principal y otras bonificaciones describen partes distintas de una configuración. La referencia agrupa modificadores antes de combinar los grupos y advierte de que la redacción podría no revelar todas las fuentes afectadas.\n\n## La velocidad no siempre es lineal\nLa velocidad de ataque se describe mediante umbrales. Otro aumento porcentual podría no producir inmediatamente un ataque adicional durante el mismo intervalo.\n\n## Documenta pruebas útiles\nRegistra el modo, el objetivo, la fuente de daño, las habilidades, la duración y el comportamiento real de los impactos. Las habilidades también pueden obtenerse de forma distinta según el modo.\n\n## Alcance\nNo se proporciona una ecuación completa ni una tabla de umbrales actuales. El texto se recuperó el 3 de noviembre de 2026, pero se desconocen la antigüedad de la revisión y la versión aplicable.",
+      "category": "guides",
+      "status": "outdated",
+      "gameVersion": "Desconocida; fecha de revisión de la wiki no disponible",
+      "updatedOn": "2025-01-04",
+      "reviewedOn": "2026-11-03",
+      "published": true,
+      "tags": [
+        "referencia",
+        "habilidades",
+        "daño",
+        "velocidad de ataque",
+        "umbrales"
+      ],
+      "sources": [
+        {
+          "label": "Índice de referencia: publicación inicial de Skills",
+          "url": "https://discord.com/channels/1268830572743102505/1325092594023272509/1325092594023272509"
+        },
+        {
+          "label": "Referencia: Skills",
+          "url": "https://archero-2.game-vault.net/wiki/Skills"
+        }
+      ]
+    },
+    {
+      "id": "treasure-island-x10-tile-guide",
+      "title": "Treasure Island: cuándo tirar con ×1 o ×10",
+      "summary": "Consulta el mapa numerado de casillas de salida, comprueba tus dados y calcula tu objetivo con Dice Companion. Guía práctica del modelo de septiembre de 2025 con sus límites señalados.",
+      "body": "## Regla rápida\nEn el modelo de Dice Companion enlazado, usa el multiplicador alto cuando estés en la casilla 8, 9, 20, 21 o 22. Usa ×1 desde todas las demás. La numeración va de 0 a 23; la casilla 0 es la salida.\n\nElige el multiplicador ANTES de tirar, según la casilla de la que sales. No son instrucciones para caer en esas casillas usando ×10. Comprueba tu nueva posición después de cada tirada. Compara primero el diagrama con el tablero actual: es un modelo de septiembre de 2025, no una regla verificada para todas las rotaciones del evento.\n\n## Juega movimiento a movimiento\n1. Elige el objetivo de recompensas que realmente quieres y fija un límite de gasto.\n2. Recoge los dados que ya hayas ganado con tareas y recompensas.\n3. Localiza tu casilla actual en el mapa numerado.\n4. Desde una casilla de salida resaltada, utiliza el multiplicador alto del modelo solo si tus dados disponibles y el selector actual lo permiten. En caso contrario, usa ×1.\n5. Tira una vez, recoge el resultado y localiza la nueva casilla antes de volver a elegir.\n6. Revisa tu puntuación real, la siguiente recompensa y los dados restantes antes de ampliar el objetivo.\n\n## Límites de dados de este modelo\n- 0 dados: consigue más antes de tirar.\n- 1–19 dados: máximo ×1.\n- 20–29 dados: máximo ×2.\n- 30–49 dados: máximo ×3.\n- 50–99 dados: máximo ×5.\n- 100 dados o más: máximo ×10.\nEstos límites solo elevan la recomendación en las casillas resaltadas. Las demás siguen en ×1. La conversación antigua usaba otros umbrales y menos casillas resaltadas; no combines los mapas. Comprueba los controles reales dentro del juego.\n\n## Qué hace ×10\nEl modelo gasta diez dados en el resultado de un único movimiento y multiplica la recompensa de llegada. No son diez recorridos independientes por el tablero. Una mala llegada consume más dados ahorrados de una vez, así que alcanzar el objetivo nunca está garantizado.\n\n## Utiliza Dice Companion\nAbre Dice Companion desde Enlaces y referencias. Si la partida ya está en marcha, utiliza Success Rate Calculator: introduce Goal Points, los dados disponibles, Current Tile, Current Points y Rolls Done. Recoge antes los dados ganados para que los datos coincidan con la pantalla.\n\nPara Rolls Done, utiliza el contador de tareas del juego, no el número de veces que pulsaste el botón de tirar. En el modelo, una tirada ×10 aumenta ese contador en diez. Recalcula después de cambios relevantes en la puntuación o en los dados disponibles.\n\nShould I Roll? estima un presupuesto inicial a partir de una puntuación objetivo y una probabilidad de éxito deseada. Usa una simulación distinta que no aplica los límites de multiplicador por pocos dados durante cada ejecución simulada. Trata el resultado como una estimación; utiliza la calculadora de estado actual para evaluar los dados que realmente tienes.\n\n## La puntuación no es el coste en gemas\n100k y 150k significan puntos del evento. Los tickets de tienda desbloqueados por esas puntuaciones pueden requerir una compra adicional con gemas. Lee la ruta de recompensas y la tienda actuales antes de comparar el valor por ticket. Un objetivo de puntuación no determina un presupuesto fijo de dados o gemas.\n\n## Límites del modelo\nLa herramienta realiza simulaciones aleatorias con un tablero y unos supuestos de recompensas fijos. Los resultados pueden variar entre cálculos; no son probabilidades oficiales de obtención. Al comprobarlo el 3 de noviembre de 2026, su código se había actualizado por última vez en septiembre de 2025. Aquí no se ha probado el comportamiento actual del juego. La antigua página Treasure Hunt declara expresamente que ya no se mantiene y remite a Dice Companion.",
+      "category": "tips",
+      "status": "outdated",
+      "gameVersion": "Modelo de septiembre de 2025; juego actual sin verificar",
+      "updatedOn": "2025-09-20",
+      "reviewedOn": "2026-11-03",
+      "published": true,
+      "tags": [
+        "treasure island",
+        "dados",
+        "x10",
+        "x1",
+        "multiplicador",
+        "casillas",
+        "calculadora",
+        "estrategia de eventos"
+      ],
+      "sources": [
+        {
+          "label": "Dice Companion: calculadora, mapa y seguimiento de tiradas",
+          "url": "https://ksun4176.github.io/archero2-dice-companion/"
+        },
+        {
+          "label": "Estrategia e instrucciones de datos: código de septiembre de 2025",
+          "url": "https://github.com/ksun4176/archero2-dice-companion/blob/62798d88e03e5fb9eab88d8d929fb95ea548426c/app/_components/guide-button-content.tsx"
+        },
+        {
+          "label": "Supuestos de simulación y límites de multiplicador",
+          "url": "https://github.com/ksun4176/archero2-dice-companion/blob/62798d88e03e5fb9eab88d8d929fb95ea548426c/app/_utils/simulate.ts"
+        },
+        {
+          "label": "Guía retirada de Treasure Hunt: aviso de mantenimiento",
+          "url": "https://ksun4176.github.io/archero2-island-treasure-hunt/"
+        },
+        {
+          "label": "Conversación anterior del mapa de riesgo: otro modelo histórico",
+          "url": "https://discord.com/channels/1268830572743102505/1336540875454550026/1336540875454550026"
+        },
+        {
+          "label": "Objetivos de puntuación y compras de tienda separadas: octubre de 2026",
+          "url": "https://discord.com/channels/1408190992510615633/1465884305103261767/1563040073685925950"
+        }
+      ]
+    },
+    {
+      "id": "fishing-event-playbook",
+      "title": "Pesca: reservas de peces, roturas de sedal y rutas de tickets",
+      "summary": "Lleva la cuenta de los peces que quedan en cada lago, elige una ruta de tickets plateados o dorados y reserva las roturas selectivas para las capturas importantes.",
+      "body": "## Empieza por la recompensa\nElige el objeto que quieres del canje, comprueba si cuesta tickets plateados o dorados y fija un máximo de gemas. Cuenta los cebos gratuitos que aún puedes obtener de las tareas actuales antes de comprar más. Compra cebos adicionales en lotes pequeños y detente cuando tu saldo real de tickets alcance el objetivo.\n\n## Entiende la reserva de peces\nLas reservas normales de Lakehouse, Sunset Coast y Oceanic Abyss contienen 40 peces: 30 raros, 9 épicos y 1 legendario. Polar Glacier duplica esas cifras hasta 80: 60 raros, 18 épicos y 2 legendarios. Cada lago conserva sus propios peces restantes. La reserva se repone cuando se han capturado todos sus peces.\n- Capturar un pez lo retira de su reserva.\n- Romper el sedal devuelve ese pez a la reserva. No crea otro legendario ni adelanta la reposición.\n- Un lago nuevo tiene su propia reserva; al volver a un lago anterior retomas los peces que le quedaban.\n- Cuenta los peces capturados, no las pulsaciones. Cuatro capturas completas de x10 suman 40 peces. El orden de las capturas sigue siendo aleatorio.\n\n## Cuándo usar x10 o romper el sedal\nUsa x10 cuando tengas intención de completar una reserva entera. Cambia a lanzamientos más pequeños al acercarte a un cambio de lago o a tu última reserva parcial. Lleva la cuenta de si queda algún legendario o épico útil antes de gastar roturas.\nSi vas a capturar toda la reserva de todos modos, una rotura solo retrasa la captura de ese pez. Las roturas selectivas ayudan cuando piensas dejar peces sin capturar. Una vez capturado el legendario objetivo, consigue los peces necesarios para avanzar en lugar de rechazar repetidamente la misma reserva sin ese premio.\nEl método selectivo más sencillo usa x1. Una ruta de marzo de 2026 usa x2 y rechaza lotes que solo contienen raros, conservando los que contienen épicos y legendarios; exige interpretar correctamente el lote completo. Comprueba tu cupo de canje restante antes de cada sesión selectiva: las guías recopiladas describen 120 roturas de sedal reembolsables, no reintentos gratuitos ilimitados.\n\n## Ruta A: prioriza los tickets plateados\nEsta ruta intenta llegar a Polar con más cebos disponibles para sus capturas de mayor valor.\n1. Lakehouse: completa una reserva entera. Busca el segundo legendario y los épicos en la siguiente reserva; después captura lo necesario para desbloquear Sunset.\n2. Sunset: completa dos reservas enteras. Busca el tercer legendario y los épicos; después avanza a Oceanic.\n3. Oceanic: completa dos reservas enteras. Busca el tercer legendario y los épicos; después avanza a Polar.\n4. Polar: completa reservas enteras de 80 peces mientras persigues tu objetivo de tickets. Reserva las roturas restantes para los peces valiosos de tu última reserva parcial.\n\n## Ruta B: prioriza los tickets dorados\nEsta ruta busca más legendarios en los primeros lagos, aceptando menos tickets plateados a cambio de un presupuesto histórico de gemas inferior.\n1. Lakehouse: completa dos reservas enteras. Vuelve después de desbloquear Sunset si hace falta y usa capturas selectivas x1 para buscar un tercer legendario.\n2. Sunset: completa dos reservas enteras, busca el tercer legendario y después avanza.\n3. Oceanic: completa tres reservas enteras. Vuelve después de desbloquear Polar si hace falta y usa x1 para buscar un cuarto legendario.\n4. Polar: completa dos reservas enteras y utiliza las roturas restantes para buscar los dos legendarios de la siguiente reserva.\nEl objetivo en los lagos normales es 3 + 3 + 4 + 6 capturas legendarias. Los cebos o las roturas reembolsables pueden agotarse antes de terminar; es una ruta, no una garantía de conseguir 16 legendarios.\n\n## Interpreta la tensión con la caña correcta\nObserva la tensión inicial cuando pica el pez. Compárala solo con ejemplos de la misma caña y el mismo lago: las cañas más potentes reducen la tensión y los lagos posteriores la aumentan. Los colores de resistencia describen el comportamiento y no deben usarse por sí solos como un código universal de rareza. Practica con x1 antes de rechazar un lote.\nLa comparación enlazada de los primeros lagos usa la caña final en los lagos 1–3. La comparación aparte de Polar usa una caña épica. Esas capturas son referencias distintas, no umbrales intercambiables.\n\n## Utiliza Fishing Companion\n1. Abre Fishing Companion desde Referencias y selecciona el lago actual y las ilustraciones de peces correspondientes.\n2. Configura el multiplicador real antes de registrar. Pulsa cada pez capturado; la aplicación agrupa los resultados de ese lanzamiento.\n3. Utiliza Undo para corregir errores. Registra las roturas de sedal por separado, sin retirar de la reserva los peces liberados.\n4. Elige el plan orientado a oro o plata por su descripción. La numeración de las opciones cambia entre guías antiguas y herramientas.\n5. Comprueba el peso y el saldo de tickets reales del juego antes de cambiar de lago o gastar. La herramienta estima el peso; sus consejos de rotura son un modelo, no una prueba del lanzamiento óptimo. El progreso solo se guarda en ese navegador.\n\n## Dragon Gate y Fullmoon\nSon reservas de eventos especiales, separadas de las del lago normal. Selecciona la reserva especial correcta en el registro y lleva sus cuentas por separado. Comprueba el límite de visitas y las recompensas de fragmentos propios del evento. Los informes discrepan sobre romper selectivamente el sedal con peces raros allí; capturar sus peces es la opción conservadora hasta que estén claras las reglas de tu rotación. No apliques automáticamente la reposición normal de 40/80 peces a una visita limitada a una reserva especial.\n\n## Notas de versión\nLas rutas proceden de una guía de marzo de 2026; las respuestas de octubre de 2026 reafirman los tamaños de las reservas normales y el enfoque de selección en los primeros lagos. El registro enlazado se actualizó en octubre de 2026. Aquí no se probó ninguna versión actual del juego. Comprueba los requisitos de las tareas, el comportamiento de las cañas, los límites de canje y las reglas de las reservas especiales actuales antes de gastar recursos. Las estimaciones antiguas de gemas se omiten deliberadamente porque el coste depende de las capturas reales y de los cambios del evento.",
+      "category": "tips",
+      "status": "community",
+      "gameVersion": "No indicada; informes de reservas normales hasta octubre de 2026",
+      "updatedOn": "2026-10-18",
+      "reviewedOn": "2026-11-03",
+      "published": true,
+      "tags": [
+        "pesca",
+        "Angler's Bounty",
+        "roturas de sedal",
+        "x10",
+        "cebos",
+        "tickets dorados",
+        "tickets plateados",
+        "Polar Glacier",
+        "Dragon Gate",
+        "Fullmoon"
+      ],
+      "sources": [
+        {
+          "label": "Fishing Companion: registro de capturas y planificador de rutas",
+          "url": "https://jgdevalpha.github.io/archero-fish-companion/"
+        },
+        {
+          "label": "Registro clásico de pesca",
+          "url": "https://ksun4176.github.io/archero2-fish-companion/"
+        },
+        {
+          "label": "Modelo de reservas normales y objetivos de rutas: marzo de 2026",
+          "url": "https://discord.com/channels/1268830572743102505/1481345072766124285/1481345072766124285"
+        },
+        {
+          "label": "Lakehouse: dos rutas posibles",
+          "url": "https://discord.com/channels/1268830572743102505/1481345072766124285/1481345114906296470"
+        },
+        {
+          "label": "Sunset Coast: objetivo del tercer legendario",
+          "url": "https://discord.com/channels/1268830572743102505/1481345072766124285/1481345128030404729"
+        },
+        {
+          "label": "Oceanic Abyss: avanzar o volver",
+          "url": "https://discord.com/channels/1268830572743102505/1481345072766124285/1481345151740805212"
+        },
+        {
+          "label": "Polar Glacier: estrategia de la última reserva",
+          "url": "https://discord.com/channels/1268830572743102505/1481345072766124285/1481345160666288190"
+        },
+        {
+          "label": "Tamaños de reservas normales reafirmados: octubre de 2026",
+          "url": "https://discord.com/channels/1268830572743102505/1481345072766124285/1561302359643136101"
+        },
+        {
+          "label": "Roturas y progresión en los primeros lagos: octubre de 2026",
+          "url": "https://discord.com/channels/1268830572743102505/1481345072766124285/1561127376258334763"
+        },
+        {
+          "label": "Cupo de 120 roturas reafirmado: octubre de 2026",
+          "url": "https://discord.com/channels/1268830572743102505/1481345072766124285/1561127998655041567"
+        },
+        {
+          "label": "Método de rotura de sedal con x1",
+          "url": "https://discord.com/channels/1268830572743102505/1394706549074821271/1394706701990625432"
+        },
+        {
+          "label": "Ejemplos de tensión: lagos 1–3 con la caña final",
+          "url": "https://discord.com/channels/1268830572743102505/1481345072766124285/1481345668575531058"
+        },
+        {
+          "label": "Ejemplos de tensión: Polar con caña épica",
+          "url": "https://discord.com/channels/1268830572743102505/1394706549074821271/1394707151133343836"
+        },
+        {
+          "label": "Reglas de reservas especiales y recomendación de capturarlo todo",
+          "url": "https://discord.com/channels/1268830572743102505/1481345072766124285/1481346000311554079"
+        },
+        {
+          "label": "Estrategia de roturas en reservas especiales aún discutida: septiembre de 2026",
+          "url": "https://discord.com/channels/1268830572743102505/1481345072766124285/1552499322128564285"
+        },
+        {
+          "label": "Límite de intentos comunicado en reservas especiales: septiembre de 2026",
+          "url": "https://discord.com/channels/1268830572743102505/1481345072766124285/1552559785352892497"
+        },
+        {
+          "label": "Compras graduales de cebos y presupuestos aproximados",
+          "url": "https://discord.com/channels/1268830572743102505/1394706549074821271/1394706810774229033"
+        }
+      ]
+    }
+  ]
+}
