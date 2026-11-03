@@ -1,0 +1,14 @@
+{
+  "name": "darkknight-archero-hub",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "test:unit": "node --test tests/catalog.test.mjs",
+    "test:integration": "node --test tests/build.test.mjs",
+    "preview": "python -m http.server 4173 --bind 127.0.0.1 --directory dist"
+  }
+}

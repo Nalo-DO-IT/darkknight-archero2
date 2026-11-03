@@ -1,0 +1,9 @@
+.private/
+dist/
+node_modules/
+.env
+.env.*
+!.env.example
+test-results/
+.playwright-mcp/
+*.log
