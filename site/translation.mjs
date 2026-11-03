@@ -7,10 +7,17 @@ export const LANGUAGES = Object.freeze([
   ['more', 'More languages…']
 ]);
 
-export function translationUrl(pageUrl, language) {
+export const SITE_URL = 'https://nalo-do-it.github.io/darkknight-archero2/';
+
+export function translationUrl(pageUrl, language, originalUrl) {
   if (!LANGUAGES.some(([code]) => code === language)) return null;
   try {
-    const url = new URL(pageUrl);
+    let url = new URL(pageUrl);
+    if (url.hostname.endsWith('.translate.goog')) {
+      if (!originalUrl) return null;
+      url = new URL(originalUrl);
+      if (url.hostname.endsWith('.translate.goog')) return null;
+    }
     if (!['https:', 'http:'].includes(url.protocol) || url.username || url.password) return null;
     if (language === 'en') return url.href;
     if (url.hostname === 'localhost' || url.hostname === '[::1]' || /^(127\.|10\.|192\.168\.|172\.(1[6-9]|2\d|3[01])\.)/.test(url.hostname)) return null;
@@ -34,7 +41,8 @@ export function setupTranslation(getPageUrl = () => location.href) {
   try { select.value = localStorage.getItem('darkknight-language') || 'es'; } catch { select.value = 'es'; }
   if (!select.value) select.value = 'es';
   const update = () => {
-    const url = translationUrl(getPageUrl(), select.value);
+    const original = document.querySelector('meta[name="darkknight-original-url"]')?.content;
+    const url = translationUrl(getPageUrl(), select.value, original);
     link.href = url ?? 'https://support.google.com/chrome/answer/173424';
     link.textContent = select.value === 'en' ? 'Read original ↗' : url ? 'Translate ↗' : 'Browser translation ↗';
     note.textContent = !url ? 'Local preview: use your browser’s Translate option.' : select.value === 'more' ? 'Choose any supported language in the translation toolbar.' : select.value === 'en' ? 'English original' : 'Opens Google Translate · game terms may vary';

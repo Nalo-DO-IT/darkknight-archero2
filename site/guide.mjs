@@ -1,5 +1,6 @@
 import { CATEGORIES, STATUSES, safeSourceUrl } from './catalog.mjs';
 import { GUIDE_MEDIA } from './media.mjs';
+import { SITE_URL } from './translation.mjs';
 
 export function escapeHtml(value) {
   return String(value).replace(/[&<>"']/g, (character) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[character]);
@@ -63,9 +64,9 @@ export function articleMarkup(article, prefix = './') {
     <p class="detail-meta guide-review">Game version: ${escapeHtml(article.gameVersion)} · Content reviewed ${article.reviewedOn}</p>`;
 }
 
-export function pageShell(title, content, prefix = '../') {
-  return `<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#0c121b"><title>${escapeHtml(title)} · DarkKnight</title><link rel="icon" href="${prefix}crest.svg"><link rel="stylesheet" href="${prefix}styles.css"><script type="module" src="${prefix}guide-page.mjs"></script></head><body>
-  <header class="header shell"><a class="brand" href="${prefix}index.html"><img src="${prefix}crest.svg" width="37" height="42" alt=""><span>DarkKnight<small>ARCHERO 2 · FIELD GUIDES</small></span></a><nav aria-label="Main navigation"><a href="${prefix}index.html#library">Library</a><a href="./index.html">All guides</a></nav></header>
+export function pageShell(title, content, prefix = '../', originalPath = 'guides/index.html') {
+  return `<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#0c121b"><meta name="darkknight-original-url" content="${escapeHtml(new URL(originalPath, SITE_URL).href)}"><title>${escapeHtml(title)} · DarkKnight</title><link rel="icon" href="${prefix}crest.svg"><link rel="stylesheet" href="${prefix}styles.css"><script type="module" src="${prefix}guide-page.mjs"></script></head><body>
+  <header class="header shell"><a class="brand notranslate" translate="no" href="${prefix}index.html"><img src="${prefix}crest.svg" width="37" height="42" alt=""><span>DarkKnight<small>ARCHERO 2 · FIELD GUIDES</small></span></a><nav aria-label="Main navigation"><a href="${prefix}index.html#library">Library</a><a href="./index.html">All guides</a></nav></header>
   <main class="reading-shell"><div class="reader-tools"><a class="text-link" href="${prefix}index.html#library">← Back to library</a>${translationControls()}</div>${content}</main>
   <footer class="footer shell"><p>DarkKnight · Unofficial Archero 2 guild library.</p><a href="#">Back to top ↑</a></footer></body></html>`;
 }
@@ -78,5 +79,5 @@ export function renderGuidePage(article, articles) {
   const related = articles.filter((item) => item.id !== article.id && item.category === article.category).slice(0, 3);
   const relatedHtml = related.length ? `<aside class="related-guides"><h2>Keep exploring</h2>${related.map((item) => `<a href="./${item.id}.html">${escapeHtml(item.title)} →</a>`).join('')}</aside>` : '';
   const html = articleMarkup(article, '../').replace('<h2 id="article-title">', '<h1 id="article-title">').replace('</h2>', '</h1>');
-  return pageShell(article.title, `<article class="full-guide">${html}</article>${relatedHtml}`);
+  return pageShell(article.title, `<article class="full-guide">${html}</article>${relatedHtml}`, '../', `guides/${article.id}.html`);
 }

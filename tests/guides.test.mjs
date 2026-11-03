@@ -48,6 +48,19 @@ test('translation rejects malformed, private and credential-bearing destinations
   assert.equal(translationUrl('https://example.com', '__proto__'), null);
 });
 
+test('changing language on a translated guide returns to its English original', () => {
+  const proxy = 'https://nalo--do--it-github-io.translate.goog/darkknight-archero2/guides/example.html?_x_tr_tl=es';
+  const original = 'https://nalo-do-it.github.io/darkknight-archero2/guides/example.html';
+  const url = new URL(translationUrl(proxy, 'fr', original));
+  assert.equal(url.searchParams.get('u'), original);
+  assert.equal(url.searchParams.get('tl'), 'fr');
+  assert.equal(translationUrl(proxy, 'en', original), original);
+  assert.equal(translationUrl(proxy, 'fr'), null);
+  assert.equal(translationUrl(proxy, 'fr', 'javascript:alert(1)'), null);
+  assert.equal(translationUrl(proxy, 'fr', proxy), null);
+  assert.match(renderGuidePage(article(), []), /name="darkknight-original-url" content="https:\/\/nalo-do-it.github.io\/darkknight-archero2\/guides\/test-guide.html"/);
+});
+
 test('treasure uses departure tiles, all other tiles recommend x1', () => {
   for (let tile = 0; tile < 24; tile++) {
     assert.equal(treasureAdvice(tile, 100).multiplier, HIGH_MULTIPLIER_TILES.includes(tile) ? 10 : 1, `tile ${tile}`);
