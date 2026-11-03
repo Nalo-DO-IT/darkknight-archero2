@@ -2,6 +2,7 @@ import { CATEGORIES, STATUSES, publicLibrary, filterArticles } from './catalog.m
 import { articleMarkup, readMinutes } from './guide.mjs';
 import { setupTranslation } from './translation.mjs';
 import { setupTreasureTool } from './treasure.mjs';
+import { CATEGORY_ART, FEATURED_ART } from './media.mjs';
 
 const element = (id) => document.getElementById(id);
 const state = { articles: [], category: 'all', loaded: false };
@@ -31,8 +32,12 @@ function renderCategories() {
     const button = node('button', undefined, 'category-card');
     button.type = 'button';
     button.setAttribute('aria-label', `Browse ${category.label}`);
+    const icon = node('img', undefined, 'category-icon');
+    icon.src = `./${CATEGORY_ART[category.id]}`;
+    icon.alt = '';
+    icon.loading = 'lazy';
     const count = state.articles.filter((article) => article.category === category.id).length;
-    button.append(node('span', category.symbol, 'category-number'), node('span', '↗', 'category-arrow'), node('h3', category.label), node('p', category.description), node('span', state.loaded ? `${count} ${count === 1 ? 'article' : 'articles'}` : 'Awaiting library', 'category-total'));
+    button.append(icon, node('span', `PATH ${category.symbol}`, 'category-number'), node('span', '↗', 'category-arrow'), node('h3', category.label), node('p', category.description), node('span', state.loaded ? `${count} ${count === 1 ? 'article' : 'articles'}` : 'Awaiting library', 'category-total'));
     button.addEventListener('click', () => {
       selectCategory(category.id);
       element('library').scrollIntoView({ block: 'start' });
@@ -80,13 +85,17 @@ function renderFeatured() {
     if (!article) return [];
     const card = node('a', undefined, 'featured-card');
     card.href = `./guides/${id}.html`;
+    const art = FEATURED_ART[id];
+    card.dataset.theme = art?.theme ?? 'gear';
+    const visual = node('div', undefined, 'featured-visual');
     const picture = node('img');
-    picture.src = `./${image}`;
+    picture.src = `./${art?.image ?? image}`;
     picture.alt = '';
     picture.loading = 'lazy';
     const copy = node('div', undefined, 'featured-copy');
     copy.append(node('span', label, 'eyebrow'), node('h3', article.title), node('p', article.summary), node('span', `${readMinutes(article)} min read · Open guide →`, 'featured-read'));
-    card.append(picture, copy);
+    visual.append(picture, node('span', art?.label ?? label, 'cover-label'));
+    card.append(visual, copy);
     return [card];
   }));
   element('featured').hidden = element('featured-grid').childElementCount === 0;
@@ -98,6 +107,7 @@ function renderArticles() {
     const button = node('button', undefined, 'article-card');
     button.type = 'button';
     button.setAttribute('aria-label', `Read ${article.title}`);
+    button.dataset.category = article.category;
     button.append(node('span', STATUSES[article.status], `badge ${article.status}`), node('h3', article.title), node('p', article.summary), node('span', `${categoryLabel(article.category)} · ${article.updatedOn}`, 'card-meta'));
     button.addEventListener('click', () => openArticle(article));
     return button;

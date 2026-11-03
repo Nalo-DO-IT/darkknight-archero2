@@ -2,6 +2,8 @@
 
 English static knowledge hub for GitHub Pages. Featured field guides, searchable library, full reading pages, event tools, screenshots, original diagrams and language selection. No runtime dependencies, site accounts, trackers or external fonts.
 
+Visual theme: local Archero 2 scenery, logo, Alex artwork, equipment and rune icons. Purple inventory panels, gold controls and illustrated guide covers extend the original layout through `site/theme.css`. All 67 guides retain their content and references. The build versions CSS and JavaScript together so visual updates reach returning visitors. Ten game-art assets total less than 2.5 MB; they are served locally without remote image dependencies.
+
 Current content: **67 guides and summaries**, reviewed on **3 November 2026**. Public prose uses original summaries and neutral reference labels without personal bylines or server attribution. Game claims retain community/needs-recheck labels; editorial review is not live-game testing. Dedicated playbooks cover Treasure Island multipliers and fishing routes.
 
 The collection saved **5,313 message records across 81 channels/threads** and indexed **334 forum topics**. This is not an exhaustive history export: large discussions were sampled around guides, pinned posts and visible replies. Most media and linked spreadsheets remain unreviewed. Two farming tables and three fishing screenshots were visually checked. Local coverage and unresolved gaps are recorded in ignored `.private/discord/coverage.json`; raw messages remain outside the public build.
@@ -97,3 +99,5 @@ npm run test:integration
 Unit tests cover schema rejection, publication review, draft exclusion, source URL validation, category/status/search combinations, ordering and plain-text content. Integration tests build into an isolated temporary folder, verify exclusion of private fields/drafts, preserve previous output on validation errors, and serve the result through a real HTTP server at a GitHub-style subpath.
 
 Browser usage checks in `tests/browser-flow.js`: empty library, category selection, filter reset, article search/detail/source links with synthetic data, error/retry, keyboard dismissal and mobile overflow. `tests/guide-flow.js` checks the production library, multiplier inputs, dedicated guide navigation, translation fallback, fishing images and responsive layout. Synthetic fixtures never enter production content.
+
+`tests/theme-flow.js` checks artwork loading, category navigation, usable controls, responsive covers/readers at 360–1440 px, and reduced-motion behavior. `tests/theme.test.mjs` validates packaged game images and category/cover asset mappings.

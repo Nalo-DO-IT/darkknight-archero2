@@ -14,4 +14,26 @@ export const GUIDE_MEDIA = Object.freeze({
   ]
 });
 
-export const PUBLIC_ASSETS = Object.freeze([...new Set(Object.values(GUIDE_MEDIA).flat().map(({ path }) => path))]);
+export const CATEGORY_ART = Object.freeze({
+  guides: 'assets/hero-alex.png',
+  builds: 'assets/gear-crossbow.png',
+  equipment: 'assets/gear-oracle-armor.png',
+  expedition: 'assets/gear-griffin-amulet.png',
+  tips: 'assets/gold.png',
+  bugs: 'assets/rune-elemental.png'
+});
+
+export const FEATURED_ART = Object.freeze({
+  'treasure-island-x10-tile-guide': { image: 'assets/gold.png', theme: 'treasure', label: '×1 / ×10 · TREASURE ISLAND' },
+  'fishing-event-playbook': { image: 'assets/fishing-lake1-3.png', theme: 'fishing', label: "ANGLER'S BOUNTY" },
+  'beginner-gear-plan-november-2026': { image: 'assets/gear-crossbow.png', theme: 'gear', label: 'YOUR NEXT UPGRADE' },
+  'farming-quick-hunt-hm5-ch47-2025': { image: 'assets/gear-oracle-armor.png', theme: 'farming', label: 'ENERGY → LOOT' }
+});
+
+export const THEME_ASSETS = Object.freeze([
+  'assets/archero-world.png', 'assets/archero-logo.png', 'assets/hero-alex.png',
+  'assets/gear-crossbow.png', 'assets/gear-oracle-armor.png', 'assets/gear-griffin-amulet.png',
+  'assets/gear-oracle-ring.png', 'assets/gold.png', 'assets/rune-echoes.png', 'assets/rune-elemental.png'
+]);
+
+export const PUBLIC_ASSETS = Object.freeze([...new Set([...Object.values(GUIDE_MEDIA).flat().map(({ path }) => path), ...THEME_ASSETS])]);

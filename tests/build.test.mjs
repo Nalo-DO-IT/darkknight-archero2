@@ -26,7 +26,7 @@ test('build publishes reviewed records, excludes drafts and raw source fields', 
   const output = await readFile(join(paths.outputPath, 'data/library.json'), 'utf8');
   assert.equal(output.includes('NEVER_PUBLISH'), false);
   assert.equal(output.includes('SECRET_DRAFT'), false);
-  assert.deepEqual((await readdir(paths.outputPath)).sort(), ['.nojekyll', 'app.mjs', 'assets', 'catalog.mjs', 'crest.svg', 'data', 'guide-page.mjs', 'guide.mjs', 'guides', 'index.html', 'media.mjs', 'styles.css', 'translation.mjs', 'treasure.mjs']);
+  assert.deepEqual((await readdir(paths.outputPath)).sort(), ['.nojekyll', 'app.mjs', 'assets', 'catalog.mjs', 'crest.svg', 'data', 'guide-page.mjs', 'guide.mjs', 'guides', 'index.html', 'media.mjs', 'styles.css', 'theme.css', 'translation.mjs', 'treasure.mjs']);
   const page = await readFile(join(paths.outputPath, 'guides/test-guide.html'), 'utf8');
   assert.match(page, /Test content for an expedition build/);
   assert.match(page, /Translation language/);
@@ -103,7 +103,7 @@ test('unpublishing a guide removes its previously generated page', async (t) => 
   assert.deepEqual(await readdir(join(paths.outputPath, 'guides')), ['index.html']);
 });
 
-test('page loaders and nested modules share a content-based cache version', async (t) => {
+test('page loaders, theme styles and nested modules share a content-based cache version', async (t) => {
   const paths = await fixture(t, library(article()));
   await buildSite(paths);
   const html = await readFile(join(paths.outputPath, 'index.html'), 'utf8');
@@ -111,6 +111,8 @@ test('page loaders and nested modules share a content-based cache version', asyn
   assert.ok(version, 'homepage loader must be versioned');
   const guide = await readFile(join(paths.outputPath, 'guides/test-guide.html'), 'utf8');
   assert.ok(guide.includes(`guide-page.mjs?v=${version}`));
+  assert.ok(html.includes(`theme.css?v=${version}`));
+  assert.ok(guide.includes(`theme.css?v=${version}`));
   const loader = await readFile(join(paths.outputPath, 'guide-page.mjs'), 'utf8');
   assert.ok(loader.includes(`translation.mjs?v=${version}`));
   const app = await readFile(join(paths.outputPath, 'app.mjs'), 'utf8');
