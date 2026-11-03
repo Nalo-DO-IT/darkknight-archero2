@@ -102,3 +102,19 @@ test('unpublishing a guide removes its previously generated page', async (t) => 
   await buildSite(paths);
   assert.deepEqual(await readdir(join(paths.outputPath, 'guides')), ['index.html']);
 });
+
+test('page loaders and nested modules share a content-based cache version', async (t) => {
+  const paths = await fixture(t, library(article()));
+  await buildSite(paths);
+  const html = await readFile(join(paths.outputPath, 'index.html'), 'utf8');
+  const version = html.match(/app\.mjs\?v=([a-f0-9]{12})/)?.[1];
+  assert.ok(version, 'homepage loader must be versioned');
+  const guide = await readFile(join(paths.outputPath, 'guides/test-guide.html'), 'utf8');
+  assert.ok(guide.includes(`guide-page.mjs?v=${version}`));
+  const loader = await readFile(join(paths.outputPath, 'guide-page.mjs'), 'utf8');
+  assert.ok(loader.includes(`translation.mjs?v=${version}`));
+  const app = await readFile(join(paths.outputPath, 'app.mjs'), 'utf8');
+  assert.ok(app.includes(`guide.mjs?v=${version}`));
+  await buildSite(paths);
+  assert.equal(await readFile(join(paths.outputPath, 'index.html'), 'utf8'), html, 'unchanged sources retain cache version');
+});
