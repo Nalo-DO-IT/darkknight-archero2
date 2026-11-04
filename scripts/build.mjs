@@ -3,13 +3,14 @@ import { dirname, resolve } from 'node:path';
 import { fileURLToPath, pathToFileURL } from 'node:url';
 import { createHash } from 'node:crypto';
 import { publicLibrary } from '../site/catalog.mjs';
+import { TREASURE_ART } from '../site/treasure-board.mjs';
 import { PUBLIC_ASSETS } from '../site/media.mjs';
 import { renderWikiHome, renderWikiIndex, renderWikiGuide, renderWikiTools } from '../site/wiki.mjs';
 import { categoriesFor, validateTranslation } from '../site/wiki-i18n.mjs';
 
 const projectRoot = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const defaultContent = resolve(projectRoot, 'content/library.json');
-const siteFiles = ['styles.css', 'theme.css', 'app.mjs', 'catalog.mjs', 'crest.svg', 'guide.mjs', 'media.mjs', 'translation.mjs', 'guide-page.mjs', 'treasure.mjs', 'wiki.css', 'wiki-client.mjs', 'wiki-i18n.mjs', 'event-client.mjs', 'event-models.mjs', 'event-copy.mjs', 'assets/fishing-plan-es.svg', 'assets/treasure-board-es.svg', ...PUBLIC_ASSETS];
+const siteFiles = ['styles.css', 'theme.css', 'app.mjs', 'catalog.mjs', 'crest.svg', 'guide.mjs', 'media.mjs', 'translation.mjs', 'guide-page.mjs', 'treasure.mjs', 'wiki.css', 'combat.css', 'island.css', 'treasure-board.mjs', 'wiki-client.mjs', 'wiki-i18n.mjs', 'event-client.mjs', 'event-models.mjs', 'event-copy.mjs', 'assets/fishing-plan-es.svg', 'assets/treasure-board-es.svg', ...PUBLIC_ASSETS, ...TREASURE_ART];
 
 async function removeStalePages(directory, expected) {
   await mkdir(directory, { recursive: true });
@@ -23,7 +24,7 @@ export async function buildSite({ contentPath = defaultContent, outputPath = res
   const translated = translationPath ? validateTranslation(content, publicLibrary(JSON.parse(await readFile(translationPath, 'utf8')))) : null;
   const libraries = new Map([['en', content], ...(translated ? [['es', translated]] : [])]);
   const modules = new Map(await Promise.all(siteFiles.filter((file) => file.endsWith('.mjs')).map(async (file) => [file, await readFile(resolve(projectRoot, 'site', file), 'utf8')])));
-  const styles = await Promise.all(['styles.css', 'theme.css', 'wiki.css'].map((file) => readFile(resolve(projectRoot, 'site', file), 'utf8')));
+  const styles = await Promise.all(['styles.css', 'theme.css', 'wiki.css', 'combat.css', 'island.css'].map((file) => readFile(resolve(projectRoot, 'site', file), 'utf8')));
   const version = createHash('sha256').update([...modules.values(), ...styles].join('\n')).digest('hex').slice(0, 12);
   const versionResources = (html) => html.replace(/((?:src|href)=")((?:\.{1,2}\/)+[\w-]+\.(?:mjs|css))(")/g, `$1$2?v=${version}$3`);
   await mkdir(resolve(outputPath, 'data'), { recursive: true });

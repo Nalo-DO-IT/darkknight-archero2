@@ -4,11 +4,16 @@ async (page) => {
   const errors=[];
   const onError=(error)=>errors.push(error.message);
   page.on('pageerror',onError);
+  const viewport=async(size)=>{
+    const scale=(await page.evaluate(()=>innerWidth))/page.viewportSize().width;
+    await page.setViewportSize({width:Math.round(size.width/scale),height:Math.round(size.height/scale)});
+  };
   const base='http://127.0.0.1:4173/';
+  const allowRequest=route=>route.continue();await page.route(base+'**',allowRequest);
   await page.goto(base);
   await page.evaluate(()=>localStorage.removeItem('darkknight-language'));
   await page.goto(base);
-  await page.setViewportSize({width:1440,height:1000});
+  await viewport({width:1440,height:1000});
   check(await page.locator('.topic-card').count()===6,'six topic hubs');
   check(await page.locator('.practical-grid a').count()===5,'five practical progression entrypoints');
   await page.locator('[data-language="es"]').click();
@@ -29,7 +34,7 @@ async (page) => {
   await page.locator('#wiki-search').fill('zzzzzzzzzzzz');
   check(await page.locator('#no-results').isVisible(),'no results state');
   await page.locator('#reset-search').click();
-  check(await page.locator('.guide-row:visible').count()===46,'reset restores46 practical guides');
+  check(await page.locator('.guide-row:visible').count()===50,'reset restores50 practical guides');
   await page.locator('#topic-filter').selectOption('resources');
   check(await page.locator('.guide-row:visible').evaluateAll(rows=>rows.every(r=>r.dataset.category==='resources')),'resource filter');
   await page.locator('#review-filter').selectOption('outdated');
@@ -45,6 +50,7 @@ async (page) => {
   await page.locator('#sim-form button').click();
   check(await page.locator('#sim-multiplier').innerText()==='×10','Treasure high-tile multiplier');
   await page.locator('#sim-roll').click();
+  await page.waitForFunction(()=>document.querySelector('#sim-turns').textContent==='1');
   check(await page.locator('#sim-turns').innerText()==='1','playable roll advances');
   check(await page.locator('.player-tile').count()===1,'one current player tile');
   check((await page.locator('#sim-message').innerText()).includes('Tirada'),'Spanish roll result');
@@ -77,13 +83,13 @@ async (page) => {
   await page.locator('#fish-rare').fill('-1');
   check((await page.locator('#fish-message').innerText()).includes('Revisa'),'invalid pool input handled');
   for(const width of [360,390,768,1024,1440]){
-    await page.setViewportSize({width,height:900});
+    await viewport({width,height:900});
     for(const path of ['es/index.html','es/tools.html','es/guides/fishing-event-playbook.html','es/guides/index.html']){
       await page.goto(base+path);
       check(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1),`${width}px no overflow: ${path}`);
     }
   }
-  await page.setViewportSize({width:390,height:844});
+  await viewport({width:390,height:844});
   await page.goto(base+'es/index.html');
   await page.locator('#menu-toggle').click();
   check(await page.locator('#wiki-sidebar').isVisible(),'mobile menu opens');
@@ -103,5 +109,6 @@ async (page) => {
   await page.screenshot({path:'C:/Users/Nalo/Desktop/Archero3/.private/tools-mobile.png',fullPage:true});
   check(errors.length===0,`no browser errors: ${errors.join('; ')}`);
   page.off('pageerror',onError);
+  await page.unroute(base+'**',allowRequest);
   return {passed:checks.length,checks};
 }

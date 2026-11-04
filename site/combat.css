@@ -1,0 +1,58 @@
+.combat-visual { margin:22px 0 32px; border:1px solid #46536d; border-radius:14px; padding:24px; background:radial-gradient(ellipse at top right,#30426166,transparent 70%),#1a1e2c; box-shadow:0 8px 24px #0002; }
+.combat-visual header { padding-bottom:16px; border-bottom:1px solid #41495c; margin-bottom:20px; }
+.combat-eyebrow { color:var(--gold); font-size:10px; letter-spacing:2px; font-weight:800; }
+.combat-visual header h2 { margin:8px 0; font-size:25px; line-height:1.2; }
+.combat-visual header p { margin:0; font-size:12px; color:var(--muted); }
+.combat-date { color:#d7c39b; }
+.combat-visual p,.combat-visual li { font-size:14px; line-height:1.65; }
+.combat-visual h4 { margin:20px 0 12px; font-size:15px; color:#eee0be; }
+.combat-components { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:10px; }
+.combat-component { display:grid; grid-template-columns:34px 1fr; gap:3px 10px; padding:14px; background:#121824b3; border:1px solid #3b4962; border-radius:9px; }
+.combat-icon { width:28px; height:28px; color:#b8b0ef; fill:none; stroke:currentColor; stroke-width:1.7; stroke-linecap:round; stroke-linejoin:round; flex-shrink:0; }
+.combat-component .combat-icon { grid-row:span 2; }
+.combat-component strong { font-size:14px; line-height:1.35; }
+.combat-component>span { font-size:12px; line-height:1.5; color:var(--muted); }
+.tone-ice .combat-icon,.family-ice .combat-icon { color:#9ce5f2; }
+.tone-fire .combat-icon { color:#f69d77; }
+.tone-leaf .combat-icon { color:#99d6a3; }
+.tone-bolt .combat-icon { color:#f0ce77; }
+.combat-flow { list-style:none; display:flex; gap:8px; margin:20px 0; padding:0; }
+.combat-flow li { flex:1; min-width:0; display:flex; align-items:center; flex-direction:column; gap:8px; padding:12px 8px; text-align:center; font-size:12px; background:#26333e; border-radius:7px; }
+.combat-flow b,.skill-priority b { display:grid; place-items:center; width:25px; height:25px; flex-shrink:0; border-radius:50%; background:#c9b580; color:#171b28; font-size:12px; }
+.combat-note { margin:20px 0 0; padding:12px 14px; border-left:3px solid #bda875; background:#c9b5800b; color:#c6c9d5; }
+.combat-positioning { display:grid; grid-template-columns:minmax(0,1.1fr) minmax(0,1fr); gap:18px; align-items:center; margin-top:20px; }
+.combat-positioning>svg { width:100%; height:auto; }
+.combat-positioning h4 { margin-top:0; }
+.rune-recipe { border:1px solid #4a4768; border-radius:8px; margin:10px 0; overflow:hidden; background:#171c29; }
+.rune-recipe summary { padding:14px; font-weight:700; cursor:pointer; font-size:14px; }
+.rune-recipe summary>span { margin-right:9px; color:var(--gold); font-size:11px; }
+.rune-recipe summary>b { float:right; color:#b8b0ef; }
+.rune-mix { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:8px; padding:4px 14px 16px; }
+.rune-token { display:flex; flex-direction:column; justify-content:center; align-items:center; gap:7px; padding:12px 2px; border:1px solid #74649d; background:linear-gradient(140deg,#483b69,#28243d); border-radius:9px; text-align:center; font-size:10px; }
+.family-elemental,.family-lightning,.family-ice { background:linear-gradient(140deg,#294d6d,#1c2a43); border-color:#4b779e; }
+.family-circle { background:linear-gradient(140deg,#695a32,#383122); border-color:#a28c52; }
+.family-weapon { background:linear-gradient(140deg,#34594c,#20342e); border-color:#638d78; }
+.hero-resonances { display:flex; justify-content:space-evenly; align-items:center; gap:12px; padding:18px 12px; border:1px solid #61517c; border-radius:10px; background:#34294066; }
+.hero-resonances div { text-align:center; }
+.hero-resonances small { display:block; color:var(--muted); margin-bottom:6px; font-size:11px; }
+.hero-resonances strong { font-size:21px; color:#f0dfbd; }
+.combat-checklist { list-style:none; padding:0; margin:12px 0; }
+.combat-checklist li { position:relative; padding:9px 0 9px 22px; border-bottom:1px solid #3a4153; }
+.combat-checklist li::before { content:'✓'; position:absolute; left:0; color:#99d6a3; }
+.skill-priority { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:8px; padding:0; list-style:none; }
+.skill-priority li { display:flex; align-items:center; gap:9px; padding:12px 10px; border:1px solid #414963; border-radius:8px; background:#171b29; }
+.skill-priority strong { font-size:12px; line-height:1.35; }
+.skill-priority .combat-icon { width:23px; height:23px; }
+.combat-breakpoint { border:1px solid #826e43; border-radius:9px; background:#654a2429; padding:14px; margin-top:20px; }
+.combat-breakpoint strong { color:#f0d18f; }
+.combat-breakpoint p { margin:8px 0 0; }
+@media(max-width:650px) {
+  .combat-visual { padding:16px; }
+  .combat-visual header h2 { font-size:22px; }
+  .combat-components,.combat-positioning,.skill-priority { grid-template-columns:1fr; }
+  .combat-flow { flex-direction:column; }
+  .combat-flow li { flex-direction:row; text-align:left; }
+  .rune-mix { gap:5px; padding:4px 10px 12px; }
+  .rune-token { font-size:9px; }
+  .hero-resonances strong { font-size:19px; }
+}

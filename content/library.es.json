@@ -1755,6 +1755,169 @@
           "url": "https://discord.com/channels/1268830572743102505/1394706549074821271/1394706810774229033"
         }
       ]
+    },
+    {
+      "id": "croc-boss-control-playbook",
+      "title": "Jefe Croc: controla las invocaciones y mantén el daño",
+      "summary": "Un paquete de control para Croc: hielo, parálisis o Thor, rebotes para los enemigos invocados y lianas. Elige cada componente por su función.",
+      "body": "## Qué intenta resolver esta configuración\nCroc añade una segunda tarea al combate: eliminar a los enemigos invocados mientras sigues dañando al jefe. Una recomendación de octubre de 2026 combina control de masas con daño a varios objetivos. Usa ese paquete como punto de partida si las invocaciones son el motivo por el que falla tu intento.\n\n## Los cuatro componentes\n- Ice / Super Ice: las opciones de congelación propuestas.\n- Runa de parálisis o Thor a cinco estrellas: la opción de control recomendada. El requisito de cinco estrellas corresponde a Thor; no supongas que un Thor sin terminar aporta el mismo efecto.\n- Apoyo de rebotes, descrito como \"4 bounce\": se incluye expresamente para acabar con los esbirros. Describe el efecto de rebote, no un requisito de equipar cuatro runas de rebotes. Por eso una configuración para Croc puede justificar rebotes aunque tu configuración habitual contra un solo jefe los descarte.\n- Lianas: otro componente de control sugerido. También se recomendó su encantamiento único, sin una tabla completa de rarezas de encantamientos.\n\n## Prepara la configuración antes del intento\n1. Parte de la configuración de daño con la que ya puedes sobrevivir a este jefe.\n2. Añade el paquete de hielo y elige la ruta de parálisis o Thor a cinco estrellas que realmente tengas.\n3. Mantén los rebotes si los enemigos invocados siguen siendo el problema principal.\n4. Añade lianas cuando puedas y comprueba que los efectos necesarios siguen presentes al guardar la configuración.\n5. Revisa por separado dos resultados del siguiente intento: cuánto tardan en desaparecer los esbirros y cuánto daño recibe Croc.\n\n## Ajusta el componente que falla\nSi los esbirros siguen vivos, compara el paquete de control y daño a varios objetivos antes de añadir más daño exclusivo contra jefes. Si desaparecen con facilidad pero a Croc le queda mucha vida, revisa tu fuente principal de daño sin quitar todas las herramientas de control a la vez. Esta secuencia explica cómo aprovechar el paquete descrito; no es una rotación fija registrada.\n\n## Alcance\nLa referencia identifica habilidades útiles para este enfrentamiento; no ofrece una rareza completa de equipo, un requisito de daño ni una guía de tiempos de esquiva. Considera el paquete de octubre de 2026 una recomendación condicionada a tu inventario.",
+      "category": "guides",
+      "status": "community",
+      "gameVersion": "No indicada; recetas fechadas en las referencias",
+      "updatedOn": "2026-10-06",
+      "reviewedOn": "2026-11-04",
+      "published": true,
+      "tags": [
+        "Croc",
+        "Crock",
+        "jefe",
+        "congelación",
+        "Thor",
+        "rebotes",
+        "lianas"
+      ],
+      "sources": [
+        {
+          "label": "Paquete de control y limpieza de invocaciones de Croc, octubre de 2026",
+          "url": "https://discord.com/channels/1353899985103749221/1353900971872354304/1556835910581096451"
+        }
+      ]
+    },
+    {
+      "id": "flame-demon-circle-melee-playbook",
+      "title": "Flame Demon: ruta de círculos y fuego a corta distancia",
+      "summary": "Combina círculos, fuego y daño cercano mientras recoges experiencia. Incluye la corrección posterior: sprite cuerpo a cuerpo en lugar del meteorito periódico.",
+      "body": "## Estilo de juego previsto\nEsta es una ruta a corta distancia para el jefe de hermandad Flame Demon. El informe de abril de 2025 describe moverse alrededor del jefe y recoger experiencia mientras este se desplaza. El paquete de daño está pensado para mantenerse cerca del objetivo; no considera intercambiables todas las habilidades a distancia.\n\n## Paquete de habilidades que debes buscar\n- Cuatro círculos.\n- Dos habilidades de fuego.\n- Attack Power.\n- Sprite cuerpo a cuerpo como componente adicional de daño cercano.\nLa lista original incluía un meteorito cada diez segundos. La corrección del día siguiente aclara que esa opción se había sustituido por un sprite cuerpo a cuerpo porque el combate se hacía a corta distancia. Usa la versión corregida al comparar esta receta.\n\n## Runas de apoyo\nEl mismo informe utilizaba runas de doble experiencia y de resurrección. La experiencia busca completar antes el paquete de habilidades; la resurrección ofrece otra oportunidad de continuar si el intento falla. Ninguna sustituye la necesidad de sobrevivir a los ataques del jefe.\n\n## Cómo jugar la ruta\n1. Prepara los apoyos de experiencia y resurrección disponibles en tu cuenta.\n2. Busca el paquete de círculos y fuego al elegir habilidades.\n3. Muévete alrededor del jefe y recoge la experiencia que queda disponible cuando cambia de posición.\n4. Valora el sprite cuerpo a cuerpo dentro de esa ruta cercana. Si pasas el combate lejos del objetivo, estás probando otro plan.\n5. Al terminar, distingue si faltaban habilidades o si falló la supervivencia antes de cambiar toda la configuración.\n\n## Cuándo usar otro plan\nSi acercarte al jefe provoca muertes tempranas repetidas, esta receta encaja mal con ese intento. Conserva una configuración con la que puedas sobrevivir mientras comparas la alternativa cercana. La referencia no fija una vida mínima, una reducción de daño exacta ni un héroe obligatorio.\n\n## Fecha y límites\nEsta es la receta corregida de abril de 2025, conservada como una opción concreta para el enfrentamiento. La evidencia revisada no contiene una comparación controlada posterior que la confirme como la mejor build actual para Flame Demon. Comprueba el jefe y los efectos de tus habilidades antes de invertir recursos solo por esta receta.",
+      "category": "guides",
+      "status": "outdated",
+      "gameVersion": "No indicada; recetas fechadas en las referencias",
+      "updatedOn": "2025-04-24",
+      "reviewedOn": "2026-11-04",
+      "published": true,
+      "tags": [
+        "Flame Demon",
+        "jefe de hermandad",
+        "círculos",
+        "fuego",
+        "sprite cuerpo a cuerpo",
+        "experiencia"
+      ],
+      "sources": [
+        {
+          "label": "Paquete de habilidades y movimiento contra Flame Demon",
+          "url": "https://discord.com/channels/1353899985103749221/1353900971872354304/1364573501259907224"
+        },
+        {
+          "label": "Corrección: sprite cuerpo a cuerpo en lugar del meteorito de diez segundos",
+          "url": "https://discord.com/channels/1353899985103749221/1353900971872354304/1364814719202103337"
+        }
+      ]
+    },
+    {
+      "id": "pvp-meteor-elemental-rune-playbook",
+      "title": "PvP de meteoritos y elementos: runas, héroes y encantamientos",
+      "summary": "Una estructura concreta de ocho runas, sus alternativas de círculos y las recomendaciones de encantamientos Cleo/Otta para una configuración Dragoon con pociones.",
+      "body": "## Elige una estructura de ocho runas\nUn debate de abril de 2026 propone tres distribuciones concretas para 1 contra 1:\n- Cuatro runas de meteoritos y cuatro elementales.\n- Cuatro runas de círculos y cuatro elementales.\n- Cuatro runas de círculos, dos de arma y la pareja de rayo/hielo del lado izquierdo.\nSon distribuciones alternativas. No sumes las tres ni copies el número de runas sin revisar el equipo y las runas grabadas que las acompañan. El debate favorece meteoritos y elementos para su ejemplo de Dragoon en PvP; las alternativas de círculos responden a otro plan de daño.\n\n## Adapta el paquete al objetivo\nSe propuso apoyo de arma con cuatro rebotes para cubrir el 3 contra 3, con una condición inmediata: pierde valor si la alineación rival gira alrededor de un héroe fuerte y otros dos de apoyo. Para un solo jefe, un mensaje posterior prescinde de rebotes. Elige cobertura para los objetivos que de verdad aparecen en el combate.\n\n## El ejemplo de Phynx, Otta y Cleo\nLa recomendación de septiembre describe Phynx con resonancias de Otta y Cleo, usando elementos y meteoritos en lugar del paquete de arma principal. La respuesta pide conocer las resonancias antes de elegir encantamientos. Considera los héroes parte de la receta: una cuenta sin ese apoyo de pociones no está montando la misma build.\n\n## Prioridades de encantamientos de ese ejemplo\n1. Con Cleo/Otta, compara los encantamientos únicos de ambas runas elementales del lado izquierdo.\n2. La runa de fuego del lado derecho también recibe una recomendación de encantamiento único.\n3. La respuesta menciona 25% de enfriamiento y 30% de daño adicional de meteoritos como alternativas. El texto no identifica la descripción exacta del efecto de enfriamiento; comprueba la configuración enlazada y tu runa antes de gastar recursos de encantamiento.\n4. Prepara el encantamiento único de strike potion. El consejo también propone cambiar runas de arma del lado derecho y Potion Spring, pero las casillas exactas dependen de las imágenes de la configuración enlazada. Verifica esas casillas antes de quitar un efecto de apoyo que ya funciona.\nUn debate anterior destaca por separado el encantamiento único de meteoritos del lado derecho que activa meteoritos gigantes al recibir daño. Es un efecto distinto de elegir simplemente más daño elemental.\n\n## Mejora por etapas\nGuarda primero la configuración que ya funciona. Añade el apoyo funcional que tengas y compara un encantamiento cada vez contra rivales parecidos. Si el paquete de pociones está incompleto, termínalo o conserva una alternativa coherente antes de cambiar de arma y esperar la misma supervivencia. Mantén la inversión en runas grabadas de círculos para otra configuración de círculos o jefes; cambiar el PvP no obliga a descartarla.\n\n## Qué se prioriza aquí\nEsta guía ordena componentes dentro de configuraciones concretas de 1 contra 1 y de pociones. No establece una clasificación universal de armas, una mejora exacta de victorias ni el mejor equipo para todas las rarezas. Las distribuciones proceden de abril de 2026; los detalles de resonancias y encantamientos, de septiembre de 2026.",
+      "category": "builds",
+      "status": "community",
+      "gameVersion": "No indicada; recetas fechadas en las referencias",
+      "updatedOn": "2026-09-14",
+      "reviewedOn": "2026-11-04",
+      "published": true,
+      "tags": [
+        "PvP",
+        "meteoritos",
+        "elementos",
+        "Dragoon",
+        "Cleo",
+        "Otta",
+        "Phynx",
+        "encantamientos"
+      ],
+      "sources": [
+        {
+          "label": "Distribución de meteoritos y elementos para 1 contra 1",
+          "url": "https://discord.com/channels/1353899985103749221/1492251130233753722/1495813213130981549"
+        },
+        {
+          "label": "Alternativa de círculos y elementos",
+          "url": "https://discord.com/channels/1353899985103749221/1492251130233753722/1495813658498826260"
+        },
+        {
+          "label": "Alternativa de círculos, arma y rayo/hielo",
+          "url": "https://discord.com/channels/1353899985103749221/1492251130233753722/1495813829609918797"
+        },
+        {
+          "label": "Limitación de rebotes en 3 contra 3",
+          "url": "https://discord.com/channels/1353899985103749221/1492251130233753722/1495813555436523520"
+        },
+        {
+          "label": "Elección de runas para jefes frente a varios objetivos",
+          "url": "https://discord.com/channels/1353899985103749221/1492251130233753722/1536860422123167855"
+        },
+        {
+          "label": "Ejemplo elemental y de meteoritos con Phynx, Otta y Cleo",
+          "url": "https://discord.com/channels/1353899985103749221/1492251130233753722/1548833039373574273"
+        },
+        {
+          "label": "Recomendaciones de encantamientos y pociones con Cleo/Otta",
+          "url": "https://discord.com/channels/1353899985103749221/1492251130233753722/1548961593415704619"
+        },
+        {
+          "label": "Encantamiento de meteoritos gigantes al recibir daño",
+          "url": "https://discord.com/channels/1353899985103749221/1492251130233753722/1495816112619786282"
+        },
+        {
+          "label": "Conservar la inversión en círculos para jefes",
+          "url": "https://discord.com/channels/1353899985103749221/1492251130233753722/1495815004325154997"
+        }
+      ]
+    },
+    {
+      "id": "jungle-sprite-domain-skill-priorities",
+      "title": "Jungle con sprites y Domain: receta y orden de habilidades",
+      "summary": "La ruta centrada en sprites: requisitos de runas grabadas, apoyos necesarios, prioridades de habilidades y riesgo frente a oleadas densas.",
+      "body": "## Decide si los sprites son daño principal o apoyo\nLa guía de junio de 2026 distingue dos funciones. Con dos runas grabadas de sprites, estos son la fuente principal de daño y sus mejoras tienen prioridad. Si solo usas Sprite's Awe para apoyar círculos o elementos, elige primero el paquete principal; no gastes todas las elecciones en mejoras de sprites solo por llevar Awe.\n\n## Receta de sprites y Domain\nEl ejemplo recomienda Cleo y enumera:\n- Dos runas grabadas de sprites y una elemental.\n- La runa abreviada RoA en la configuración de referencia; confirma su identidad en el equipo enlazado.\n- Cuatro sprites.\n- Escudo de plantas después de la dificultad verde, descrito como necesario para esta ruta.\n- Una elección elemental adicional cuando ayude a conseguir la baja necesaria para activar los charcos de Domain.\nEl texto no identifica todas las casillas de runas que dependen de las imágenes. Comprueba la configuración enlazada y tu inventario antes de tratarla como un reemplazo completo de una captura de ocho casillas.\n\n## Orden de habilidades si los sprites llevan el daño\n1. Sprites.\n2. Habilidades que potencian los sprites.\n3. Super Freeze.\n4. Habilidades elementales.\n5. Attack Speed.\n6. Attack Power.\nEste es el orden propuesto para esa ruta concreta. No es una clasificación general para una build principal de círculos, arma o PvP. Si Awe solo da apoyo, vuelve a las prioridades de tu fuente principal de daño.\n\n## Bendiciones y supervivencia\nEl apoyo de experiencia aparece como esencial en la receta. También se incluye resurrección, y el debate propone suerte o esquiva como opciones. La casilla de Rabbit Foot se justificaba por su encantamiento; no supongas que el efecto normal de la runa es obligatorio en Jungle ni dependas de una fórmula universal que convierta suerte en activaciones.\n\n## Comprueba el nivel de Domain antes de gastar\nLa guía desaconseja llevar la versión de Domain más allá de verde sin la inversión que llama Domain L2. El problema son las oleadas densas: con poco daño elemental puede faltar la baja que activa el efecto de limpieza. El mismo relato describe la ruta como más segura contra jefes y los círculos como una alternativa más sencilla si falta esa inversión en Domain.\n\n## Elige la ruta que encaja con tu cuenta\nUsa el plan de sprites y Domain cuando tengas listos los requisitos grabados y elementales. Si fallas frente a oleadas densas, compara una ruta de sprites apoyada por círculos en lugar de comprar mejoras sueltas de varias familias. Mantén condiciones de prueba comparables y revisa la supervivencia antes de interpretar más daño como una mejora.\n\n## Límite para su uso actual\nLa receta detallada es de junio de 2026. En octubre seguían apareciendo configuraciones de sprites, pero un aviso del 30 de octubre señala que las runas Twinborn cambiaron las builds de Jungle. Conserva la lógica de elección de habilidades como referencia; verifica las interacciones y rarezas actuales antes de una conversión importante.",
+      "category": "builds",
+      "status": "outdated",
+      "gameVersion": "No indicada; recetas fechadas en las referencias",
+      "updatedOn": "2026-10-30",
+      "reviewedOn": "2026-11-04",
+      "published": true,
+      "tags": [
+        "Shackled Jungle",
+        "sprites",
+        "Domain",
+        "Cleo",
+        "prioridad de habilidades",
+        "runas grabadas"
+      ],
+      "sources": [
+        {
+          "label": "Estructuras de sprites y alternativas",
+          "url": "https://discord.com/channels/1353899985103749221/1487226276103065713/1512343596974473286"
+        },
+        {
+          "label": "Awe como apoyo en lugar de daño principal",
+          "url": "https://discord.com/channels/1353899985103749221/1487226276103065713/1512344931178385499"
+        },
+        {
+          "label": "Cleo, requisitos grabados y escudo de plantas",
+          "url": "https://discord.com/channels/1353899985103749221/1487226276103065713/1512354102452027444"
+        },
+        {
+          "label": "Orden de habilidades y bendiciones para la ruta de sprites",
+          "url": "https://discord.com/channels/1353899985103749221/1487226276103065713/1512355099245019227"
+        },
+        {
+          "label": "Inversión en Domain y alternativa de círculos",
+          "url": "https://discord.com/channels/1353899985103749221/1487226276103065713/1512354722139603046"
+        },
+        {
+          "label": "Aviso del 30 de octubre sobre cambios de builds por Twinborn",
+          "url": "https://discord.com/channels/1268830572743102505/1355348706202878012/1565614734839906365"
+        }
+      ]
     }
   ]
 }

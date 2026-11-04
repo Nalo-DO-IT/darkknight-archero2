@@ -9,7 +9,7 @@ import { article } from './fixtures.mjs';
 const read = async (locale) => publicLibrary(JSON.parse(await readFile(new URL(`../content/library${locale === 'es' ? '.es' : ''}.json`,import.meta.url),'utf8')));
 test('all practical guides have complete Spanish counterparts and identical source URLs',async()=>{
   const en=await read('en'); const es=await read('es');
-  validateTranslation(en,es); assert.equal(en.articles.length,46);
+  validateTranslation(en,es); assert.equal(en.articles.length,50);
   for(const a of en.articles){
     const translated=es.articles.find(({id})=>id===a.id);
     for(const field of ['title','summary','body']) assert.notEqual(a[field],translated[field],`${a.id}.${field}`);

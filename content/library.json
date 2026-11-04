@@ -1755,6 +1755,169 @@
           "url": "https://discord.com/channels/1268830572743102505/1394706549074821271/1394706810774229033"
         }
       ]
+    },
+    {
+      "id": "croc-boss-control-playbook",
+      "title": "Croc boss: control the summons and keep damage flowing",
+      "summary": "A practical control package for Croc: ice, paralysis or Thor, bounce for summoned enemies and vines. Choose each part for its job.",
+      "body": "## What this setup is trying to solve\nCroc adds a second job to the fight: deal with summoned enemies while continuing to damage the boss. An October 2026 recommendation combines crowd control with multi-target coverage. Use that package as a starting preset when the adds are the reason your run fails.\n\n## The four components\n- Ice / Super Ice: the suggested freeze options.\n- Paralysis rune or Thor at five stars: the proposed control option. The five-star requirement belongs to the Thor option; do not assume an unfinished Thor supplies the same effect.\n- Bounce support, described as \"4 bounce\": included specifically to finish the minions. This describes the bounce effect, not a requirement to equip four bounce runes. This is why a Croc preset can justify bounce even when your usual single-boss preset drops it.\n- Vines: another suggested control component. The unique enchant was also recommended, without a complete enchant-rarity table.\n\n## Assemble the preset before the attempt\n1. Start from the damage setup you can already sustain against this boss.\n2. Add the ice package and choose the paralysis or five-star Thor route you actually own.\n3. Keep the bounce component if summoned enemies remain the bottleneck.\n4. Add vines when available, then check whether the required effects survived saving the preset.\n5. Review the next attempt for two separate outcomes: how quickly adds disappear and how much damage reaches Croc.\n\n## Adjust the part that is failing\nIf adds remain alive, compare the multi-target and control package before adding more boss-only damage. If adds die comfortably but Croc remains healthy, compare your main damage source without removing every control tool at once. This adjustment sequence is a way to use the listed package, not a recorded fixed rotation.\n\n## Scope\nThe source identifies useful skills for this matchup; it does not provide a complete gear rarity, damage requirement or dodge-timing guide. Treat the October 2026 package as conditional advice for your inventory.",
+      "category": "guides",
+      "status": "community",
+      "gameVersion": "Not specified; dated recipes in references",
+      "updatedOn": "2026-10-06",
+      "reviewedOn": "2026-11-04",
+      "published": true,
+      "tags": [
+        "Croc",
+        "Crock",
+        "boss",
+        "freeze",
+        "Thor",
+        "bounce",
+        "vines"
+      ],
+      "sources": [
+        {
+          "label": "Croc control and add-clearing package, October 2026",
+          "url": "https://discord.com/channels/1353899985103749221/1353900971872354304/1556835910581096451"
+        }
+      ]
+    },
+    {
+      "id": "flame-demon-circle-melee-playbook",
+      "title": "Flame Demon: a close-range circle and flame route",
+      "summary": "Build around circles, flames and nearby damage while collecting experience. Includes the later correction from timed meteors to a melee sprite.",
+      "body": "## The intended playstyle\nThis is a close-range route for the Flame Demon guild boss. The April 2025 report describes moving around the boss and collecting experience as it moves. Its damage package is designed around staying near the target, not treating every ranged skill as interchangeable.\n\n## Skill package to work toward\n- Four circles.\n- Two flame skills.\n- Attack Power.\n- Melee sprite for the remaining close-range component.\nThe original list included a meteor every ten seconds. The next-day correction says that slot had actually been replaced with a melee sprite because the player was fighting at close range. Use the corrected version when comparing this recipe.\n\n## Supporting runes\nThe same report used double-experience and revive runes. Experience support is meant to reach the skill package sooner; revive provides another opportunity to continue if the attempt fails. Neither removes the need to survive the boss's attacks.\n\n## Run the route\n1. Prepare the experience and revive support available to your account.\n2. Build toward the circle-and-flame package during skill selection.\n3. Move around the boss while gathering dropped experience as the boss changes position.\n4. Judge the melee sprite in that close-range route. A run spent far from the target is testing a different plan.\n5. Afterward, separate a missing-skill problem from a survival problem before changing the whole preset.\n\n## When to use another plan\nIf approaching the boss causes repeated early deaths, this recipe is a poor match for that attempt. Preserve a setup you can survive with while comparing the close-range option. The source does not establish a minimum health, exact damage reduction or mandatory hero.\n\n## Date and limits\nThis is the corrected April 2025 recipe, retained as a concrete matchup option. No later controlled comparison in the reviewed evidence establishes it as the current best Flame Demon build. Check the live boss and your available skill effects before investing resources solely for it.",
+      "category": "guides",
+      "status": "outdated",
+      "gameVersion": "Not specified; dated recipes in references",
+      "updatedOn": "2025-04-24",
+      "reviewedOn": "2026-11-04",
+      "published": true,
+      "tags": [
+        "Flame Demon",
+        "guild boss",
+        "circles",
+        "flame",
+        "melee sprite",
+        "experience"
+      ],
+      "sources": [
+        {
+          "label": "Flame Demon skill package and movement route",
+          "url": "https://discord.com/channels/1353899985103749221/1353900971872354304/1364573501259907224"
+        },
+        {
+          "label": "Correction: melee sprite replaces ten-second meteor",
+          "url": "https://discord.com/channels/1353899985103749221/1353900971872354304/1364814719202103337"
+        }
+      ]
+    },
+    {
+      "id": "pvp-meteor-elemental-rune-playbook",
+      "title": "PvP meteor + elemental: slots, heroes and enchant priorities",
+      "summary": "A concrete eight-rune framework, its circle alternatives, and the Cleo/Otta enchant recommendations behind a Dragoon potion setup.",
+      "body": "## Pick one eight-rune framework\nAn April 2026 discussion gives three specific starting layouts for 1v1:\n- Four meteor runes plus four elemental runes.\n- Four circle runes plus four elemental runes.\n- Four circle runes plus two weapon runes and the left-side lightning/ice pair.\nThese are alternative layouts. Do not add all three together or copy the rune count without checking the associated gear and etched support. The discussion favors the meteor/elemental direction for its Dragoon PvP example; the circle alternatives belong to a different damage plan.\n\n## Match the package to the target\nFour-bounce weapon support was suggested for 3v3 coverage, with an immediate qualification: it loses value when the opponent's lineup revolves around one strong hero and two supporting heroes. For a single boss, a later message drops bounce. Choose coverage for targets that actually exist in the fight.\n\n## The Phynx, Otta and Cleo example\nSeptember advice describes Phynx with Otta and Cleo resonances, using elemental and meteor runes instead of the main-weapon package. The follow-up explicitly asks about resonances before choosing enchants. Treat the hero package as part of the recipe; an account without the potion support is not assembling the same build.\n\n## Enchant priorities from that example\n1. With Cleo/Otta, compare the unique enchants on both left-side elemental runes.\n2. The right-side fire rune also receives a unique-enchant recommendation.\n3. The response names 25% cooldown and 30% additional meteor damage as alternatives. It does not identify the precise cooldown tooltip in text; check the linked preset and your rune before spending enchant resources.\n4. Work toward the unique strike-potion enchant. The advice also proposes changing right-side weapon runes and Potion Spring, but the exact replacement slots depend on the linked preset images. Verify those slots before removing a working support effect.\nAn earlier discussion separately emphasizes the right-side unique meteor enchant that triggers giant meteors when taking damage. It is a different effect from simply choosing more elemental damage.\n\n## Upgrade in stages\nSave your working preset first. Add the functional support you own, then compare one enchant change at a time against similar opponents. If the potion package is incomplete, finish or retain a coherent alternative before swapping the weapon and expecting the same survival. Keep etched circle investment available for a circle/boss preset rather than treating a PvP change as a reason to discard it.\n\n## What this ranks\nThis guide prioritizes components within specific 1v1 and potion-oriented setups. It does not establish a universal weapon tier list, an exact win-rate gain or a complete best-in-slot answer for every rarity. The layouts come from April 2026; the detailed resonance/enchant discussion is from September 2026.",
+      "category": "builds",
+      "status": "community",
+      "gameVersion": "Not specified; dated recipes in references",
+      "updatedOn": "2026-09-14",
+      "reviewedOn": "2026-11-04",
+      "published": true,
+      "tags": [
+        "PvP",
+        "meteor",
+        "elemental",
+        "Dragoon",
+        "Cleo",
+        "Otta",
+        "Phynx",
+        "enchants"
+      ],
+      "sources": [
+        {
+          "label": "1v1 meteor and elemental layout",
+          "url": "https://discord.com/channels/1353899985103749221/1492251130233753722/1495813213130981549"
+        },
+        {
+          "label": "Circle and elemental alternative",
+          "url": "https://discord.com/channels/1353899985103749221/1492251130233753722/1495813658498826260"
+        },
+        {
+          "label": "Circle, weapon and lightning/ice alternative",
+          "url": "https://discord.com/channels/1353899985103749221/1492251130233753722/1495813829609918797"
+        },
+        {
+          "label": "3v3 bounce limitation",
+          "url": "https://discord.com/channels/1353899985103749221/1492251130233753722/1495813555436523520"
+        },
+        {
+          "label": "Boss versus multi-target rune choices",
+          "url": "https://discord.com/channels/1353899985103749221/1492251130233753722/1536860422123167855"
+        },
+        {
+          "label": "Phynx, Otta and Cleo elemental/meteor example",
+          "url": "https://discord.com/channels/1353899985103749221/1492251130233753722/1548833039373574273"
+        },
+        {
+          "label": "Cleo/Otta enchant and potion recommendations",
+          "url": "https://discord.com/channels/1353899985103749221/1492251130233753722/1548961593415704619"
+        },
+        {
+          "label": "Damage-triggered giant meteor enchant",
+          "url": "https://discord.com/channels/1353899985103749221/1492251130233753722/1495816112619786282"
+        },
+        {
+          "label": "Keeping circle investment for bosses",
+          "url": "https://discord.com/channels/1353899985103749221/1492251130233753722/1495815004325154997"
+        }
+      ]
+    },
+    {
+      "id": "jungle-sprite-domain-skill-priorities",
+      "title": "Jungle sprite + Domain: the recipe and skill pick order",
+      "summary": "The specific sprite-focused route: etched prerequisites, mandatory support, skill selection order and the crowded-wave tradeoff.",
+      "body": "## Decide whether sprites lead or support\nThe June 2026 guide distinguishes two jobs. With two sprite etched runes, sprites are the main damage plan and sprite upgrades are priorities. With only Sprite's Awe supporting circles or elements, choose the primary damage package first; do not spend every selection on sprite buffs merely because Awe is equipped.\n\n## Sprite + Domain recipe\nThe stated example recommends Cleo and lists:\n- Two sprite etched runes plus one elemental etched rune.\n- The rune abbreviated RoA in the source preset; confirm its identity in the linked loadout.\n- Four sprites.\n- Plant shielding after green difficulty, described as required for this route.\n- An additional elemental choice when it helps secure the kill needed to activate Domain pools.\nThe text does not identify every image-dependent rune slot. Check the linked preset and your inventory before treating this as a complete eight-slot screenshot replacement.\n\n## Skill pick order for the sprite-led version\n1. Sprites.\n2. Sprite-enhancing skills.\n3. Super Freeze.\n4. Elemental skills.\n5. Attack Speed.\n6. Attack Power.\nThis is the order proposed for this specific route. It is not a general ranking for a circle-led, weapon-led or PvP build. If Awe is only support, return to your main damage priorities instead.\n\n## Blessing and survival support\nExperience support is marked as essential in the recipe. Revive is included, with luck or dodge as optional choices in the discussion. A Rabbit Foot slot was explained as an enchant choice; do not assume the rune's normal effect is required for Jungle or rely on a universal luck-to-proc formula.\n\n## Check the Domain breakpoint before spending\nThe guide warns against taking the Domain version beyond green without the investment it calls Domain L2. Its problem is crowded waves: insufficient elemental damage can fail to secure the kill that starts the clearing effect. The same account described the route as safer against bosses and circles as easier when that Domain investment was missing.\n\n## Choose the route that fits your account\nUse the sprite/Domain plan when its etched and elemental requirements are ready. If dense waves remain the failure point, compare a circle-supported sprite route rather than buying random upgrades from several families. Keep the test conditions comparable and check survival before interpreting a higher damage number as progress.\n\n## Current-use limit\nThe detailed recipe dates to June 2026. October discussion still referenced sprite frameworks, but an October 30 warning says Twinborn runes changed Jungle builds. Retain the skill-selection logic as a reference; verify current rune interactions and rarity requirements before a major conversion.",
+      "category": "builds",
+      "status": "outdated",
+      "gameVersion": "Not specified; dated recipes in references",
+      "updatedOn": "2026-10-30",
+      "reviewedOn": "2026-11-04",
+      "published": true,
+      "tags": [
+        "Shackled Jungle",
+        "sprites",
+        "Domain",
+        "Cleo",
+        "skill priority",
+        "etched runes"
+      ],
+      "sources": [
+        {
+          "label": "Sprite frameworks and alternatives",
+          "url": "https://discord.com/channels/1353899985103749221/1487226276103065713/1512343596974473286"
+        },
+        {
+          "label": "Awe as support rather than main damage",
+          "url": "https://discord.com/channels/1353899985103749221/1487226276103065713/1512344931178385499"
+        },
+        {
+          "label": "Cleo, etched prerequisites and plant shield",
+          "url": "https://discord.com/channels/1353899985103749221/1487226276103065713/1512354102452027444"
+        },
+        {
+          "label": "Sprite-route skill order and blessing support",
+          "url": "https://discord.com/channels/1353899985103749221/1487226276103065713/1512355099245019227"
+        },
+        {
+          "label": "Domain investment and circle alternative",
+          "url": "https://discord.com/channels/1353899985103749221/1487226276103065713/1512354722139603046"
+        },
+        {
+          "label": "October 30 Twinborn build-change warning",
+          "url": "https://discord.com/channels/1268830572743102505/1355348706202878012/1565614734839906365"
+        }
+      ]
     }
   ]
 }

@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { createTreasureState, rollTreasure, runTreasure, weightedChoice, summarizeScores, fishingOdds, castFishing, POOLS } from '../site/event-models.mjs';
+import { createTreasureState, rollTreasure, rollMultiplier, runTreasure, weightedChoice, summarizeScores, fishingOdds, castFishing, POOLS } from '../site/event-models.mjs';
 
 const sequence = (...values) => { let index=0; return () => values[index++ % values.length]; };
 const near = (actual,expected) => assert.ok(Math.abs(actual-expected)<1e-10, `${actual} != ${expected}`);
@@ -26,6 +26,20 @@ test('strategy and held-dice cap use departure tile before spending', () => {
   }
   assert.equal(rollTreasure(createTreasureState({tile:8,strategy:'one'}),()=>0).last.multiplier,1);
   assert.equal(rollTreasure(createTreasureState({tile:0,strategy:'maximum'}),()=>0).last.multiplier,10);
+});
+
+test('manual multipliers apply to any tile while respecting available-dice caps',()=>{
+  for(const multiplier of [1,2,3,5,10]){
+    const start=createTreasureState({dice:100,tile:0,strategy:'manual',multiplier,refunds:false});
+    const result=rollTreasure(start,()=>0);
+    assert.equal(result.last.multiplier,multiplier);
+    assert.equal(result.points,50*multiplier);
+    assert.equal(result.dice,100-multiplier);
+  }
+  assert.equal(rollMultiplier(createTreasureState({dice:99,strategy:'manual',multiplier:10})),5);
+  assert.equal(rollMultiplier(createTreasureState({dice:19,strategy:'manual',multiplier:10})),1);
+  assert.equal(rollMultiplier(createTreasureState({dice:0,strategy:'manual',multiplier:10})),0);
+  for(const multiplier of [0,4,6,11,NaN,'10'])assert.throws(()=>createTreasureState({strategy:'manual',multiplier}));
 });
 test('wheel weights normalize their true sums and independent bonus draws', () => {
   assert.equal(weightedChoice([0,2,1],[6664,666,2666],()=>.9999),1);

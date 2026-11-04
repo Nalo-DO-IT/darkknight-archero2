@@ -4,6 +4,7 @@ import { UI, categoriesFor, statusesFor, localizedPath } from './wiki-i18n.mjs';
 import { SITE_URL, LANGUAGES } from './translation.mjs';
 import { renderEventTools } from './event-view.mjs';
 import { EVENT_COPY } from './event-copy.mjs';
+import { COMBAT_GUIDES, combatCopy, renderCombatVisual } from './combat-guides.mjs';
 
 const FEATURED = Object.keys(FEATURED_ART);
 const MEDIA_ES = {
@@ -56,7 +57,10 @@ export function renderWikiHome(articles, locale = 'en') {
   const practical = articles.filter(({ id }) => ['gems-spending-plan','upgrade-priority-roadmap','build-planner-by-mode','daily-weekly-progression-checklist','event-spending-decision-guide'].includes(id));
   const ec = EVENT_COPY[locale];
   const plan = `<section class="wiki-section"><div class="section-title"><div><h2>${ec.progressTitle}</h2><p>${ec.practical}</p></div></div><div class="practical-grid">${practical.map((article,index)=>`<a href="${c.url(`guides/${article.id}.html`)}"><span>0${index+1}</span><h3>${e(article.title)}</h3><b aria-hidden="true">→</b></a>`).join('')}</div><a class="simulator-cta" href="${c.url('tools.html')}"><span aria-hidden="true">⚄ ≈</span><strong>${ec.toolsCta}</strong><span aria-hidden="true">→</span></a></section>`;
-  return shell(c, t.home, t.introText, body.replace('<section class="wiki-section">', `${plan}<section class="wiki-section">`));
+  const combat=COMBAT_GUIDES.map(id=>articles.find(article=>article.id===id)).filter(Boolean);
+  const cc=combatCopy(locale);
+  const combatSection=combat.length?`<section class="wiki-section combat-hub"><div class="section-title"><div><h2>${cc.hub}</h2><p>${cc.hubText}</p></div></div><ul class="guide-list">${combat.map(article=>row(article,c)).join('')}</ul></section>`:'';
+  return shell(c, t.home, t.introText, body.replace('<section class="wiki-section">', `${plan}${combatSection}<section class="wiki-section">`));
 }
 export function renderWikiIndex(articles, locale = 'en', categoryId = null) {
   const c = context(locale, categoryId ? `topics/${categoryId}.html` : 'guides/index.html');
@@ -78,7 +82,8 @@ export function renderWikiGuide(article, articles, locale = 'en') {
   const c = context(locale, `guides/${article.id}.html`); const { t } = c;
   const category = c.categories.find(({ id }) => id === article.category);
   const headings = parseGuide(article.body).filter(({ type }) => type === 'heading');
-  const toc = `<aside class="contents"><details open><summary>${t.contents}</summary><nav aria-label="${t.contents}">${headings.map(({ text }, index) => `<a href="#section-${index + 1}">${e(text)}</a>`).join('')}<a href="#references">${t.sources}</a><a href="#related">${t.related}</a></nav></details></aside>`;
+  const combat=renderCombatVisual(article.id,locale);
+  const toc = `<aside class="contents"><details open><summary>${t.contents}</summary><nav aria-label="${t.contents}">${combat?`<a href="#combat-plan">${combatCopy(locale).title}</a>`:''}${headings.map(({ text }, index) => `<a href="#section-${index + 1}">${e(text)}</a>`).join('')}<a href="#references">${t.sources}</a><a href="#related">${t.related}</a></nav></details></aside>`;
   const media = (GUIDE_MEDIA[article.id] ?? []).map((item) => {
     const [alt, caption] = locale === 'es' ? MEDIA_ES[item.path] : [item.alt, item.caption];
     const path = locale === 'es' && item.path.endsWith('.svg') ? item.path.replace('.svg', '-es.svg') : item.path;
@@ -91,11 +96,12 @@ export function renderWikiGuide(article, articles, locale = 'en') {
   const body = `<div class="reader-layout"><article class="wiki-article"><header class="article-heading">${badge(article, c)}<h1>${e(article.title)}</h1><p class="article-summary">${e(article.summary)}</p><div class="article-meta"><span>${readMinutes(article)} ${t.minutes}</span><span>${t.updated} <time datetime="${article.updatedOn}">${article.updatedOn}</time></span></div></header><p class="evidence-note ${article.status}">${article.status === 'outdated' ? t.outdatedNote : t.communityNote}</p><div class="mobile-contents"></div><div class="article-body">${guideBody(article)}</div>${media.length ? `<div class="guide-media">${media.join('')}</div>` : ''}<section class="references" id="references"><h2>${t.sources}</h2>${external.length ? `<ul>${external.map(source).join('')}</ul>` : ''}${discussions.length ? `<details><summary>${t.discussions} (${discussions.length})</summary><p>${t.membership}</p><ul>${discussions.map(source).join('')}</ul></details>` : ''}<p class="review-meta">${t.version}: ${e(article.gameVersion)}<br>${t.reviewed}: ${article.reviewedOn}</p></section><section class="related" id="related"><h2>${t.related}</h2>${related.map((item) => `<a href="${c.url(`guides/${item.id}.html`)}">${e(item.title)} <span aria-hidden="true">→</span></a>`).join('')}<a class="back-topic" href="${c.url(`topics/${article.category}.html`)}">← ${t.backTopic}: ${e(category.label)}</a></section></article>${toc}</div>`;
   const eventAnchor = article.id === 'treasure-island-x10-tile-guide' ? 'treasure-simulator' : article.id === 'fishing-event-playbook' ? 'fishing-planner' : null;
   const eventLink = eventAnchor ? `<a class="simulator-cta" href="${c.url('tools.html')}#${eventAnchor}">${EVENT_COPY[locale][eventAnchor === 'treasure-simulator' ? 'estimateLink' : 'fishingLink']} →</a>` : '';
-  return shell(c, article.title, article.summary, body.replace('<div class="article-body">', `${eventLink}<div class="article-body">`), { category: article.category, crumbs: [{ label: category.label, path: `topics/${article.category}.html` }, { label: article.title }] });
+  const html=shell(c, article.title, article.summary, body.replace('<div class="article-body">', `${eventLink}${combat}<div class="article-body">`), { category: article.category, crumbs: [{ label: category.label, path: `topics/${article.category}.html` }, { label: article.title }] });
+  return combat?html.replace('</head>',`<link rel="stylesheet" href="${c.asset('combat.css')}"></head>`):html;
 }
 export function renderWikiTools(locale = 'en') {
   const c = context(locale, 'tools.html'); const { t } = c;
   const body = `<header class="page-heading"><p class="eyebrow">DARKKNIGHT WIKI</p><h1>${t.tools}</h1><p>${t.toolsIntro}</p></header><div class="tools-grid"><section class="tool-panel"><span class="badge outdated">${t.model}</span><h2>${t.multiplier}</h2><p>${t.tileHelp}</p><form id="treasure-form"><label for="current-tile">${t.tile}<input id="current-tile" type="number" min="0" max="23" step="1" value="8" required></label><label for="held-dice">${t.dice}<input id="held-dice" type="number" min="0" max="100000" step="1" value="100" required></label><button class="button" type="submit">${t.check} →</button></form><output id="roll-advice" aria-live="polite"></output><p class="tool-caveat">${t.toolCaveat}</p><a href="${c.url('guides/treasure-island-x10-tile-guide.html')}">${t.map} →</a></section><section class="tool-links"><h2>${t.external}</h2><a href="https://ksun4176.github.io/archero2-dice-companion/" target="_blank" rel="noopener noreferrer"><img src="${c.asset('assets/gold.png')}" width="48" height="48" alt=""><div><h3>Dice Companion ↗</h3><p>${t.diceText}</p></div></a><a href="https://jgdevalpha.github.io/archero-fish-companion/" target="_blank" rel="noopener noreferrer"><span class="tool-symbol" aria-hidden="true">≈</span><div><h3>Fishing Companion ↗</h3><p>${t.fishText}</p></div></a><a href="${c.url('guides/fishing-event-playbook.html')}"><span class="tool-symbol" aria-hidden="true">↗</span><div><h3>${t.fishing}</h3><p>${t.fishText}</p></div></a></section></div>`;
-  const content = body.replace('<div class="tools-grid">', `${renderEventTools(locale)}<details class="quick-tools"><summary>${t.multiplier} · ${t.external}</summary><div class="tools-grid">`) + '</details>';
-  return shell(c, t.tools, t.toolsIntro, content, { crumbs: [{ label: t.tools }] });
+  const content = body.replace('<div class="tools-grid">', `${renderEventTools(locale,c.prefix)}<details class="quick-tools"><summary>${t.multiplier} · ${t.external}</summary><div class="tools-grid">`) + '</details>';
+  return shell(c, t.tools, t.toolsIntro, content, { crumbs: [{ label: t.tools }] }).replace('</head>', `<link rel="stylesheet" href="${c.asset('island.css')}"></head>`);
 }

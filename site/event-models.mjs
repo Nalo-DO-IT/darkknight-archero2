@@ -24,16 +24,24 @@ export function weightedChoice(values, weights, random = Math.random) {
   for (let index = 0; index < weights.length; index++) { cursor -= weights[index]; if (cursor < 0) return values[index]; }
   return values.at(-1);
 }
-export function createTreasureState({ dice = 100, tile = 0, points = 0, spent = 0, strategy = 'smart', refunds = true } = {}) {
+export function createTreasureState({ dice = 100, tile = 0, points = 0, spent = 0, strategy = 'smart', refunds = true, multiplier = 1 } = {}) {
   integer(dice, 'dice', 0, 5000); integer(tile, 'tile', 0, 23); integer(points, 'points', 0, 10000000); integer(spent, 'spent', 0, 1000000);
-  if (!['smart', 'one', 'maximum'].includes(strategy)) throw new RangeError('Unknown strategy.');
+  if (!['smart', 'one', 'maximum', 'manual'].includes(strategy)) throw new RangeError('Unknown strategy.');
+  if (![1,2,3,5,10].includes(multiplier)) throw new RangeError('Invalid multiplier.');
   if (typeof refunds !== 'boolean') throw new TypeError('Refunds must be boolean.');
-  return { dice, tile, points, spent, strategy, refunds, turns:0 };
+  return { dice, tile, points, spent, strategy, refunds, multiplier, turns:0 };
+}
+export function rollMultiplier(state) {
+  if (!state.dice) return 0;
+  if (state.strategy === 'one') return 1;
+  const cap = treasureAdvice(8,state.dice).multiplier;
+  if (state.strategy === 'manual') return Math.min(state.multiplier,cap);
+  return state.strategy === 'maximum' ? cap : treasureAdvice(state.tile,state.dice).multiplier;
 }
 export function rollTreasure(state, random = Math.random) {
   integer(state.dice, 'dice', 0, 100000); integer(state.tile, 'tile', 0, 23);
   if (state.dice === 0) throw new RangeError('No dice remaining.');
-  const multiplier = state.strategy === 'one' ? 1 : treasureAdvice(state.strategy === 'maximum' ? 8 : state.tile, state.dice).multiplier;
+  const multiplier = rollMultiplier(state);
   const faces = [1 + Math.floor(randomUnit(random) * 6), 1 + Math.floor(randomUnit(random) * 6)];
   const tile = (state.tile + faces[0] + faces[1]) % 24;
   let gain = BOARD_POINTS[tile] * multiplier;

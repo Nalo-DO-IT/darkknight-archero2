@@ -1,0 +1,65 @@
+{
+  "checkedOn": "2026-11-04",
+  "assets": [
+    {
+      "path": "assets/treasure/island.png",
+      "source": "https://raw.githubusercontent.com/ksun4176/archero2-island-treasure-hunt/a4434216c83df61824f1d0d5f2af86b3c017eee4/public/tiles/bg-monopoly.png",
+      "unmodified": true,
+      "sha256": "edc8d1d4ddb6228f77ace5a582369bfce1ea73c7fadaea73a48638c3e7f39b91"
+    },
+    {
+      "path": "assets/treasure/atlas.png",
+      "source": "https://raw.githubusercontent.com/ksun4176/archero2-island-treasure-hunt/a4434216c83df61824f1d0d5f2af86b3c017eee4/public/tiles/sactx-1-2048x2048-ASTC 6x6-ui_monoPoly-1f541a37.png",
+      "unmodified": true,
+      "sha256": "626cdd672919efe3dcd277c2eb24b792872ab6bca68c594dd9d6fd408d625fac"
+    },
+    {
+      "path": "assets/treasure/reference.jpeg",
+      "source": "https://raw.githubusercontent.com/ksun4176/archero2-dice-companion/62798d88e03e5fb9eab88d8d929fb95ea548426c/public/NumberedTiles.jpeg",
+      "unmodified": true,
+      "sha256": "6524c7ef55cc7c46733df73ad08a64e4b916f47376fc48e1585b9da191dea496"
+    },
+    {
+      "path": "assets/treasure/purple.png",
+      "source": "https://raw.githubusercontent.com/ksun4176/archero2-island-treasure-hunt/a4434216c83df61824f1d0d5f2af86b3c017eee4/public/tiles/purple.png",
+      "unmodified": true,
+      "sha256": "d2f0b40ae27a2259c9bbeb98622a16caf6f73f0bdbbbc1a80ac4c9632a96ac18"
+    },
+    {
+      "path": "assets/treasure/green.png",
+      "source": "https://raw.githubusercontent.com/ksun4176/archero2-island-treasure-hunt/a4434216c83df61824f1d0d5f2af86b3c017eee4/public/tiles/green.png",
+      "unmodified": true,
+      "sha256": "7c81cb36142bef663e49b56f57a2caa3f7743649021ff82e0388c3720888dfff"
+    },
+    {
+      "path": "assets/treasure/white.png",
+      "source": "https://raw.githubusercontent.com/ksun4176/archero2-island-treasure-hunt/a4434216c83df61824f1d0d5f2af86b3c017eee4/public/tiles/white.png",
+      "unmodified": true,
+      "sha256": "0a9db6eba9632ca62ef8e71082807355f18a5982f18ff098cbd39f211250450a"
+    },
+    {
+      "path": "assets/treasure/yellow.png",
+      "source": "https://raw.githubusercontent.com/ksun4176/archero2-island-treasure-hunt/a4434216c83df61824f1d0d5f2af86b3c017eee4/public/tiles/yellow.png",
+      "unmodified": true,
+      "sha256": "4681382a5ad0fec06a300c6157b698440a3518780d5c902a86b26088c7749442"
+    },
+    {
+      "path": "assets/treasure/big_purple.png",
+      "source": "https://raw.githubusercontent.com/ksun4176/archero2-island-treasure-hunt/a4434216c83df61824f1d0d5f2af86b3c017eee4/public/tiles/big_purple.png",
+      "unmodified": true,
+      "sha256": "ea9feabf7a502ab496113cf1ff41e49258676cf0d01b716081c63f653113802c"
+    },
+    {
+      "path": "assets/treasure/gold.png",
+      "source": "https://raw.githubusercontent.com/ksun4176/archero2-island-treasure-hunt/a4434216c83df61824f1d0d5f2af86b3c017eee4/public/tiles/gold.png",
+      "unmodified": true,
+      "sha256": "93fe6fbd5c4115390d7732b399898c49f8c98f53fd7385c64d37f21f81578a46"
+    },
+    {
+      "path": "assets/treasure/blue.png",
+      "source": "https://raw.githubusercontent.com/ksun4176/archero2-island-treasure-hunt/a4434216c83df61824f1d0d5f2af86b3c017eee4/public/tiles/blue.png",
+      "unmodified": true,
+      "sha256": "438b2c8d896cb148c75ea5043ce537104daf8d4a3ca6c3cc43fa8ecd69e864a8"
+    }
+  ]
+}
