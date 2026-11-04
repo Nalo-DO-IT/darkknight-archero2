@@ -82,7 +82,7 @@ export function renderWikiGuide(article, articles, locale = 'en') {
   const c = context(locale, `guides/${article.id}.html`); const { t } = c;
   const category = c.categories.find(({ id }) => id === article.category);
   const headings = parseGuide(article.body).filter(({ type }) => type === 'heading');
-  const combat=renderCombatVisual(article.id,locale);
+  const combat=renderCombatVisual(article.id,locale,c.prefix);
   const toc = `<aside class="contents"><details open><summary>${t.contents}</summary><nav aria-label="${t.contents}">${combat?`<a href="#combat-plan">${combatCopy(locale).title}</a>`:''}${headings.map(({ text }, index) => `<a href="#section-${index + 1}">${e(text)}</a>`).join('')}<a href="#references">${t.sources}</a><a href="#related">${t.related}</a></nav></details></aside>`;
   const media = (GUIDE_MEDIA[article.id] ?? []).map((item) => {
     const [alt, caption] = locale === 'es' ? MEDIA_ES[item.path] : [item.alt, item.caption];

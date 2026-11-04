@@ -62,8 +62,11 @@ async (page) => {
   await page.waitForFunction(()=>document.querySelector('#sim-dice-left').textContent==='0');
   check(await page.locator('#sim-roll').isDisabled(),'auto play exhausts dice');
   await page.locator('#sim-dice').fill('5000');
-  await page.locator('#sim-estimate').click();
-  await page.locator('#sim-cancel').click();
+  // Cancel at the first yielded batch; fast machines may finish before a second pointer click.
+  await page.evaluate(()=>{
+    document.querySelector('#sim-estimate').click();
+    document.querySelector('#sim-cancel').click();
+  });
   await page.waitForFunction(()=>document.querySelector('#sim-cancel').hidden);
   check((await page.locator('#sim-message').innerText()).includes('cancelada'),'cancel long simulation');
   await page.locator('#fish-batch').selectOption('10');

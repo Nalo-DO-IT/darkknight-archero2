@@ -56,3 +56,64 @@
   .rune-token { font-size:9px; }
   .hero-resonances strong { font-size:19px; }
 }
+
+/* Original game images keep their own pixels; panels provide contrast for rune silhouettes. */
+.image-instructions { color:#c3cbdc; padding:10px 12px; background:#10162280; border-radius:7px; }
+.combat-component { display:block; }
+.component-heading { display:flex; align-items:center; gap:10px; margin-bottom:14px; }
+.component-heading>div { min-width:0; }
+.component-heading strong,.component-heading span { display:block; }
+.component-heading span { color:var(--muted); font-size:12px; line-height:1.5; margin-top:4px; }
+.component-unmapped,.image-examples { color:var(--muted); font-size:12px!important; }
+.skill-image-strip { display:grid; grid-template-columns:repeat(auto-fit,minmax(86px,1fr)); gap:10px; align-items:start; }
+.skill-image-button { display:flex; flex-direction:column; align-items:center; width:100%; min-width:0; padding:7px 4px; border:1px solid transparent; border-radius:8px; color:#f1ead9; background:transparent; cursor:zoom-in; font:inherit; }
+.skill-image-button:hover,.skill-image-button:focus-visible { background:#42527645; border-color:#a4b6d4; outline-offset:3px; }
+.skill-image-frame { position:relative; display:flex; align-items:center; justify-content:center; width:74px; height:74px; max-width:100%; background:radial-gradient(circle,#58639344,#151b2d); border:1px solid #657190; border-radius:13px; box-shadow:0 3px 8px #0004; }
+.skill-image-frame>img { width:82%; height:82%; object-fit:contain; }
+.kind-rune .skill-image-frame { background:radial-gradient(circle,#67578999,#282239); border-color:#8c7caf; }
+.kind-hero .skill-image-frame { width:90px; height:110px; background:radial-gradient(ellipse at bottom,#9d824c66,#1e2534); border-color:#8c7b54; }
+.kind-hero .skill-image-frame>img { width:95%; height:95%; }
+.image-zoom { position:absolute; right:3px; bottom:1px; color:#dde5f4; font-size:15px; line-height:1; }
+.skill-image-caption { display:block; margin-top:7px; text-align:center; overflow-wrap:anywhere; }
+.skill-image-caption small { display:block; color:#9eaac3; text-transform:uppercase; font-size:8px; letter-spacing:1px; }
+.skill-image-caption strong { display:block; margin:4px 0; font-size:12px; line-height:1.35; font-weight:700; }
+.skill-image-caption>span { display:block; font-size:10px; color:#aeb9cb; line-height:1.4; }
+.combat-component>.skill-image-strip { grid-template-columns:repeat(2,minmax(0,1fr)); }
+.rune-token { min-width:0; padding:5px 3px 8px; }
+.rune-token .skill-image-frame { width:64px; height:64px; }
+.rune-token .skill-image-caption strong { font-size:11px; }
+.rune-token .skill-image-caption>span { font-size:9px; }
+.rune-family-name { color:#c2c7d6; font-size:9px; }
+.hero-resonances { align-items:start; }
+.hero-resonances>div:first-child { flex:1; }
+.hero-resonances>div:last-child { flex:2; }
+.hero-resonances>span { padding-top:65px; }
+.hero-resonances .skill-image-caption strong { font-size:13px; }
+.hero-resonances .skill-image-strip { grid-template-columns:repeat(2,minmax(0,1fr)); }
+.illustrated-priority { grid-template-columns:1fr; }
+.illustrated-priority li { display:grid; grid-template-columns:26px 112px minmax(0,1fr); align-items:start; padding:16px 12px; }
+.illustrated-priority li>b,.illustrated-priority li>strong { margin-top:25px; }
+.illustrated-priority .skill-image-strip { grid-template-columns:repeat(auto-fit,minmax(74px,1fr)); gap:5px; }
+.illustrated-priority .skill-image-frame { width:64px; height:64px; }
+.image-references { margin-top:20px; padding-top:12px; border-top:1px solid #41495c; color:var(--muted); font-size:12px; }
+.image-references summary { cursor:pointer; }
+.image-references a { display:inline-block; margin:10px 16px 0 0; color:var(--gold); }
+.skill-image-dialog { box-sizing:border-box; width:360px; max-width:calc(100vw - 28px); max-height:calc(100dvh - 28px); padding:28px; background:#1d2435; border:1px solid #8c7baf; border-radius:16px; color:#f3ead9; text-align:center; box-shadow:0 20px 80px #000a; }
+.skill-image-dialog::backdrop { background:#080c17d9; backdrop-filter:blur(4px); }
+.image-dialog-close { position:absolute; top:8px; right:8px; width:36px; height:36px; border:1px solid #657190; border-radius:50%; color:white; background:#303a50; font-size:25px; cursor:pointer; }
+.image-preview-stage { display:grid; place-items:center; height:240px; margin-top:12px; border-radius:12px; background:radial-gradient(circle,#63548477,#141b2a); }
+.image-preview-stage img { width:90%; height:220px; object-fit:contain; }
+.skill-image-dialog h2 { margin:9px 0; font-size:23px; }
+.image-preview-kind { text-transform:uppercase; letter-spacing:2px; font-size:10px; color:#c5b48a; margin:18px 0 0; }
+#skill-image-original { color:#b0bed3; font-size:13px; }
+#skill-image-reference { color:#e4ca8d; font-size:12px; }
+#skill-image-error { color:#f4c698; }
+@media(max-width:650px) {
+  .rune-mix { grid-template-columns:repeat(2,minmax(0,1fr)); }
+  .illustrated-priority li { grid-template-columns:26px minmax(0,1fr); }
+  .illustrated-priority li>b,.illustrated-priority li>strong { margin-top:0; }
+  .illustrated-priority .skill-image-strip { grid-column:1/-1; grid-template-columns:repeat(2,minmax(0,1fr)); }
+  .hero-resonances { gap:4px; padding:14px 4px; }
+  .hero-resonances .kind-hero .skill-image-frame { width:64px; height:90px; }
+  .skill-image-dialog { padding:24px 18px; }
+}

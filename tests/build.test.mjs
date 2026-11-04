@@ -26,7 +26,7 @@ test('build publishes reviewed records, excludes drafts and raw source fields', 
   const output = await readFile(join(paths.outputPath, 'data/library.json'), 'utf8');
   assert.equal(output.includes('NEVER_PUBLISH'), false);
   assert.equal(output.includes('SECRET_DRAFT'), false);
-  assert.deepEqual((await readdir(paths.outputPath)).sort(), ['.nojekyll', 'app.mjs', 'assets', 'catalog.mjs', 'combat.css', 'crest.svg', 'data', 'event-client.mjs', 'event-copy.mjs', 'event-models.mjs', 'guide-page.mjs', 'guide.mjs', 'guides', 'index.html', 'island.css', 'media.mjs', 'styles.css', 'theme.css', 'tools.html', 'topics', 'translation.mjs', 'treasure-board.mjs', 'treasure.mjs', 'wiki-client.mjs', 'wiki-i18n.mjs', 'wiki.css']);
+  assert.deepEqual((await readdir(paths.outputPath)).sort(), ['.nojekyll', 'app.mjs', 'assets', 'catalog.mjs', 'combat.css', 'crest.svg', 'data', 'event-client.mjs', 'event-copy.mjs', 'event-models.mjs', 'guide-page.mjs', 'guide.mjs', 'guides', 'index.html', 'island.css', 'media.mjs', 'skill-images-client.mjs', 'styles.css', 'theme.css', 'tools.html', 'topics', 'translation.mjs', 'treasure-board.mjs', 'treasure.mjs', 'wiki-client.mjs', 'wiki-i18n.mjs', 'wiki.css']);
   const page = await readFile(join(paths.outputPath, 'guides/test-guide.html'), 'utf8');
   assert.match(page, /Test content for an expedition build/);
   assert.match(page, /Español/);

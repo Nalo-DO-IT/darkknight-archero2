@@ -3,6 +3,7 @@ import { UI, localeCode } from './wiki-i18n.mjs';
 import { setupTreasureTool } from './treasure.mjs';
 import { translationUrl } from './translation.mjs';
 import { setupEventTools } from './event-client.mjs';
+import { setupSkillImages } from './skill-images-client.mjs';
 
 const locale = localeCode(document.documentElement.lang);
 const t = UI[locale];
@@ -109,4 +110,5 @@ async function setupSearch() {
 setupNavigation();
 setupTreasureTool(locale);
 setupEventTools(locale);
+setupSkillImages();
 void setupSearch();

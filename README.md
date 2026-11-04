@@ -4,7 +4,7 @@ Public site: https://nalo-do-it.github.io/darkknight-archero2/ — Spanish: http
 
 Professional static wiki with **50 practical guides in English and Spanish**, six topic hubs, persistent navigation, breadcrumbs, article contents, full-text search and related reading. Five progression guides cover gems, upgrade order, builds by mode, daily/weekly actions and event spending. Bug reports, speculative interaction notes and duplicate fragments were removed from the published library.
 
-Four combat guides add visual Croc control components, a Flame Demon movement diagram, expandable eight-rune PvP recipes and Jungle skill priorities. Historical recipes remain dated. The homepage links each combat guide directly.
+Four combat guides add visual Croc control components, a Flame Demon movement diagram, expandable eight-rune PvP recipes and Jungle skill priorities. Historical recipes remain dated. The homepage links each combat guide directly. Original skill icons, rune silhouettes and hero portraits identify components, with separate Skill/Rune/Hero labels, Spanish descriptions, original English names and an accessible enlarged-image viewer. All image bytes remain unchanged; provenance and SHA-256 hashes are recorded in `content/skill-art-sources.json`.
 
 The homepage gives clear starting paths. Event tools include a playable Treasure Island board, configurable starting progress, multiplier strategies, 300-run score estimates with percentiles and target success, plus a fishing pool planner with practice catches, remaining-pool odds and refundable-break tracking. Tools are independently implemented from linked community model facts; they do not predict current game outcomes.
 
@@ -114,5 +114,7 @@ References: [GitHub Pages overview](https://docs.github.com/en/pages/getting-sta
 `tests/island-flow.js` adds 139 browser checks for multiplied rewards, accessible labels, manual bets, automatic caps, animated movement and reduced-motion play in both languages.
 
 `tests/combat-flow.js` adds 83 browser checks for visual guide navigation, source links, expandable rune recipes, language-preserving diagram anchors and 360–1440 px layouts. Preview checks account for browser zoom and bypass stale local HTTP cache.
+
+`tests/skill-images-flow.js` adds 81 browser checks for original-image loading, native labels, keyboard enlargement, focus restoration, mobile sizing and missing-image/invalid-reference handling. `tests/skill-images.test.mjs` verifies asset hashes, PNG dimensions, relative paths and recipe image mappings.
 
 `tests/events.test.mjs` verifies two-dice movement, no pass-start reward, caps, exact wheel weight sums, milestone refunds, prior-claim handling, simulation limits, percentiles and no-replacement fishing odds. `tests/wiki.test.mjs` verifies complete native translations and practical-only content.

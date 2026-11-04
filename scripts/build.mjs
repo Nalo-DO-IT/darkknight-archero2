@@ -3,6 +3,7 @@ import { dirname, resolve } from 'node:path';
 import { fileURLToPath, pathToFileURL } from 'node:url';
 import { createHash } from 'node:crypto';
 import { publicLibrary } from '../site/catalog.mjs';
+import { SKILL_ASSETS } from '../site/skill-art-data.mjs';
 import { TREASURE_ART } from '../site/treasure-board.mjs';
 import { PUBLIC_ASSETS } from '../site/media.mjs';
 import { renderWikiHome, renderWikiIndex, renderWikiGuide, renderWikiTools } from '../site/wiki.mjs';
@@ -10,7 +11,7 @@ import { categoriesFor, validateTranslation } from '../site/wiki-i18n.mjs';
 
 const projectRoot = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const defaultContent = resolve(projectRoot, 'content/library.json');
-const siteFiles = ['styles.css', 'theme.css', 'app.mjs', 'catalog.mjs', 'crest.svg', 'guide.mjs', 'media.mjs', 'translation.mjs', 'guide-page.mjs', 'treasure.mjs', 'wiki.css', 'combat.css', 'island.css', 'treasure-board.mjs', 'wiki-client.mjs', 'wiki-i18n.mjs', 'event-client.mjs', 'event-models.mjs', 'event-copy.mjs', 'assets/fishing-plan-es.svg', 'assets/treasure-board-es.svg', ...PUBLIC_ASSETS, ...TREASURE_ART];
+const siteFiles = ['styles.css', 'theme.css', 'app.mjs', 'catalog.mjs', 'crest.svg', 'guide.mjs', 'media.mjs', 'translation.mjs', 'guide-page.mjs', 'treasure.mjs', 'wiki.css', 'combat.css', 'island.css', 'treasure-board.mjs', 'wiki-client.mjs', 'skill-images-client.mjs', 'wiki-i18n.mjs', 'event-client.mjs', 'event-models.mjs', 'event-copy.mjs', 'assets/fishing-plan-es.svg', 'assets/treasure-board-es.svg', ...PUBLIC_ASSETS, ...TREASURE_ART, ...SKILL_ASSETS];
 
 async function removeStalePages(directory, expected) {
   await mkdir(directory, { recursive: true });

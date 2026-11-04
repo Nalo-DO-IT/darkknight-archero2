@@ -1,4 +1,5 @@
 import {escapeHtml as e} from './guide.mjs';
+import {skillImage,skillImages,imageCopy,imageDialog} from './skill-images.mjs';
 
 export const COMBAT_GUIDES=Object.freeze([
   'croc-boss-control-playbook','flame-demon-circle-melee-playbook',
@@ -14,7 +15,7 @@ const COPY={
     crocFlow:['Control summons','Clear adds','Keep boss damage flowing'],
     crocNote:'Bounce helps when adds are the bottleneck. Check add survival and boss damage separately.',
     flameTitle:'Circles + flame + close-range damage',flameDate:'April 2025 · corrected recipe',
-    flameCards:[['circle','4 circles','Core damage package'],['fire','2 flame skills','Close-range support'],['sword','Attack Power','Damage support'],['sprite','Melee sprite','Corrected final component']],
+    flameCards:[['circle','4 circles','Core damage package'],['fire','2 flame runes','Close-range support'],['sword','Attack Power','Damage support'],['sprite','Melee sprite','Corrected final component']],
     flameSupport:'Supporting runes: double experience + revive.',boss:'BOSS',you:'YOU',xp:'XP',
     movement:'Stay near the boss, move around it, gather experience as it moves. Diagram shows the route concept, not a measured arena.',
     flameNote:'The follow-up replaces the timed meteor with a melee sprite. If close range ends your run early, compare a setup you can survive with.',
@@ -40,7 +41,7 @@ const COPY={
     crocFlow:['Controla invocaciones','Elimina esbirros','Mantén el daño al jefe'],
     crocNote:'Los rebotes ayudan cuando fallas por las invocaciones. Revisa por separado los esbirros vivos y el daño al jefe.',
     flameTitle:'Círculos + fuego + daño cercano',flameDate:'Abril de 2025 · receta corregida',
-    flameCards:[['circle','4 círculos','Paquete principal de daño'],['fire','2 habilidades de fuego','Apoyo a corta distancia'],['sword','Attack Power','Apoyo de daño'],['sprite','Sprite cuerpo a cuerpo','Componente final corregido']],
+    flameCards:[['circle','4 círculos','Paquete principal de daño'],['fire','2 runas de fuego','Apoyo a corta distancia'],['sword','Attack Power','Apoyo de daño'],['sprite','Sprite cuerpo a cuerpo','Componente final corregido']],
     flameSupport:'Runas de apoyo: doble experiencia + resurrección.',boss:'JEFE',you:'TÚ',xp:'EXP',
     movement:'Mantente cerca, muévete alrededor del jefe y recoge experiencia cuando se desplace. El esquema representa la ruta, no una arena a escala.',
     flameNote:'La corrección sustituye el meteorito periódico por un sprite cuerpo a cuerpo. Si acercarte termina pronto el intento, compara una configuración con la que sobrevivas.',
@@ -73,24 +74,31 @@ const ICONS={
   meteor:'M13 3L4 12a6 6 0 0 0 8 8l9-9M8 16h.01M16 2l-4 7M22 7l-7 4'
 };
 function icon(name){return `<svg class="combat-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="${ICONS[name]??ICONS.circle}"/></svg>`;}
-function cards(items){return `<div class="combat-components">${items.map(([name,title,detail])=>`<div class="combat-component tone-${name}">${icon(name)}<strong>${e(title)}</strong><span>${e(detail)}</span></div>`).join('')}</div>`;}
+const CROC_IMAGES=[['skill-freeze','skill-super-freeze'],['rune-frost-thunder-seal','hero-thor'],['rune-sharp-arrow'],['rune-vine-bind']];
+const CIRCLE_RUNES=['rune-rotating-spd-up','rune-sawblade-circle','rune-ring-of-agony','rune-circle'];
+const ELEMENTAL_RUNES=['rune-flame-poison-seal','rune-frost-thunder-seal','rune-flame-poison-touch','rune-frost-thunder-touch'];
+const METEOR_RUNES=['rune-giant-meteor','rune-potion-magnet','rune-star-of-fury','rune-star-of-time'];
+const SPRITE_SKILLS=['skill-flame-sprite','skill-lightning-sprite','skill-venom-sprite','skill-ice-spike-sprite'];
+const JUNGLE_IMAGES=[SPRITE_SKILLS,['skill-sprite-boost','skill-sprite-frenzy'],['skill-super-freeze'],['skill-freeze','skill-blaze'],['skill-fairy-s-breath'],['skill-atk-increase']];
+function cards(items,images,locale,prefix){return `<div class="combat-components">${items.map(([name,title,detail],index)=>`<div class="combat-component tone-${name}"><div class="component-heading">${icon(name)}<div><strong>${e(title)}</strong><span>${e(detail)}</span></div></div>${images[index].length?skillImages(images[index],locale,prefix):`<p class="component-unmapped">${locale==='es'?'La referencia no identifica la runa exacta de ATK PWR.':'The reference does not identify the exact ATK PWR rune.'}</p>`}</div>`).join('')}</div>`;}
 function note(text){return `<p class="combat-note">${e(text)}</p>`;}
-function croc(t){return cards(t.crocCards)+`<ol class="combat-flow">${t.crocFlow.map((step,index)=>`<li><b>${index+1}</b>${e(step)}</li>`).join('')}</ol>`+note(t.crocNote);}
-function flame(t){
-  return cards(t.flameCards)+`<div class="combat-positioning"><svg viewBox="0 0 360 240" role="img" aria-label="${e(t.movement)}"><rect x="1" y="1" width="358" height="238" rx="18" fill="#151d2b"/><ellipse cx="180" cy="116" rx="112" ry="74" fill="none" stroke="#79c8c0" stroke-width="3" stroke-dasharray="9 7"/><path d="M268 61l23 9-7-23" fill="none" stroke="#79c8c0" stroke-width="3"/><circle cx="180" cy="116" r="40" fill="#6e3040" stroke="#ed947d" stroke-width="2"/><text x="180" y="122" text-anchor="middle" fill="#fff2db" font-size="16" font-weight="bold">${t.boss}</text><circle cx="79" cy="150" r="18" fill="#4584ba" stroke="#bdd8ff" stroke-width="2"/><text x="79" y="155" text-anchor="middle" fill="white" font-size="11" font-weight="bold">${t.you}</text>${[[117,53],[245,176],[209,40]].map(([x,y])=>`<path d="M${x} ${y-7}l6 7-6 7-6-7z" fill="#f5da8c"/>`).join('')}<text x="180" y="221" text-anchor="middle" fill="#f5da8c" font-size="12">${t.xp}</text></svg><div><h4>${e(t.flameSupport)}</h4><p>${e(t.movement)}</p></div></div>`+note(t.flameNote);
+function croc(t,locale,prefix){return cards(t.crocCards,CROC_IMAGES,locale,prefix)+note(locale==='es'?'Identificación: el encantamiento mítico de Sharp Arrow permite +4 rebotes. Frost-Thunder Seal y Vine Bind ilustran las referencias a parálisis y lianas; comprueba rarezas y encantamientos.':'Identification: Sharp Arrow’s Mythic enchant can provide +4 bounces. Frost-Thunder Seal and Vine Bind illustrate the paralysis and vines references; check rarities and enchants.')+`<ol class="combat-flow">${t.crocFlow.map((step,index)=>`<li><b>${index+1}</b>${e(step)}</li>`).join('')}</ol>`+note(t.crocNote);}
+function flame(t,locale,prefix){
+  return cards(t.flameCards,[CIRCLE_RUNES,['rune-flame-poison-seal','rune-flame-poison-touch'],[],['rune-melee-sprite']],locale,prefix)+note(locale==='es'?'Imágenes de las familias de runas descritas. El mensaje original no muestra una configuración completa con rarezas.':'Images identify the described rune families. The original message does not show a complete preset with rarities.')+`<div class="combat-positioning"><svg viewBox="0 0 360 240" role="img" aria-label="${e(t.movement)}"><rect x="1" y="1" width="358" height="238" rx="18" fill="#151d2b"/><ellipse cx="180" cy="116" rx="112" ry="74" fill="none" stroke="#79c8c0" stroke-width="3" stroke-dasharray="9 7"/><path d="M268 61l23 9-7-23" fill="none" stroke="#79c8c0" stroke-width="3"/><circle cx="180" cy="116" r="40" fill="#6e3040" stroke="#ed947d" stroke-width="2"/><text x="180" y="122" text-anchor="middle" fill="#fff2db" font-size="16" font-weight="bold">${t.boss}</text><circle cx="79" cy="150" r="18" fill="#4584ba" stroke="#bdd8ff" stroke-width="2"/><text x="79" y="155" text-anchor="middle" fill="white" font-size="11" font-weight="bold">${t.you}</text>${[[117,53],[245,176],[209,40]].map(([x,y])=>`<path d="M${x} ${y-7}l6 7-6 7-6-7z" fill="#f5da8c"/>`).join('')}<text x="180" y="221" text-anchor="middle" fill="#f5da8c" font-size="12">${t.xp}</text></svg><div><h4>${e(t.flameSupport)}</h4><p>${e(t.movement)}</p></div></div>`+note(t.flameNote);
 }
 const MIXES=[['meteor','meteor','meteor','meteor','elemental','elemental','elemental','elemental'],['circle','circle','circle','circle','elemental','elemental','elemental','elemental'],['circle','circle','circle','circle','weapon','weapon','lightning','ice']];
-function pvp(t){
-  const layouts=MIXES.map((mix,index)=>`<details class="rune-recipe"${index===0?' open':''}><summary><span>0${index+1}</span>${e(t.layouts[index])}<b>8</b></summary><div class="rune-mix">${mix.map((family)=>`<span class="rune-token family-${family}" data-rune-family="${family}">${icon({elemental:'bolt',weapon:'sword',lightning:'bolt'}[family]??family)}<span>${e(t.families[family])}</span></span>`).join('')}</div></details>`).join('');
-  return `<p>${e(t.choose)}</p>${layouts}<h4>${e(t.resonance)}</h4><div class="hero-resonances"><div><small>${e(t.lead)}</small><strong>Phynx</strong></div><span aria-hidden="true">+</span><div><small>${e(t.support)}</small><strong>Otta + Cleo</strong></div></div><h4>${e(t.enchants)}</h4><ul class="combat-checklist">${t.enchantItems.map(item=>`<li>${e(item)}</li>`).join('')}</ul>`+note(t.pvpNote);
+function pvp(t,locale,prefix){
+  const imageMixes=[[...METEOR_RUNES,...ELEMENTAL_RUNES],[...CIRCLE_RUNES,...ELEMENTAL_RUNES],[...CIRCLE_RUNES,'rune-sharp-arrow','rune-arrow-rain','rune-frost-thunder-seal','rune-frost-thunder-touch']];
+  const layouts=MIXES.map((mix,index)=>`<details class="rune-recipe"${index===0?' open':''}><summary><span>0${index+1}</span>${e(t.layouts[index])}<b>8</b></summary><div class="rune-mix">${mix.map((family,slot)=>`<span class="rune-token family-${family}" data-rune-family="${family}">${skillImage(imageMixes[index][slot],locale,prefix,true)}<span class="rune-family-name">${e(t.families[family])}</span></span>`).join('')}</div></details>`).join('');
+  return `<p>${e(t.choose)}</p>${layouts}<h4>${e(t.resonance)}</h4><div class="hero-resonances"><div><small>${e(t.lead)}</small>${skillImage('hero-phynx',locale,prefix)}</div><span aria-hidden="true">+</span><div><small>${e(t.support)}</small>${skillImages(['hero-otta','hero-cleo'],locale,prefix)}</div></div><h4>${e(t.enchants)}</h4><ul class="combat-checklist">${t.enchantItems.map(item=>`<li>${e(item)}</li>`).join('')}</ul>`+note(t.pvpNote);
 }
-function jungle(t){
-  return `<h4>${e(t.prerequisites)}</h4><ul class="combat-checklist">${t.jungleRequirements.map(item=>`<li>${e(item)}</li>`).join('')}</ul><h4>${e(t.skillOrder)}</h4><ol class="skill-priority">${t.skills.map(([name,label],index)=>`<li><b>${index+1}</b>${icon(name)}<strong>${e(label)}</strong></li>`).join('')}</ol><div class="combat-breakpoint"><strong>${e(t.breakpoint)}</strong><p>${e(t.domain)}</p></div><p>${e(t.supportNote)}</p>`+note(t.jungleNote);
+function jungle(t,locale,prefix){
+  return `<h4>${e(t.prerequisites)}</h4>${skillImages(['hero-cleo','rune-sprite-s-awe','rune-sprite-assist','rune-elemental-domain','rune-rootguard'],locale,prefix)}<ul class="combat-checklist">${t.jungleRequirements.map(item=>`<li>${e(item)}</li>`).join('')}</ul><h4>${e(t.skillOrder)}</h4><p class="image-examples">${locale==='es'?'Iconos de ejemplo de cada prioridad; el orden corresponde a la receta de sprites.':'Example icons for each priority; the order follows the sprite recipe.'}</p><ol class="skill-priority illustrated-priority">${t.skills.map(([,label],index)=>`<li><b>${index+1}</b><strong>${e(label)}</strong>${skillImages(JUNGLE_IMAGES[index],locale,prefix,true)}</li>`).join('')}</ol><div class="combat-breakpoint"><strong>${e(t.breakpoint)}</strong><p>${e(t.domain)}</p></div><p>${e(t.supportNote)}</p>`+note(t.jungleNote);
 }
 
 export function combatCopy(locale){if(!Object.hasOwn(COPY,locale))throw new RangeError('Unsupported combat guide language.');return COPY[locale];}
-export function renderCombatVisual(id,locale){
+export function renderCombatVisual(id,locale,prefix='./'){
   const index=COMBAT_GUIDES.indexOf(id);if(index<0)return '';
   const t=combatCopy(locale);const kind=['croc','flame','pvp','jungle'][index];
-  return `<section class="combat-visual" id="combat-plan" aria-labelledby="combat-plan-title"><header><span class="combat-eyebrow">${t.recipe}</span><h2 id="combat-plan-title">${e(t[`${kind}Title`])}</h2><p><span class="combat-date">${e(t[`${kind}Date`])}</span> · ${index===1||index===3?t.historical:t.community}</p></header>${[croc,flame,pvp,jungle][index](t)}</section>`;
+  return `<section class="combat-visual" id="combat-plan" aria-labelledby="combat-plan-title"><header><span class="combat-eyebrow">${t.recipe}</span><h2 id="combat-plan-title">${e(t[`${kind}Title`])}</h2><p><span class="combat-date">${e(t[`${kind}Date`])}</span> · ${index===1||index===3?t.historical:t.community}</p></header><p class="image-instructions">${imageCopy(locale).hint}</p>${[croc,flame,pvp,jungle][index](t,locale,prefix)}<details class="image-references"><summary>${locale==='es'?'Imágenes y nombres de referencia':'Image and name references'}</summary>${locale==='es'?`<p>${imageCopy(locale).translation}</p>`:''}<a href="https://archero-2.game-vault.net/wiki/Skills" target="_blank" rel="noopener noreferrer">${imageCopy(locale).skill} ↗</a><a href="https://archero-2.game-vault.net/wiki/Runes" target="_blank" rel="noopener noreferrer">${imageCopy(locale).rune} ↗</a><a href="https://archero-2.game-vault.net/wiki/Characters" target="_blank" rel="noopener noreferrer">${imageCopy(locale).hero} ↗</a></details></section>${imageDialog(locale)}`;
 }

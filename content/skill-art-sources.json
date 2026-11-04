@@ -1,0 +1,333 @@
+{
+  "checkedOn": "2026-11-04",
+  "assets": [
+    {
+      "path": "assets/skills/skill-freeze.png",
+      "source": "https://img-archero-2.game-vault.net/0/00/Freeze.png",
+      "reference": "https://archero-2.game-vault.net/wiki/Skills",
+      "label": "Freeze",
+      "sha256": "8e59b29499cfa0092df53d08e0028978583959713e23003986a6ecac8bf4fa93",
+      "unmodified": true
+    },
+    {
+      "path": "assets/skills/skill-super-freeze.png",
+      "source": "https://img-archero-2.game-vault.net/b/b3/Super_Freeze.png",
+      "reference": "https://archero-2.game-vault.net/wiki/Skills",
+      "label": "Super Freeze",
+      "sha256": "f3fbc864d4b24971d9bd64ba93ead5398d9cd36b550dbe30d5fcb17b9fa5b8e0",
+      "unmodified": true
+    },
+    {
+      "path": "assets/skills/skill-ricochet-arrow.png",
+      "source": "https://img-archero-2.game-vault.net/1/1c/Ricocheting_Arrow.png",
+      "reference": "https://archero-2.game-vault.net/wiki/Skills",
+      "label": "Ricochet Arrow",
+      "sha256": "d335189feb3cedadf0bcf1ba84f3a31455f44fb7da56359a35d8be9988ae469e",
+      "unmodified": true
+    },
+    {
+      "path": "assets/skills/skill-blaze.png",
+      "source": "https://img-archero-2.game-vault.net/b/bd/Blaze.png",
+      "reference": "https://archero-2.game-vault.net/wiki/Skills",
+      "label": "Blaze",
+      "sha256": "5af429703676fc67037787673b82a04e2c40a99f352a8befc8357978d9287161",
+      "unmodified": true
+    },
+    {
+      "path": "assets/skills/skill-super-blaze.png",
+      "source": "https://img-archero-2.game-vault.net/8/84/Super_Blaze.png",
+      "reference": "https://archero-2.game-vault.net/wiki/Skills",
+      "label": "Super Blaze",
+      "sha256": "9bf89494796edebdfb1edfa13283818ec26f99c401917e7f647be50cbcdccd81",
+      "unmodified": true
+    },
+    {
+      "path": "assets/skills/skill-atk-increase.png",
+      "source": "https://img-archero-2.game-vault.net/b/b6/ATK_Increase.png",
+      "reference": "https://archero-2.game-vault.net/wiki/Skills",
+      "label": "ATK Increase",
+      "sha256": "39d56b6082a6ca804763717e7ef2dec6f4edd4fa1a9dfccb9d66fa54cd608798",
+      "unmodified": true
+    },
+    {
+      "path": "assets/skills/skill-fairy-s-breath.png",
+      "source": "https://img-archero-2.game-vault.net/c/c5/Fairy%27s_Breath.png",
+      "reference": "https://archero-2.game-vault.net/wiki/Skills",
+      "label": "Fairy's Breath",
+      "sha256": "a0b994d1a0b1355ebe50fafa0b69a5195d8dd25c90bb00f006cc097b4b9ade17",
+      "unmodified": true
+    },
+    {
+      "path": "assets/skills/skill-flame-sprite.png",
+      "source": "https://img-archero-2.game-vault.net/e/e1/Flame_Sprite.png",
+      "reference": "https://archero-2.game-vault.net/wiki/Skills",
+      "label": "Flame Sprite",
+      "sha256": "6a05cc7d481bfe4d2289d2ea3fafea9bba5b264085538b3d1aa44c046cc79616",
+      "unmodified": true
+    },
+    {
+      "path": "assets/skills/skill-lightning-sprite.png",
+      "source": "https://img-archero-2.game-vault.net/2/24/Lightning_Sprite.png",
+      "reference": "https://archero-2.game-vault.net/wiki/Skills",
+      "label": "Lightning Sprite",
+      "sha256": "5708bc7f557d83a15c5bfb29d83003ad0145cf2964e339f7e7aedc9a10aed3eb",
+      "unmodified": true
+    },
+    {
+      "path": "assets/skills/skill-venom-sprite.png",
+      "source": "https://img-archero-2.game-vault.net/1/12/Venom_Sprite.png",
+      "reference": "https://archero-2.game-vault.net/wiki/Skills",
+      "label": "Venom Sprite",
+      "sha256": "9733095dc3328c5483a9090417c948e2db76bbb6c28ef60493ff773337ef9c3a",
+      "unmodified": true
+    },
+    {
+      "path": "assets/skills/skill-ice-spike-sprite.png",
+      "source": "https://img-archero-2.game-vault.net/9/9f/Ice_Spike_Sprite.png",
+      "reference": "https://archero-2.game-vault.net/wiki/Skills",
+      "label": "Ice Spike Sprite",
+      "sha256": "63540a1a201c338d378ec570458608299f3921a12647c4e87802f211ad695f45",
+      "unmodified": true
+    },
+    {
+      "path": "assets/skills/skill-sprite-boost.png",
+      "source": "https://img-archero-2.game-vault.net/5/50/Sprite_Boost.png",
+      "reference": "https://archero-2.game-vault.net/wiki/Skills",
+      "label": "Sprite Boost",
+      "sha256": "bf30c24d429a9fef71be006782fb324542bb8eaac1c6baa9ebe5404bcb2eba83",
+      "unmodified": true
+    },
+    {
+      "path": "assets/skills/skill-sprite-frenzy.png",
+      "source": "https://img-archero-2.game-vault.net/2/2b/Sprite_Frenzy.png",
+      "reference": "https://archero-2.game-vault.net/wiki/Skills",
+      "label": "Sprite Frenzy",
+      "sha256": "b2ac78fe1dda7729e609a52dc963199109aac4add9bda42964f4c43b20e7b865",
+      "unmodified": true
+    },
+    {
+      "path": "assets/skills/skill-fire-circle.png",
+      "source": "https://img-archero-2.game-vault.net/1/14/Fire_Circle.png",
+      "reference": "https://archero-2.game-vault.net/wiki/Skills",
+      "label": "Fire Circle",
+      "sha256": "af0469f6eac76cd7139e121c1f6351aeff5938f6220c7a456d9ad4649444d4a5",
+      "unmodified": true
+    },
+    {
+      "path": "assets/skills/skill-bolt-circle.png",
+      "source": "https://img-archero-2.game-vault.net/3/31/Rotating_Thunderballs.png",
+      "reference": "https://archero-2.game-vault.net/wiki/Skills",
+      "label": "Bolt Circle",
+      "sha256": "3a4d63640151e37ab351b3a3ff9aa8239610321a4caa640c78df55ee7a16d74a",
+      "unmodified": true
+    },
+    {
+      "path": "assets/skills/skill-poison-circle.png",
+      "source": "https://img-archero-2.game-vault.net/a/af/Poison_Circle.png",
+      "reference": "https://archero-2.game-vault.net/wiki/Skills",
+      "label": "Poison Circle",
+      "sha256": "1a6e02d9af90e946ac22d13ba0c847b5880a5aad582c27988e8a3799ae79201c",
+      "unmodified": true
+    },
+    {
+      "path": "assets/skills/skill-ice-circle.png",
+      "source": "https://img-archero-2.game-vault.net/a/a1/Ice_Circle.png",
+      "reference": "https://archero-2.game-vault.net/wiki/Skills",
+      "label": "Ice Circle",
+      "sha256": "fb039105c5196eb0278c73fba0d65b40b209185b38de4b3ed84d0495c4f1b1ec",
+      "unmodified": true
+    },
+    {
+      "path": "assets/skills/rune-melee-sprite.png",
+      "source": "https://img-archero-2.game-vault.net/9/91/Melee_Sprite.png",
+      "reference": "https://archero-2.game-vault.net/wiki/Runes",
+      "label": "Melee Sprite",
+      "sha256": "0fa652ce363cb4c794c663d3ae7c62fef28e04ceb10bd5968e32230b657ffbd4",
+      "unmodified": true
+    },
+    {
+      "path": "assets/skills/rune-vine-bind.png",
+      "source": "https://img-archero-2.game-vault.net/7/74/Vine_Bind.png",
+      "reference": "https://archero-2.game-vault.net/wiki/Runes",
+      "label": "Vine Bind",
+      "sha256": "0aa2bda69b67052bb96957d18af9881773c8b825c32f91eedce6a8fb68d1d7dd",
+      "unmodified": true
+    },
+    {
+      "path": "assets/skills/rune-rootguard.png",
+      "source": "https://img-archero-2.game-vault.net/b/ba/Rootguard.png",
+      "reference": "https://archero-2.game-vault.net/wiki/Runes",
+      "label": "Rootguard",
+      "sha256": "b2067188bbc466e65cc7e832d3c244a7c386af57e16b349a878608e077bd3ebd",
+      "unmodified": true
+    },
+    {
+      "path": "assets/skills/rune-frost-thunder-seal.png",
+      "source": "https://img-archero-2.game-vault.net/c/c1/Frost-Thunder_Seal.png",
+      "reference": "https://archero-2.game-vault.net/wiki/Runes",
+      "label": "Frost-Thunder Seal",
+      "sha256": "09de1ec1623e03d32a263f69e47cee2f616e9009c45b65c55809132f7bfdd7f3",
+      "unmodified": true
+    },
+    {
+      "path": "assets/skills/rune-flame-poison-seal.png",
+      "source": "https://img-archero-2.game-vault.net/d/d6/Flame-Poison_Seal.png",
+      "reference": "https://archero-2.game-vault.net/wiki/Runes",
+      "label": "Flame-Poison Seal",
+      "sha256": "ac190df7fc5cd263f8ef9d7c4edd0bb1c5d3cf75fa6cea4fb3064fabd0c03e5b",
+      "unmodified": true
+    },
+    {
+      "path": "assets/skills/rune-flame-poison-touch.png",
+      "source": "https://img-archero-2.game-vault.net/6/6e/Flame-Poison_Touch.png",
+      "reference": "https://archero-2.game-vault.net/wiki/Runes",
+      "label": "Flame-Poison Touch",
+      "sha256": "6f65050013ae1aafdf44f8aa529416d42b9b351bdaf238bc88dcc12e3a411a28",
+      "unmodified": true
+    },
+    {
+      "path": "assets/skills/rune-frost-thunder-touch.png",
+      "source": "https://img-archero-2.game-vault.net/f/fe/Frost-Thunder_Touch.png",
+      "reference": "https://archero-2.game-vault.net/wiki/Runes",
+      "label": "Frost-Thunder Touch",
+      "sha256": "e332b84e747d682ca6d2035643e6420810627e31614cfca2a531e8f95d9e277e",
+      "unmodified": true
+    },
+    {
+      "path": "assets/skills/rune-giant-meteor.png",
+      "source": "https://img-archero-2.game-vault.net/e/ee/Giant_Meteor.png",
+      "reference": "https://archero-2.game-vault.net/wiki/Runes",
+      "label": "Giant Meteor",
+      "sha256": "0f3a38a436f4c6863f2c4c500053764ffbfe3e8f4bbc1a3784bff050a891f072",
+      "unmodified": true
+    },
+    {
+      "path": "assets/skills/rune-potion-magnet.png",
+      "source": "https://img-archero-2.game-vault.net/4/4a/Potion_Magnet.png",
+      "reference": "https://archero-2.game-vault.net/wiki/Runes",
+      "label": "Potion Magnet",
+      "sha256": "094cbabdb04efd23e4ad081c0a202ae84cb5fe82716696c11cb05636d5f430cf",
+      "unmodified": true
+    },
+    {
+      "path": "assets/skills/rune-star-of-fury.png",
+      "source": "https://img-archero-2.game-vault.net/3/31/Star_of_Fury.png",
+      "reference": "https://archero-2.game-vault.net/wiki/Runes",
+      "label": "Star of Fury",
+      "sha256": "f83806114dcfe17f08d5b0d870a10b7ce3e56d4d917a6941663edf5f06334dcd",
+      "unmodified": true
+    },
+    {
+      "path": "assets/skills/rune-star-of-time.png",
+      "source": "https://img-archero-2.game-vault.net/4/47/Star_of_Time.png",
+      "reference": "https://archero-2.game-vault.net/wiki/Runes",
+      "label": "Star of Time",
+      "sha256": "1b3d5ffa4ffa431657213f6ddc3b6147e878ee9cd328e35245a22ee227402330",
+      "unmodified": true
+    },
+    {
+      "path": "assets/skills/rune-elemental-domain.png",
+      "source": "https://img-archero-2.game-vault.net/f/f7/Elemental_Domain.png",
+      "reference": "https://archero-2.game-vault.net/wiki/Runes",
+      "label": "Elemental Domain",
+      "sha256": "d17207680f88665f9c881453608db7555b73c6cce0cf39189a4be61e98694fac",
+      "unmodified": true
+    },
+    {
+      "path": "assets/skills/rune-sprite-s-awe.png",
+      "source": "https://img-archero-2.game-vault.net/4/4e/Sprite%27s_Awe.png",
+      "reference": "https://archero-2.game-vault.net/wiki/Runes",
+      "label": "Sprite's Awe",
+      "sha256": "322851c692fc50ccdb4cdddca2acf4ece190ab23c104a8cac5bfad0695c5fed4",
+      "unmodified": true
+    },
+    {
+      "path": "assets/skills/rune-sprite-assist.png",
+      "source": "https://img-archero-2.game-vault.net/a/a6/Sprite_Assist.png",
+      "reference": "https://archero-2.game-vault.net/wiki/Runes",
+      "label": "Sprite Assist",
+      "sha256": "be97ddb54e1fcbca28f03fc576824d9dabf1863ec5458ea5c019cdc9719eb97a",
+      "unmodified": true
+    },
+    {
+      "path": "assets/skills/hero-phynx.png",
+      "source": "https://img-archero-2.game-vault.net/thumb/0/03/Phynx.png/150px-Phynx.png",
+      "reference": "https://archero-2.game-vault.net/wiki/Characters",
+      "label": "Phynx basic skin",
+      "sha256": "7d1b1a4d0993785225cfc8f4d178f1cea8b5d4cac3c0199b30619f9164f97273",
+      "unmodified": true
+    },
+    {
+      "path": "assets/skills/hero-otta.png",
+      "source": "https://img-archero-2.game-vault.net/thumb/e/e1/Otta2.png/150px-Otta2.png",
+      "reference": "https://archero-2.game-vault.net/wiki/Characters",
+      "label": "Otta basic skin",
+      "sha256": "e2a1b41c2a2ae429fc542ced596f4304f1e381a1141051cc0f0e5325e6a9e27c",
+      "unmodified": true
+    },
+    {
+      "path": "assets/skills/hero-thor.png",
+      "source": "https://img-archero-2.game-vault.net/thumb/0/0b/Thor.png/150px-Thor.png",
+      "reference": "https://archero-2.game-vault.net/wiki/Characters",
+      "label": "Thor basic skin",
+      "sha256": "5200092b94e49c05fa744d8ca027011b29850277834e5587a29bf4d2f47dc468",
+      "unmodified": true
+    },
+    {
+      "path": "assets/skills/hero-cleo.png",
+      "source": "https://img-archero-2.game-vault.net/thumb/e/e0/Cleo.png/150px-Cleo.png",
+      "reference": "https://archero-2.game-vault.net/wiki/Characters",
+      "label": "Cleo basic skin",
+      "sha256": "10022ca265befcb1155d65d24b1ac055a548daa5ca2b327d81de857fa579c754",
+      "unmodified": true
+    },
+    {
+      "path": "assets/skills/rune-sharp-arrow.png",
+      "source": "https://img-archero-2.game-vault.net/2/2a/Sharp_Arrow.png",
+      "reference": "https://archero-2.game-vault.net/wiki/Runes",
+      "label": "Sharp Arrow",
+      "sha256": "4d4bb1d9e85242922e0fadc3a8b1783bae7e388e2eca1e40ceded6b140c98fa9",
+      "unmodified": true
+    },
+    {
+      "path": "assets/skills/rune-rotating-spd-up.png",
+      "source": "https://img-archero-2.game-vault.net/c/c2/Rotating_SPD_Up.png",
+      "reference": "https://archero-2.game-vault.net/wiki/Runes",
+      "label": "Rotating SPD Up",
+      "sha256": "df769fabbdc9c0d4aab2589bf354d69f31958298848d02600a5353999148f941",
+      "unmodified": true
+    },
+    {
+      "path": "assets/skills/rune-sawblade-circle.png",
+      "source": "https://img-archero-2.game-vault.net/7/7f/Sawblade_Circle.png",
+      "reference": "https://archero-2.game-vault.net/wiki/Runes",
+      "label": "Sawblade Circle",
+      "sha256": "9e5056ac5c2a31241ef43b5f18e752f55568402a1a63f03a38dd925f3a0f23e1",
+      "unmodified": true
+    },
+    {
+      "path": "assets/skills/rune-ring-of-agony.png",
+      "source": "https://img-archero-2.game-vault.net/5/5c/Ring_of_Agony.png",
+      "reference": "https://archero-2.game-vault.net/wiki/Runes",
+      "label": "Ring of Agony",
+      "sha256": "2eee37194439c1173fc2e9ff6bcf6ecfb2f4b84ce59048a5bbe61b7f98cebdd2",
+      "unmodified": true
+    },
+    {
+      "path": "assets/skills/rune-circle.png",
+      "source": "https://img-archero-2.game-vault.net/6/64/Circle.png",
+      "reference": "https://archero-2.game-vault.net/wiki/Runes",
+      "label": "Circle",
+      "sha256": "dff6aaafb791fa791ce806f5dd8f16ea43691590a87441530721cf782e0ea477",
+      "unmodified": true
+    },
+    {
+      "path": "assets/skills/rune-arrow-rain.png",
+      "source": "https://img-archero-2.game-vault.net/5/59/Arrow_Rain.png",
+      "reference": "https://archero-2.game-vault.net/wiki/Runes",
+      "label": "Arrow Rain",
+      "sha256": "9a8d60a4ff7d50bb7de1687f7646e660ecc1e029907da01f83faaa63509f0280",
+      "unmodified": true
+    }
+  ]
+}
